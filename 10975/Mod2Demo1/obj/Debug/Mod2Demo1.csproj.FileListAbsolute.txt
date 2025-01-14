@@ -1,0 +1,7 @@
+C:\Users\danie\Documents\MSSA\10975\Mod2Demo1\bin\Debug\Mod2Demo1.exe.config
+C:\Users\danie\Documents\MSSA\10975\Mod2Demo1\bin\Debug\Mod2Demo1.exe
+C:\Users\danie\Documents\MSSA\10975\Mod2Demo1\bin\Debug\Mod2Demo1.pdb
+C:\Users\danie\Documents\MSSA\10975\Mod2Demo1\obj\Debug\Mod2Demo1.csproj.AssemblyReference.cache
+C:\Users\danie\Documents\MSSA\10975\Mod2Demo1\obj\Debug\Mod2Demo1.csproj.CoreCompileInputs.cache
+C:\Users\danie\Documents\MSSA\10975\Mod2Demo1\obj\Debug\Mod2Demo1.exe
+C:\Users\danie\Documents\MSSA\10975\Mod2Demo1\obj\Debug\Mod2Demo1.pdb
