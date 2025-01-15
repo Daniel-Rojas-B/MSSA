@@ -1,0 +1,7 @@
+C:\Users\danie\Documents\MSSA\10975\Mod4ArrayDemo\bin\Debug\Mod4ArrayDemo.exe.config
+C:\Users\danie\Documents\MSSA\10975\Mod4ArrayDemo\bin\Debug\Mod4ArrayDemo.exe
+C:\Users\danie\Documents\MSSA\10975\Mod4ArrayDemo\bin\Debug\Mod4ArrayDemo.pdb
+C:\Users\danie\Documents\MSSA\10975\Mod4ArrayDemo\obj\Debug\Mod4ArrayDemo.csproj.AssemblyReference.cache
+C:\Users\danie\Documents\MSSA\10975\Mod4ArrayDemo\obj\Debug\Mod4ArrayDemo.csproj.CoreCompileInputs.cache
+C:\Users\danie\Documents\MSSA\10975\Mod4ArrayDemo\obj\Debug\Mod4ArrayDemo.exe
+C:\Users\danie\Documents\MSSA\10975\Mod4ArrayDemo\obj\Debug\Mod4ArrayDemo.pdb
