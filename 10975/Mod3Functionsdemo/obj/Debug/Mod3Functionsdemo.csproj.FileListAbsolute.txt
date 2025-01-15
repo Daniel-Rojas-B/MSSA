@@ -1,0 +1,7 @@
+C:\Users\danie\Documents\MSSA\10975\Mod3Functionsdemo\bin\Debug\Mod3Functionsdemo.exe.config
+C:\Users\danie\Documents\MSSA\10975\Mod3Functionsdemo\bin\Debug\Mod3Functionsdemo.exe
+C:\Users\danie\Documents\MSSA\10975\Mod3Functionsdemo\bin\Debug\Mod3Functionsdemo.pdb
+C:\Users\danie\Documents\MSSA\10975\Mod3Functionsdemo\obj\Debug\Mod3Functionsdemo.csproj.AssemblyReference.cache
+C:\Users\danie\Documents\MSSA\10975\Mod3Functionsdemo\obj\Debug\Mod3Functionsdemo.csproj.CoreCompileInputs.cache
+C:\Users\danie\Documents\MSSA\10975\Mod3Functionsdemo\obj\Debug\Mod3Functionsdemo.exe
+C:\Users\danie\Documents\MSSA\10975\Mod3Functionsdemo\obj\Debug\Mod3Functionsdemo.pdb

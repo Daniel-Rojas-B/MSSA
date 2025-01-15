@@ -1,0 +1,7 @@
+C:\Users\danie\Documents\MSSA\10975\Mod3ForLoop\obj\Debug\Mod3ForLoop.csproj.AssemblyReference.cache
+C:\Users\danie\Documents\MSSA\10975\Mod3ForLoop\obj\Debug\Mod3ForLoop.csproj.CoreCompileInputs.cache
+C:\Users\danie\Documents\MSSA\10975\Mod3ForLoop\bin\Debug\Mod3ForLoop.exe.config
+C:\Users\danie\Documents\MSSA\10975\Mod3ForLoop\bin\Debug\Mod3ForLoop.exe
+C:\Users\danie\Documents\MSSA\10975\Mod3ForLoop\bin\Debug\Mod3ForLoop.pdb
+C:\Users\danie\Documents\MSSA\10975\Mod3ForLoop\obj\Debug\Mod3ForLoop.exe
+C:\Users\danie\Documents\MSSA\10975\Mod3ForLoop\obj\Debug\Mod3ForLoop.pdb
