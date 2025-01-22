@@ -1,0 +1,7 @@
+C:\Users\danie\Documents\MSSA\10975\Mod7Inheritancedemo\bin\Debug\Mod7Inheritancedemo.exe.config
+C:\Users\danie\Documents\MSSA\10975\Mod7Inheritancedemo\bin\Debug\Mod7Inheritancedemo.exe
+C:\Users\danie\Documents\MSSA\10975\Mod7Inheritancedemo\bin\Debug\Mod7Inheritancedemo.pdb
+C:\Users\danie\Documents\MSSA\10975\Mod7Inheritancedemo\obj\Debug\Mod7Inheritancedemo.csproj.AssemblyReference.cache
+C:\Users\danie\Documents\MSSA\10975\Mod7Inheritancedemo\obj\Debug\Mod7Inheritancedemo.csproj.CoreCompileInputs.cache
+C:\Users\danie\Documents\MSSA\10975\Mod7Inheritancedemo\obj\Debug\Mod7Inheritancedemo.exe
+C:\Users\danie\Documents\MSSA\10975\Mod7Inheritancedemo\obj\Debug\Mod7Inheritancedemo.pdb
