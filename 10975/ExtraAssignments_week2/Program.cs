@@ -25,6 +25,20 @@ namespace ExtraAssignments_week2
 
             Triangle();
 
+            Console.WriteLine(" ---- Problem 4 ----");
+            Console.WriteLine(" Input the Roll Number of the student: ");
+            int rollNumber = int.Parse(Console.ReadLine());
+            Console.WriteLine("Input the Name of the Student: ");
+            string studentName = Console.ReadLine();
+            Console.WriteLine("Input the marks of Physics, Chemistry and Computer Application:");
+            int[] marksNumbers = new int[3];
+            for (int i = 0; i < 3; i++)
+            {
+                marksNumbers[i] = int.Parse(Console.ReadLine());  
+            }
+            StudentInfo(rollNumber, studentName, marksNumbers);
+            
+
             Console.ReadKey();
         }
         public static void TempMessage(int temperature)
@@ -96,6 +110,24 @@ namespace ExtraAssignments_week2
                 }
                 Console.WriteLine();
             }
+        }
+        public static void StudentInfo(int roll, string name, int[] marks)
+        {
+            int totalMarks = 0;
+            for (int i = 0; i < marks.Length; i++)
+            {
+                totalMarks = totalMarks + marks[i];
+            }
+            decimal percentage = ((decimal)totalMarks / (marks.Length*100))*100;
+            Console.WriteLine($"Roll no: {roll}");
+            Console.WriteLine($"Name of Student: {name}");
+            Console.WriteLine($"Marks in Physics: {marks[0]}");
+            Console.WriteLine($"Marks in Chemistry: {marks[1]}");
+            Console.WriteLine($"Marks in Computer Application: {marks[2]}");
+            Console.WriteLine($"Total Marks: {totalMarks}");
+            Console.WriteLine($"Percentage: {percentage}");
+            Console.WriteLine($"Division = First");
+
         }
     }
 }
