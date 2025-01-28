@@ -14,7 +14,7 @@ namespace LeetCode
             int[] result = TwoSum(new int[] { 3,2,4 }, 6);
             Console.WriteLine($"[{result[0]}, {result[1]}]");
 
-            List<int> result2 = RemoveDuplicates(new List<int> { 0, 0, 1, 1, 1, 2, 2, 3, 3, 4 });
+            int result2 = RemoveDuplicates(new int[] { 0, 0, 1, 1, 1, 2, 2, 3, 3, 4 });
             Console.WriteLine(result2);
         }
         public static int[] TwoSum(int[] nums, int target)
@@ -33,17 +33,23 @@ namespace LeetCode
             }
             return indexArray;
         }
-        public static List<int> RemoveDuplicates(List<int> nums)
+        public static int RemoveDuplicates(int[] nums)
         {
-            List<int> numsList = new List<int> ();
-            for (int i = 1; i < nums.Count; i++)
-            {                
-                    if ( nums[i] != nums[i-1])
-                    {
-                    numsList.Add(nums[i]);
-                    }                
+            if (nums.Length == 0)
+            {
+                return 0;
             }
-            return numsList;
+
+            int j = 0;
+            for (int i = 1; i < nums.Length; i++)
+            {
+                if (nums[j] != nums[i])
+                {
+                    nums[++j] = nums[i];
+                }
+            }
+
+            return j + 1;
         }
     }
 

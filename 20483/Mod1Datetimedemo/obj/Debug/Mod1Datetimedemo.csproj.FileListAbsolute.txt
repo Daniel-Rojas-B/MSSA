@@ -1,0 +1,7 @@
+C:\Users\danie\Documents\MSSA\20483\Mod1Datetimedemo\obj\Debug\Mod1Datetimedemo.csproj.AssemblyReference.cache
+C:\Users\danie\Documents\MSSA\20483\Mod1Datetimedemo\obj\Debug\Mod1Datetimedemo.csproj.CoreCompileInputs.cache
+C:\Users\danie\Documents\MSSA\20483\Mod1Datetimedemo\bin\Debug\Mod1Datetimedemo.exe.config
+C:\Users\danie\Documents\MSSA\20483\Mod1Datetimedemo\bin\Debug\Mod1Datetimedemo.exe
+C:\Users\danie\Documents\MSSA\20483\Mod1Datetimedemo\bin\Debug\Mod1Datetimedemo.pdb
+C:\Users\danie\Documents\MSSA\20483\Mod1Datetimedemo\obj\Debug\Mod1Datetimedemo.exe
+C:\Users\danie\Documents\MSSA\20483\Mod1Datetimedemo\obj\Debug\Mod1Datetimedemo.pdb
