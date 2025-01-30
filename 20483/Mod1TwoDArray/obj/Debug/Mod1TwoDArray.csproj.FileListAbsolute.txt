@@ -1,0 +1,7 @@
+C:\Users\danie\Documents\MSSA\20483\Mod1TwoDArray\bin\Debug\Mod1TwoDArray.exe.config
+C:\Users\danie\Documents\MSSA\20483\Mod1TwoDArray\bin\Debug\Mod1TwoDArray.exe
+C:\Users\danie\Documents\MSSA\20483\Mod1TwoDArray\bin\Debug\Mod1TwoDArray.pdb
+C:\Users\danie\Documents\MSSA\20483\Mod1TwoDArray\obj\Debug\Mod1TwoDArray.csproj.AssemblyReference.cache
+C:\Users\danie\Documents\MSSA\20483\Mod1TwoDArray\obj\Debug\Mod1TwoDArray.csproj.CoreCompileInputs.cache
+C:\Users\danie\Documents\MSSA\20483\Mod1TwoDArray\obj\Debug\Mod1TwoDArray.exe
+C:\Users\danie\Documents\MSSA\20483\Mod1TwoDArray\obj\Debug\Mod1TwoDArray.pdb

@@ -1,0 +1,7 @@
+C:\Users\danie\Documents\MSSA\10975\ExtraAssignments_week2\obj\Debug\ExtraAssignments_week2.csproj.AssemblyReference.cache
+C:\Users\danie\Documents\MSSA\10975\ExtraAssignments_week2\obj\Debug\ExtraAssignments_week2.csproj.CoreCompileInputs.cache
+C:\Users\danie\Documents\MSSA\10975\ExtraAssignments_week2\bin\Debug\ExtraAssignments_week2.exe.config
+C:\Users\danie\Documents\MSSA\10975\ExtraAssignments_week2\bin\Debug\ExtraAssignments_week2.exe
+C:\Users\danie\Documents\MSSA\10975\ExtraAssignments_week2\bin\Debug\ExtraAssignments_week2.pdb
+C:\Users\danie\Documents\MSSA\10975\ExtraAssignments_week2\obj\Debug\ExtraAssignments_week2.exe
+C:\Users\danie\Documents\MSSA\10975\ExtraAssignments_week2\obj\Debug\ExtraAssignments_week2.pdb

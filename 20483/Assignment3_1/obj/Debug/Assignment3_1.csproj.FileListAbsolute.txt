@@ -1,0 +1,7 @@
+C:\Users\danie\Documents\MSSA\20483\Assignment3_1\bin\Debug\Assignment3_1.exe.config
+C:\Users\danie\Documents\MSSA\20483\Assignment3_1\bin\Debug\Assignment3_1.exe
+C:\Users\danie\Documents\MSSA\20483\Assignment3_1\bin\Debug\Assignment3_1.pdb
+C:\Users\danie\Documents\MSSA\20483\Assignment3_1\obj\Debug\Assignment3_1.csproj.AssemblyReference.cache
+C:\Users\danie\Documents\MSSA\20483\Assignment3_1\obj\Debug\Assignment3_1.csproj.CoreCompileInputs.cache
+C:\Users\danie\Documents\MSSA\20483\Assignment3_1\obj\Debug\Assignment3_1.exe
+C:\Users\danie\Documents\MSSA\20483\Assignment3_1\obj\Debug\Assignment3_1.pdb

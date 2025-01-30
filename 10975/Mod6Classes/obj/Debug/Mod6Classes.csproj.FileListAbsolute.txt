@@ -1,0 +1,7 @@
+C:\Users\danie\Documents\MSSA\10975\Mod6Classes\bin\Debug\Mod6Classes.exe.config
+C:\Users\danie\Documents\MSSA\10975\Mod6Classes\bin\Debug\Mod6Classes.exe
+C:\Users\danie\Documents\MSSA\10975\Mod6Classes\bin\Debug\Mod6Classes.pdb
+C:\Users\danie\Documents\MSSA\10975\Mod6Classes\obj\Debug\Mod6Classes.csproj.AssemblyReference.cache
+C:\Users\danie\Documents\MSSA\10975\Mod6Classes\obj\Debug\Mod6Classes.csproj.CoreCompileInputs.cache
+C:\Users\danie\Documents\MSSA\10975\Mod6Classes\obj\Debug\Mod6Classes.exe
+C:\Users\danie\Documents\MSSA\10975\Mod6Classes\obj\Debug\Mod6Classes.pdb

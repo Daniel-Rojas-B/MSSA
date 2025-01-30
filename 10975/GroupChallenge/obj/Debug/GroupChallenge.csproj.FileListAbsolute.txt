@@ -1,0 +1,7 @@
+C:\Users\danie\Documents\MSSA\10975\GroupChallenge\bin\Debug\GroupChallenge.exe.config
+C:\Users\danie\Documents\MSSA\10975\GroupChallenge\bin\Debug\GroupChallenge.exe
+C:\Users\danie\Documents\MSSA\10975\GroupChallenge\bin\Debug\GroupChallenge.pdb
+C:\Users\danie\Documents\MSSA\10975\GroupChallenge\obj\Debug\GroupChallenge.csproj.AssemblyReference.cache
+C:\Users\danie\Documents\MSSA\10975\GroupChallenge\obj\Debug\GroupChallenge.csproj.CoreCompileInputs.cache
+C:\Users\danie\Documents\MSSA\10975\GroupChallenge\obj\Debug\GroupChallenge.exe
+C:\Users\danie\Documents\MSSA\10975\GroupChallenge\obj\Debug\GroupChallenge.pdb

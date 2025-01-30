@@ -1,0 +1,7 @@
+C:\Users\danie\Documents\MSSA\10975\TipCalculator\bin\Debug\TipCalculator.exe.config
+C:\Users\danie\Documents\MSSA\10975\TipCalculator\bin\Debug\TipCalculator.exe
+C:\Users\danie\Documents\MSSA\10975\TipCalculator\bin\Debug\TipCalculator.pdb
+C:\Users\danie\Documents\MSSA\10975\TipCalculator\obj\Debug\TipCalculator.csproj.AssemblyReference.cache
+C:\Users\danie\Documents\MSSA\10975\TipCalculator\obj\Debug\TipCalculator.csproj.CoreCompileInputs.cache
+C:\Users\danie\Documents\MSSA\10975\TipCalculator\obj\Debug\TipCalculator.exe
+C:\Users\danie\Documents\MSSA\10975\TipCalculator\obj\Debug\TipCalculator.pdb

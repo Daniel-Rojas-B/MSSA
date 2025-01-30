@@ -1,0 +1,7 @@
+C:\Users\danie\Documents\MSSA\20483\Mod1RegularExpression\bin\Debug\Mod1RegularExpression.exe.config
+C:\Users\danie\Documents\MSSA\20483\Mod1RegularExpression\bin\Debug\Mod1RegularExpression.exe
+C:\Users\danie\Documents\MSSA\20483\Mod1RegularExpression\bin\Debug\Mod1RegularExpression.pdb
+C:\Users\danie\Documents\MSSA\20483\Mod1RegularExpression\obj\Debug\Mod1RegularExpression.csproj.AssemblyReference.cache
+C:\Users\danie\Documents\MSSA\20483\Mod1RegularExpression\obj\Debug\Mod1RegularExpression.csproj.CoreCompileInputs.cache
+C:\Users\danie\Documents\MSSA\20483\Mod1RegularExpression\obj\Debug\Mod1RegularExpression.exe
+C:\Users\danie\Documents\MSSA\20483\Mod1RegularExpression\obj\Debug\Mod1RegularExpression.pdb

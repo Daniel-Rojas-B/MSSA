@@ -1,0 +1,7 @@
+C:\Users\danie\Documents\MSSA\20483\Mod1JaggedArrayDemo\bin\Debug\Mod1JaggedArrayDemo.exe.config
+C:\Users\danie\Documents\MSSA\20483\Mod1JaggedArrayDemo\bin\Debug\Mod1JaggedArrayDemo.exe
+C:\Users\danie\Documents\MSSA\20483\Mod1JaggedArrayDemo\bin\Debug\Mod1JaggedArrayDemo.pdb
+C:\Users\danie\Documents\MSSA\20483\Mod1JaggedArrayDemo\obj\Debug\Mod1JaggedArrayDemo.csproj.AssemblyReference.cache
+C:\Users\danie\Documents\MSSA\20483\Mod1JaggedArrayDemo\obj\Debug\Mod1JaggedArrayDemo.csproj.CoreCompileInputs.cache
+C:\Users\danie\Documents\MSSA\20483\Mod1JaggedArrayDemo\obj\Debug\Mod1JaggedArrayDemo.exe
+C:\Users\danie\Documents\MSSA\20483\Mod1JaggedArrayDemo\obj\Debug\Mod1JaggedArrayDemo.pdb

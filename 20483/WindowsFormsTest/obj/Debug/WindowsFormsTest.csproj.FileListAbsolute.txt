@@ -1,0 +1,10 @@
+C:\Users\danie\Documents\MSSA\20483\WindowsFormsTest\bin\Debug\WindowsFormsTest.exe.config
+C:\Users\danie\Documents\MSSA\20483\WindowsFormsTest\bin\Debug\WindowsFormsTest.exe
+C:\Users\danie\Documents\MSSA\20483\WindowsFormsTest\bin\Debug\WindowsFormsTest.pdb
+C:\Users\danie\Documents\MSSA\20483\WindowsFormsTest\obj\Debug\WindowsFormsTest.csproj.AssemblyReference.cache
+C:\Users\danie\Documents\MSSA\20483\WindowsFormsTest\obj\Debug\WindowsFormsTest.Form1.resources
+C:\Users\danie\Documents\MSSA\20483\WindowsFormsTest\obj\Debug\WindowsFormsTest.Properties.Resources.resources
+C:\Users\danie\Documents\MSSA\20483\WindowsFormsTest\obj\Debug\WindowsFormsTest.csproj.GenerateResource.cache
+C:\Users\danie\Documents\MSSA\20483\WindowsFormsTest\obj\Debug\WindowsFormsTest.csproj.CoreCompileInputs.cache
+C:\Users\danie\Documents\MSSA\20483\WindowsFormsTest\obj\Debug\WindowsFormsTest.exe
+C:\Users\danie\Documents\MSSA\20483\WindowsFormsTest\obj\Debug\WindowsFormsTest.pdb
