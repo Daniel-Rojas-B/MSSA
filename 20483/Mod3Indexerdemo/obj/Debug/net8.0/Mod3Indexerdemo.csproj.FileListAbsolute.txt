@@ -1,0 +1,15 @@
+C:\Users\danie\Documents\MSSA\20483\Mod3Indexerdemo\bin\Debug\net8.0\Mod3Indexerdemo.exe
+C:\Users\danie\Documents\MSSA\20483\Mod3Indexerdemo\bin\Debug\net8.0\Mod3Indexerdemo.deps.json
+C:\Users\danie\Documents\MSSA\20483\Mod3Indexerdemo\bin\Debug\net8.0\Mod3Indexerdemo.runtimeconfig.json
+C:\Users\danie\Documents\MSSA\20483\Mod3Indexerdemo\bin\Debug\net8.0\Mod3Indexerdemo.dll
+C:\Users\danie\Documents\MSSA\20483\Mod3Indexerdemo\bin\Debug\net8.0\Mod3Indexerdemo.pdb
+C:\Users\danie\Documents\MSSA\20483\Mod3Indexerdemo\obj\Debug\net8.0\Mod3Indexerdemo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\danie\Documents\MSSA\20483\Mod3Indexerdemo\obj\Debug\net8.0\Mod3Indexerdemo.AssemblyInfoInputs.cache
+C:\Users\danie\Documents\MSSA\20483\Mod3Indexerdemo\obj\Debug\net8.0\Mod3Indexerdemo.AssemblyInfo.cs
+C:\Users\danie\Documents\MSSA\20483\Mod3Indexerdemo\obj\Debug\net8.0\Mod3Indexerdemo.csproj.CoreCompileInputs.cache
+C:\Users\danie\Documents\MSSA\20483\Mod3Indexerdemo\obj\Debug\net8.0\Mod3Indexerdemo.sourcelink.json
+C:\Users\danie\Documents\MSSA\20483\Mod3Indexerdemo\obj\Debug\net8.0\Mod3Indexerdemo.dll
+C:\Users\danie\Documents\MSSA\20483\Mod3Indexerdemo\obj\Debug\net8.0\refint\Mod3Indexerdemo.dll
+C:\Users\danie\Documents\MSSA\20483\Mod3Indexerdemo\obj\Debug\net8.0\Mod3Indexerdemo.pdb
+C:\Users\danie\Documents\MSSA\20483\Mod3Indexerdemo\obj\Debug\net8.0\Mod3Indexerdemo.genruntimeconfig.cache
+C:\Users\danie\Documents\MSSA\20483\Mod3Indexerdemo\obj\Debug\net8.0\ref\Mod3Indexerdemo.dll

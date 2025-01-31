@@ -1,0 +1,7 @@
+C:\Users\danie\Documents\MSSA\20483\Week3GroupChallenge\bin\Debug\Week3GroupChallenge.exe.config
+C:\Users\danie\Documents\MSSA\20483\Week3GroupChallenge\bin\Debug\Week3GroupChallenge.exe
+C:\Users\danie\Documents\MSSA\20483\Week3GroupChallenge\bin\Debug\Week3GroupChallenge.pdb
+C:\Users\danie\Documents\MSSA\20483\Week3GroupChallenge\obj\Debug\Week3GroupChallenge.csproj.AssemblyReference.cache
+C:\Users\danie\Documents\MSSA\20483\Week3GroupChallenge\obj\Debug\Week3GroupChallenge.csproj.CoreCompileInputs.cache
+C:\Users\danie\Documents\MSSA\20483\Week3GroupChallenge\obj\Debug\Week3GroupChallenge.exe
+C:\Users\danie\Documents\MSSA\20483\Week3GroupChallenge\obj\Debug\Week3GroupChallenge.pdb
