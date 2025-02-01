@@ -14,7 +14,7 @@ namespace Assignment3_4
         Capuccino,
         Latte
     }
-    public enum CoffeeSize
+    public enum BeverageSize
     {
         Small,
         Medium,
@@ -40,26 +40,18 @@ namespace Assignment3_4
     }
     public abstract class Beverage
     {
-        public CoffeeSize Size { get; set; }
+        public BeverageSize BeverageSize { get; set; }
         public Milk Milk { get; set; }
-
-        public Beverage(CoffeeSize size, Milk milk)
-        {
-            Size = size;
-            Milk = milk;
-        }
+        
     }
-    public class Coffee : Beverage
+    internal class Coffee : Beverage
     {
-        public CoffeeType Type { get; set; }
+        public CoffeeType CoffeeType { get; set; }
+        
         public Strength Strength { get; set; }
+        
         public Roast Roast { get; set; }
 
-        public Coffee(CoffeeSize size, Milk milk, CoffeeType type, Strength strength, Roast roast) : base( size, milk)
-        {
-            Type = type;
-            Strength = strength;
-            Roast = roast;
-        }
+        
     }
 }

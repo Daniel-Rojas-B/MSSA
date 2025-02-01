@@ -19,8 +19,8 @@ namespace Assignment3_4
 
         private void CoffeeForm_Load(object sender, EventArgs e)
         {
-            comboType.DataSource = Enum.GetValues(typeof(Type));
-            comboSize.DataSource = Enum.GetValues(typeof(CoffeeSize));
+            comboType.DataSource = Enum.GetValues(typeof(CoffeeType));
+            comboSize.DataSource = Enum.GetValues(typeof(BeverageSize));
             comboStrength.DataSource = Enum.GetValues(typeof(Strength));
             comboRoast.DataSource = Enum.GetValues(typeof(Roast));
             comboMilk.DataSource = Enum.GetValues(typeof(Milk));
@@ -30,11 +30,11 @@ namespace Assignment3_4
         {
             var coffeeOrder = new Coffee();
 
-            coffeeOrder.Type = (CoffeeType)(comboType.SelectedIndex);
-            coffeeOrder.Size = (CoffeeSize)(comboType.SelectedIndex);
+            coffeeOrder.BeverageSize = (BeverageSize)(comboType.SelectedIndex);
+            coffeeOrder.Milk = (Milk)(comboType.SelectedIndex);
+            coffeeOrder.CoffeeType = (CoffeeType)(comboType.SelectedIndex);
             coffeeOrder.Strength = (Strength)(comboType.SelectedIndex);
             coffeeOrder.Roast = (Roast)(comboType.SelectedIndex);
-            coffeeOrder.Milk = (Milk)(comboType.SelectedIndex);
 
             Data.coffees.Add(coffeeOrder);
 

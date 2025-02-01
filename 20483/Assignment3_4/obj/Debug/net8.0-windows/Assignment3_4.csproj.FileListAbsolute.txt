@@ -16,3 +16,4 @@ C:\Users\danie\Documents\MSSA\20483\Assignment3_4\obj\Debug\net8.0-windows\Assig
 C:\Users\danie\Documents\MSSA\20483\Assignment3_4\obj\Debug\net8.0-windows\Assignment3_4.genruntimeconfig.cache
 C:\Users\danie\Documents\MSSA\20483\Assignment3_4\obj\Debug\net8.0-windows\ref\Assignment3_4.dll
 C:\Users\danie\Documents\MSSA\20483\Assignment3_4\obj\Debug\net8.0-windows\Assignment3_4.CoffeeForm.resources
+C:\Users\danie\Documents\MSSA\20483\Assignment3_4\obj\Debug\net8.0-windows\Assignment3_4.Properties.Resources.resources

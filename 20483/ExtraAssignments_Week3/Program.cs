@@ -22,6 +22,9 @@ namespace ExtraAssignments_Week3
             Console.WriteLine(" ---- Problem 3 ----");
             numsTarget(new int[] { 2,7,11,15},9);
 
+            Console.WriteLine(" ---- Problem 4 ---- ");
+            RemoveSubstrings("ABFCACDB");
+            RemoveSubstrings("ACBBD");
         }
         static void IsPalindrome(string s)
         {
@@ -66,6 +69,15 @@ namespace ExtraAssignments_Week3
                     }
                 }
             }
+        }
+        static void RemoveSubstrings(string s)
+        {            
+            
+            while (s.Contains("AB") || s.Contains("CD"))
+            {
+                s = s.Replace("AB", "").Replace("CD","");
+            }   
+            Console.WriteLine(s.Length);
         }
     }
 }
