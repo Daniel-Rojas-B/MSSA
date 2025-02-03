@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("Assignment3_4")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("Mod3Week4Windowsform")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+80abe8cbf76f27d969bec0bddb2a1d6a7a596fc7")]
-[assembly: System.Reflection.AssemblyProductAttribute("Assignment3_4")]
-[assembly: System.Reflection.AssemblyTitleAttribute("Assignment3_4")]
+[assembly: System.Reflection.AssemblyProductAttribute("Mod3Week4Windowsform")]
+[assembly: System.Reflection.AssemblyTitleAttribute("Mod3Week4Windowsform")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 [assembly: System.Runtime.Versioning.TargetPlatformAttribute("Windows7.0")]
 [assembly: System.Runtime.Versioning.SupportedOSPlatformAttribute("Windows7.0")]

@@ -1,0 +1,15 @@
+C:\Users\danie\Documents\MSSA\20483\Mod3delegatesdemo1\bin\Debug\net8.0\Mod3delegatesdemo1.exe
+C:\Users\danie\Documents\MSSA\20483\Mod3delegatesdemo1\bin\Debug\net8.0\Mod3delegatesdemo1.deps.json
+C:\Users\danie\Documents\MSSA\20483\Mod3delegatesdemo1\bin\Debug\net8.0\Mod3delegatesdemo1.runtimeconfig.json
+C:\Users\danie\Documents\MSSA\20483\Mod3delegatesdemo1\bin\Debug\net8.0\Mod3delegatesdemo1.dll
+C:\Users\danie\Documents\MSSA\20483\Mod3delegatesdemo1\bin\Debug\net8.0\Mod3delegatesdemo1.pdb
+C:\Users\danie\Documents\MSSA\20483\Mod3delegatesdemo1\obj\Debug\net8.0\Mod3delegatesdemo1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\danie\Documents\MSSA\20483\Mod3delegatesdemo1\obj\Debug\net8.0\Mod3delegatesdemo1.AssemblyInfoInputs.cache
+C:\Users\danie\Documents\MSSA\20483\Mod3delegatesdemo1\obj\Debug\net8.0\Mod3delegatesdemo1.AssemblyInfo.cs
+C:\Users\danie\Documents\MSSA\20483\Mod3delegatesdemo1\obj\Debug\net8.0\Mod3delegatesdemo1.csproj.CoreCompileInputs.cache
+C:\Users\danie\Documents\MSSA\20483\Mod3delegatesdemo1\obj\Debug\net8.0\Mod3delegatesdemo1.sourcelink.json
+C:\Users\danie\Documents\MSSA\20483\Mod3delegatesdemo1\obj\Debug\net8.0\Mod3delegatesdemo1.dll
+C:\Users\danie\Documents\MSSA\20483\Mod3delegatesdemo1\obj\Debug\net8.0\refint\Mod3delegatesdemo1.dll
+C:\Users\danie\Documents\MSSA\20483\Mod3delegatesdemo1\obj\Debug\net8.0\Mod3delegatesdemo1.pdb
+C:\Users\danie\Documents\MSSA\20483\Mod3delegatesdemo1\obj\Debug\net8.0\Mod3delegatesdemo1.genruntimeconfig.cache
+C:\Users\danie\Documents\MSSA\20483\Mod3delegatesdemo1\obj\Debug\net8.0\ref\Mod3delegatesdemo1.dll

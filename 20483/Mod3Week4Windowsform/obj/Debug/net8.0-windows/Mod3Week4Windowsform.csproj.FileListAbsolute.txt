@@ -1,0 +1,17 @@
+C:\Users\danie\Documents\MSSA\20483\Mod3Week4Windowsform\bin\Debug\net8.0-windows\Mod3Week4Windowsform.exe
+C:\Users\danie\Documents\MSSA\20483\Mod3Week4Windowsform\bin\Debug\net8.0-windows\Mod3Week4Windowsform.deps.json
+C:\Users\danie\Documents\MSSA\20483\Mod3Week4Windowsform\bin\Debug\net8.0-windows\Mod3Week4Windowsform.runtimeconfig.json
+C:\Users\danie\Documents\MSSA\20483\Mod3Week4Windowsform\bin\Debug\net8.0-windows\Mod3Week4Windowsform.dll
+C:\Users\danie\Documents\MSSA\20483\Mod3Week4Windowsform\bin\Debug\net8.0-windows\Mod3Week4Windowsform.pdb
+C:\Users\danie\Documents\MSSA\20483\Mod3Week4Windowsform\obj\Debug\net8.0-windows\Mod3Week4Windowsform.Form1.resources
+C:\Users\danie\Documents\MSSA\20483\Mod3Week4Windowsform\obj\Debug\net8.0-windows\Mod3Week4Windowsform.csproj.GenerateResource.cache
+C:\Users\danie\Documents\MSSA\20483\Mod3Week4Windowsform\obj\Debug\net8.0-windows\Mod3Week4Windowsform.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\danie\Documents\MSSA\20483\Mod3Week4Windowsform\obj\Debug\net8.0-windows\Mod3Week4Windowsform.AssemblyInfoInputs.cache
+C:\Users\danie\Documents\MSSA\20483\Mod3Week4Windowsform\obj\Debug\net8.0-windows\Mod3Week4Windowsform.AssemblyInfo.cs
+C:\Users\danie\Documents\MSSA\20483\Mod3Week4Windowsform\obj\Debug\net8.0-windows\Mod3Week4Windowsform.csproj.CoreCompileInputs.cache
+C:\Users\danie\Documents\MSSA\20483\Mod3Week4Windowsform\obj\Debug\net8.0-windows\Mod3Week4Windowsform.sourcelink.json
+C:\Users\danie\Documents\MSSA\20483\Mod3Week4Windowsform\obj\Debug\net8.0-windows\Mod3Week4Windowsform.dll
+C:\Users\danie\Documents\MSSA\20483\Mod3Week4Windowsform\obj\Debug\net8.0-windows\refint\Mod3Week4Windowsform.dll
+C:\Users\danie\Documents\MSSA\20483\Mod3Week4Windowsform\obj\Debug\net8.0-windows\Mod3Week4Windowsform.pdb
+C:\Users\danie\Documents\MSSA\20483\Mod3Week4Windowsform\obj\Debug\net8.0-windows\Mod3Week4Windowsform.genruntimeconfig.cache
+C:\Users\danie\Documents\MSSA\20483\Mod3Week4Windowsform\obj\Debug\net8.0-windows\ref\Mod3Week4Windowsform.dll
