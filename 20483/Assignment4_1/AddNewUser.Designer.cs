@@ -33,18 +33,19 @@
             lblPhoneNumber = new Label();
             lblWorkNumber = new Label();
             lblAddress = new Label();
-            textBox1 = new TextBox();
-            textBox2 = new TextBox();
-            textBox3 = new TextBox();
-            textBox4 = new TextBox();
-            textBox5 = new TextBox();
+            txtFirstName = new TextBox();
+            txtLastName = new TextBox();
+            txtPhoneNumber = new TextBox();
+            txtWorkNumber = new TextBox();
+            txtAddress = new TextBox();
             btnAddUser = new Button();
+            label1 = new Label();
             SuspendLayout();
             // 
             // lblFirstName
             // 
             lblFirstName.AutoSize = true;
-            lblFirstName.Location = new Point(248, 118);
+            lblFirstName.Location = new Point(228, 128);
             lblFirstName.Name = "lblFirstName";
             lblFirstName.Size = new Size(97, 25);
             lblFirstName.TabIndex = 0;
@@ -53,7 +54,7 @@
             // lblLastName
             // 
             lblLastName.AutoSize = true;
-            lblLastName.Location = new Point(248, 155);
+            lblLastName.Location = new Point(228, 165);
             lblLastName.Name = "lblLastName";
             lblLastName.Size = new Size(95, 25);
             lblLastName.TabIndex = 1;
@@ -62,7 +63,7 @@
             // lblPhoneNumber
             // 
             lblPhoneNumber.AutoSize = true;
-            lblPhoneNumber.Location = new Point(248, 192);
+            lblPhoneNumber.Location = new Point(228, 202);
             lblPhoneNumber.Name = "lblPhoneNumber";
             lblPhoneNumber.Size = new Size(132, 25);
             lblPhoneNumber.TabIndex = 2;
@@ -71,7 +72,7 @@
             // lblWorkNumber
             // 
             lblWorkNumber.AutoSize = true;
-            lblWorkNumber.Location = new Point(248, 229);
+            lblWorkNumber.Location = new Point(228, 239);
             lblWorkNumber.Name = "lblWorkNumber";
             lblWorkNumber.Size = new Size(124, 25);
             lblWorkNumber.TabIndex = 3;
@@ -80,67 +81,78 @@
             // lblAddress
             // 
             lblAddress.AutoSize = true;
-            lblAddress.Location = new Point(248, 266);
+            lblAddress.Location = new Point(228, 276);
             lblAddress.Name = "lblAddress";
             lblAddress.Size = new Size(77, 25);
             lblAddress.TabIndex = 4;
             lblAddress.Text = "Address";
             // 
-            // textBox1
+            // txtFirstName
             // 
-            textBox1.Location = new Point(422, 115);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(150, 31);
-            textBox1.TabIndex = 5;
+            txtFirstName.Location = new Point(402, 125);
+            txtFirstName.Name = "txtFirstName";
+            txtFirstName.Size = new Size(150, 31);
+            txtFirstName.TabIndex = 5;
             // 
-            // textBox2
+            // txtLastName
             // 
-            textBox2.Location = new Point(422, 152);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(150, 31);
-            textBox2.TabIndex = 6;
+            txtLastName.Location = new Point(402, 162);
+            txtLastName.Name = "txtLastName";
+            txtLastName.Size = new Size(150, 31);
+            txtLastName.TabIndex = 6;
             // 
-            // textBox3
+            // txtPhoneNumber
             // 
-            textBox3.Location = new Point(422, 189);
-            textBox3.Name = "textBox3";
-            textBox3.Size = new Size(150, 31);
-            textBox3.TabIndex = 7;
+            txtPhoneNumber.Location = new Point(402, 199);
+            txtPhoneNumber.Name = "txtPhoneNumber";
+            txtPhoneNumber.Size = new Size(150, 31);
+            txtPhoneNumber.TabIndex = 7;
             // 
-            // textBox4
+            // txtWorkNumber
             // 
-            textBox4.Location = new Point(422, 226);
-            textBox4.Name = "textBox4";
-            textBox4.Size = new Size(150, 31);
-            textBox4.TabIndex = 8;
+            txtWorkNumber.Location = new Point(402, 236);
+            txtWorkNumber.Name = "txtWorkNumber";
+            txtWorkNumber.Size = new Size(150, 31);
+            txtWorkNumber.TabIndex = 8;
             // 
-            // textBox5
+            // txtAddress
             // 
-            textBox5.Location = new Point(422, 263);
-            textBox5.Name = "textBox5";
-            textBox5.Size = new Size(150, 31);
-            textBox5.TabIndex = 9;
+            txtAddress.Location = new Point(402, 276);
+            txtAddress.Name = "txtAddress";
+            txtAddress.Size = new Size(150, 31);
+            txtAddress.TabIndex = 9;
             // 
             // btnAddUser
             // 
-            btnAddUser.Location = new Point(393, 340);
+            btnAddUser.Location = new Point(373, 350);
             btnAddUser.Name = "btnAddUser";
             btnAddUser.Size = new Size(112, 34);
             btnAddUser.TabIndex = 10;
             btnAddUser.Text = "Add User";
             btnAddUser.UseVisualStyleBackColor = true;
+            btnAddUser.Click += btnAddUser_Click;
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Location = new Point(331, 56);
+            label1.Name = "label1";
+            label1.Size = new Size(164, 25);
+            label1.TabIndex = 11;
+            label1.Text = "Person Information";
             // 
             // AddNewUser
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(label1);
             Controls.Add(btnAddUser);
-            Controls.Add(textBox5);
-            Controls.Add(textBox4);
-            Controls.Add(textBox3);
-            Controls.Add(textBox2);
-            Controls.Add(textBox1);
+            Controls.Add(txtAddress);
+            Controls.Add(txtWorkNumber);
+            Controls.Add(txtPhoneNumber);
+            Controls.Add(txtLastName);
+            Controls.Add(txtFirstName);
             Controls.Add(lblAddress);
             Controls.Add(lblWorkNumber);
             Controls.Add(lblPhoneNumber);
@@ -159,11 +171,12 @@
         private Label lblPhoneNumber;
         private Label lblWorkNumber;
         private Label lblAddress;
-        private TextBox textBox1;
-        private TextBox textBox2;
-        private TextBox textBox3;
-        private TextBox textBox4;
-        private TextBox textBox5;
+        private TextBox txtFirstName;
+        private TextBox txtLastName;
+        private TextBox txtPhoneNumber;
+        private TextBox txtWorkNumber;
+        private TextBox txtAddress;
         private Button btnAddUser;
+        private Label label1;
     }
 }

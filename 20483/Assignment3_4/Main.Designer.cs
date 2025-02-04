@@ -54,6 +54,7 @@
             coffeeOrdersGrid.RowHeadersWidth = 62;
             coffeeOrdersGrid.Size = new Size(747, 225);
             coffeeOrdersGrid.TabIndex = 1;
+            coffeeOrdersGrid.CellContentClick += coffeeOrdersGrid_CellContentClick;
             // 
             // btnAdd
             // 
@@ -98,6 +99,7 @@
             Controls.Add(label1);
             Name = "Main";
             Text = "Main";
+            Load += Main_Load;
             ((System.ComponentModel.ISupportInitialize)coffeeOrdersGrid).EndInit();
             ResumeLayout(false);
             PerformLayout();

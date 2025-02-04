@@ -1,0 +1,15 @@
+C:\Users\danie\Documents\MSSA\20483\Mod4Interfacesdemo\bin\Debug\net8.0\Mod4Interfacesdemo.exe
+C:\Users\danie\Documents\MSSA\20483\Mod4Interfacesdemo\bin\Debug\net8.0\Mod4Interfacesdemo.deps.json
+C:\Users\danie\Documents\MSSA\20483\Mod4Interfacesdemo\bin\Debug\net8.0\Mod4Interfacesdemo.runtimeconfig.json
+C:\Users\danie\Documents\MSSA\20483\Mod4Interfacesdemo\bin\Debug\net8.0\Mod4Interfacesdemo.dll
+C:\Users\danie\Documents\MSSA\20483\Mod4Interfacesdemo\bin\Debug\net8.0\Mod4Interfacesdemo.pdb
+C:\Users\danie\Documents\MSSA\20483\Mod4Interfacesdemo\obj\Debug\net8.0\Mod4Interfacesdemo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\danie\Documents\MSSA\20483\Mod4Interfacesdemo\obj\Debug\net8.0\Mod4Interfacesdemo.AssemblyInfoInputs.cache
+C:\Users\danie\Documents\MSSA\20483\Mod4Interfacesdemo\obj\Debug\net8.0\Mod4Interfacesdemo.AssemblyInfo.cs
+C:\Users\danie\Documents\MSSA\20483\Mod4Interfacesdemo\obj\Debug\net8.0\Mod4Interfacesdemo.csproj.CoreCompileInputs.cache
+C:\Users\danie\Documents\MSSA\20483\Mod4Interfacesdemo\obj\Debug\net8.0\Mod4Interfacesdemo.sourcelink.json
+C:\Users\danie\Documents\MSSA\20483\Mod4Interfacesdemo\obj\Debug\net8.0\Mod4Interfacesdemo.dll
+C:\Users\danie\Documents\MSSA\20483\Mod4Interfacesdemo\obj\Debug\net8.0\refint\Mod4Interfacesdemo.dll
+C:\Users\danie\Documents\MSSA\20483\Mod4Interfacesdemo\obj\Debug\net8.0\Mod4Interfacesdemo.pdb
+C:\Users\danie\Documents\MSSA\20483\Mod4Interfacesdemo\obj\Debug\net8.0\Mod4Interfacesdemo.genruntimeconfig.cache
+C:\Users\danie\Documents\MSSA\20483\Mod4Interfacesdemo\obj\Debug\net8.0\ref\Mod4Interfacesdemo.dll

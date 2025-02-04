@@ -28,22 +28,23 @@
         /// </summary>
         private void InitializeComponent()
         {
-            dataGridView1 = new DataGridView();
+            peopleGrid = new DataGridView();
             btnAddUser = new Button();
             btnRefresh = new Button();
             btnDelete = new Button();
             btnSearch = new Button();
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
+            label1 = new Label();
+            ((System.ComponentModel.ISupportInitialize)peopleGrid).BeginInit();
             SuspendLayout();
             // 
-            // dataGridView1
+            // peopleGrid
             // 
-            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Location = new Point(37, 108);
-            dataGridView1.Name = "dataGridView1";
-            dataGridView1.RowHeadersWidth = 62;
-            dataGridView1.Size = new Size(713, 225);
-            dataGridView1.TabIndex = 0;
+            peopleGrid.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            peopleGrid.Location = new Point(37, 108);
+            peopleGrid.Name = "peopleGrid";
+            peopleGrid.RowHeadersWidth = 62;
+            peopleGrid.Size = new Size(713, 225);
+            peopleGrid.TabIndex = 0;
             // 
             // btnAddUser
             // 
@@ -63,6 +64,7 @@
             btnRefresh.TabIndex = 2;
             btnRefresh.Text = "Refresh";
             btnRefresh.UseVisualStyleBackColor = true;
+            btnRefresh.Click += btnRefresh_Click;
             // 
             // btnDelete
             // 
@@ -72,6 +74,7 @@
             btnDelete.TabIndex = 3;
             btnDelete.Text = "Delete";
             btnDelete.UseVisualStyleBackColor = true;
+            btnDelete.Click += btnDelete_Click;
             // 
             // btnSearch
             // 
@@ -81,29 +84,43 @@
             btnSearch.TabIndex = 4;
             btnSearch.Text = "Search";
             btnSearch.UseVisualStyleBackColor = true;
+            btnSearch.Click += btnSearch_Click;
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Location = new Point(285, 46);
+            label1.Name = "label1";
+            label1.Size = new Size(190, 25);
+            label1.TabIndex = 5;
+            label1.Text = "Phone / Address Book";
             // 
             // UsersGrid
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(label1);
             Controls.Add(btnSearch);
             Controls.Add(btnDelete);
             Controls.Add(btnRefresh);
             Controls.Add(btnAddUser);
-            Controls.Add(dataGridView1);
+            Controls.Add(peopleGrid);
             Name = "UsersGrid";
             Text = "UsersGrid";
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
+            Load += UsersGrid_Load;
+            ((System.ComponentModel.ISupportInitialize)peopleGrid).EndInit();
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
 
-        private DataGridView dataGridView1;
+        private DataGridView peopleGrid;
         private Button btnAddUser;
         private Button btnRefresh;
         private Button btnDelete;
         private Button btnSearch;
+        private Label label1;
     }
 }

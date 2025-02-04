@@ -1,0 +1,15 @@
+C:\Users\danie\Documents\MSSA\20483\Mod4GenericsDemo1\bin\Debug\net8.0\Mod4GenericsDemo1.exe
+C:\Users\danie\Documents\MSSA\20483\Mod4GenericsDemo1\bin\Debug\net8.0\Mod4GenericsDemo1.deps.json
+C:\Users\danie\Documents\MSSA\20483\Mod4GenericsDemo1\bin\Debug\net8.0\Mod4GenericsDemo1.runtimeconfig.json
+C:\Users\danie\Documents\MSSA\20483\Mod4GenericsDemo1\bin\Debug\net8.0\Mod4GenericsDemo1.dll
+C:\Users\danie\Documents\MSSA\20483\Mod4GenericsDemo1\bin\Debug\net8.0\Mod4GenericsDemo1.pdb
+C:\Users\danie\Documents\MSSA\20483\Mod4GenericsDemo1\obj\Debug\net8.0\Mod4GenericsDemo1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\danie\Documents\MSSA\20483\Mod4GenericsDemo1\obj\Debug\net8.0\Mod4GenericsDemo1.AssemblyInfoInputs.cache
+C:\Users\danie\Documents\MSSA\20483\Mod4GenericsDemo1\obj\Debug\net8.0\Mod4GenericsDemo1.AssemblyInfo.cs
+C:\Users\danie\Documents\MSSA\20483\Mod4GenericsDemo1\obj\Debug\net8.0\Mod4GenericsDemo1.csproj.CoreCompileInputs.cache
+C:\Users\danie\Documents\MSSA\20483\Mod4GenericsDemo1\obj\Debug\net8.0\Mod4GenericsDemo1.sourcelink.json
+C:\Users\danie\Documents\MSSA\20483\Mod4GenericsDemo1\obj\Debug\net8.0\Mod4GenericsDemo1.dll
+C:\Users\danie\Documents\MSSA\20483\Mod4GenericsDemo1\obj\Debug\net8.0\refint\Mod4GenericsDemo1.dll
+C:\Users\danie\Documents\MSSA\20483\Mod4GenericsDemo1\obj\Debug\net8.0\Mod4GenericsDemo1.pdb
+C:\Users\danie\Documents\MSSA\20483\Mod4GenericsDemo1\obj\Debug\net8.0\Mod4GenericsDemo1.genruntimeconfig.cache
+C:\Users\danie\Documents\MSSA\20483\Mod4GenericsDemo1\obj\Debug\net8.0\ref\Mod4GenericsDemo1.dll

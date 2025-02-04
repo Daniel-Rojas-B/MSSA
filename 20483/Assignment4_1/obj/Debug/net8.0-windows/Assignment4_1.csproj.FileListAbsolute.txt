@@ -17,3 +17,4 @@ C:\Users\danie\Documents\MSSA\20483\Assignment4_1\obj\Debug\net8.0-windows\Assig
 C:\Users\danie\Documents\MSSA\20483\Assignment4_1\obj\Debug\net8.0-windows\Assignment4_1.genruntimeconfig.cache
 C:\Users\danie\Documents\MSSA\20483\Assignment4_1\obj\Debug\net8.0-windows\ref\Assignment4_1.dll
 C:\Users\danie\Documents\MSSA\20483\Assignment4_1\obj\Debug\net8.0-windows\Assignment4_1.AddNewUser.resources
+C:\Users\danie\Documents\MSSA\20483\Assignment4_1\obj\Debug\net8.0-windows\Assignment4_1.Search.resources

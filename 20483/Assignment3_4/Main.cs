@@ -39,5 +39,15 @@ namespace Assignment3_4
             coffeeOrdersGrid.DataSource = null;
             coffeeOrdersGrid.DataSource = Data.coffees;
         }
+
+        private void Main_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void coffeeOrdersGrid_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }
