@@ -19,7 +19,7 @@ namespace Assignment4_2
 
         private void btnLogin_Click(object sender, EventArgs e)
         {
-            if (txtUserName.Text == "a" && txtPassword.Text == "1")
+            if (txtUserName.Text == "teacher" && txtPassword.Text == "admin")
             {
                 this.Hide();
                 StudentsMain studentsMainForm = new StudentsMain();

@@ -28,25 +28,25 @@
         /// </summary>
         private void InitializeComponent()
         {
-            dataGridView1 = new DataGridView();
+            StudentsGrid = new DataGridView();
             btnAdd = new Button();
             btnDelete = new Button();
-            btnRefresh = new Button();
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
+            button1 = new Button();
+            ((System.ComponentModel.ISupportInitialize)StudentsGrid).BeginInit();
             SuspendLayout();
             // 
-            // dataGridView1
+            // StudentsGrid
             // 
-            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Location = new Point(83, 108);
-            dataGridView1.Name = "dataGridView1";
-            dataGridView1.RowHeadersWidth = 62;
-            dataGridView1.Size = new Size(627, 225);
-            dataGridView1.TabIndex = 0;
+            StudentsGrid.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            StudentsGrid.Location = new Point(83, 108);
+            StudentsGrid.Name = "StudentsGrid";
+            StudentsGrid.RowHeadersWidth = 62;
+            StudentsGrid.Size = new Size(627, 225);
+            StudentsGrid.TabIndex = 0;
             // 
             // btnAdd
             // 
-            btnAdd.Location = new Point(207, 364);
+            btnAdd.Location = new Point(207, 369);
             btnAdd.Name = "btnAdd";
             btnAdd.Size = new Size(112, 34);
             btnAdd.TabIndex = 1;
@@ -56,42 +56,45 @@
             // 
             // btnDelete
             // 
-            btnDelete.Location = new Point(334, 364);
+            btnDelete.Location = new Point(334, 369);
             btnDelete.Name = "btnDelete";
             btnDelete.Size = new Size(112, 34);
             btnDelete.TabIndex = 2;
             btnDelete.Text = "Delete";
             btnDelete.UseVisualStyleBackColor = true;
+            btnDelete.Click += btnDelete_Click;
             // 
-            // btnRefresh
+            // button1
             // 
-            btnRefresh.Location = new Point(461, 364);
-            btnRefresh.Name = "btnRefresh";
-            btnRefresh.Size = new Size(112, 34);
-            btnRefresh.TabIndex = 3;
-            btnRefresh.Text = "Refresh";
-            btnRefresh.UseVisualStyleBackColor = true;
+            button1.Location = new Point(464, 369);
+            button1.Name = "button1";
+            button1.Size = new Size(112, 34);
+            button1.TabIndex = 3;
+            button1.Text = "Save";
+            button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // StudentsMain
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
-            Controls.Add(btnRefresh);
+            Controls.Add(button1);
             Controls.Add(btnDelete);
             Controls.Add(btnAdd);
-            Controls.Add(dataGridView1);
+            Controls.Add(StudentsGrid);
             Name = "StudentsMain";
             Text = "StudentsMain";
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
+            Load += StudentsMain_Load;
+            ((System.ComponentModel.ISupportInitialize)StudentsGrid).EndInit();
             ResumeLayout(false);
         }
 
         #endregion
 
-        private DataGridView dataGridView1;
+        private DataGridView StudentsGrid;
         private Button btnAdd;
         private Button btnDelete;
-        private Button btnRefresh;
+        private Button button1;
     }
 }

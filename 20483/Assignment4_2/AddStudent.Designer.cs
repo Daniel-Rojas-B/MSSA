@@ -32,9 +32,9 @@
             lblId = new Label();
             lblName = new Label();
             lblGPA = new Label();
-            textBox1 = new TextBox();
-            textBox2 = new TextBox();
-            textBox3 = new TextBox();
+            txtId = new TextBox();
+            txtName = new TextBox();
+            txtGPA = new TextBox();
             SuspendLayout();
             // 
             // btnAddStudent
@@ -45,6 +45,7 @@
             btnAddStudent.TabIndex = 0;
             btnAddStudent.Text = "Add Student";
             btnAddStudent.UseVisualStyleBackColor = true;
+            btnAddStudent.Click += btnAddStudent_Click;
             // 
             // lblId
             // 
@@ -73,35 +74,35 @@
             lblGPA.TabIndex = 3;
             lblGPA.Text = "GPA";
             // 
-            // textBox1
+            // txtId
             // 
-            textBox1.Location = new Point(424, 125);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(163, 31);
-            textBox1.TabIndex = 4;
+            txtId.Location = new Point(424, 125);
+            txtId.Name = "txtId";
+            txtId.Size = new Size(163, 31);
+            txtId.TabIndex = 4;
             // 
-            // textBox2
+            // txtName
             // 
-            textBox2.Location = new Point(424, 189);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(163, 31);
-            textBox2.TabIndex = 5;
+            txtName.Location = new Point(424, 189);
+            txtName.Name = "txtName";
+            txtName.Size = new Size(163, 31);
+            txtName.TabIndex = 5;
             // 
-            // textBox3
+            // txtGPA
             // 
-            textBox3.Location = new Point(424, 251);
-            textBox3.Name = "textBox3";
-            textBox3.Size = new Size(163, 31);
-            textBox3.TabIndex = 6;
+            txtGPA.Location = new Point(424, 251);
+            txtGPA.Name = "txtGPA";
+            txtGPA.Size = new Size(163, 31);
+            txtGPA.TabIndex = 6;
             // 
             // AddStudent
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
-            Controls.Add(textBox3);
-            Controls.Add(textBox2);
-            Controls.Add(textBox1);
+            Controls.Add(txtGPA);
+            Controls.Add(txtName);
+            Controls.Add(txtId);
             Controls.Add(lblGPA);
             Controls.Add(lblName);
             Controls.Add(lblId);
@@ -118,8 +119,8 @@
         private Label lblId;
         private Label lblName;
         private Label lblGPA;
-        private TextBox textBox1;
-        private TextBox textBox2;
-        private TextBox textBox3;
+        private TextBox txtId;
+        private TextBox txtName;
+        private TextBox txtGPA;
     }
 }
