@@ -92,20 +92,20 @@ namespace LeetCode
 
             return j + 1;
         }
-        public static void MergeArrays(int[] nums1, int m, int[] nums2, int n)
-        {
-            var start = 0;
-            for (int i = m; i < nums1.Length; i++)
-            {
-                nums1[i] = nums2[start];
-                start++;
-            }
-            Array.Sort(nums1);
-            foreach (int num in nums1)
-            {
-                Console.WriteLine(num);
-            }
-        }
+        //public static void MergeArrays(int[] nums1, int m, int[] nums2, int n)
+        //{
+        //    var start = 0;
+        //    for (int i = m; i < nums1.Length; i++)
+        //    {
+        //        nums1[i] = nums2[start];
+        //        start++;
+        //    }
+        //    Array.Sort(nums1);
+        //    foreach (int num in nums1)
+        //    {
+        //        Console.WriteLine(num);
+        //    }
+        //}
     }
 
 }
