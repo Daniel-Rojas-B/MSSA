@@ -1,0 +1,15 @@
+C:\Users\danie\Documents\MSSA\DS_Algo\Mod1HappyNumber\bin\Debug\net8.0\Mod1HappyNumber.exe
+C:\Users\danie\Documents\MSSA\DS_Algo\Mod1HappyNumber\bin\Debug\net8.0\Mod1HappyNumber.deps.json
+C:\Users\danie\Documents\MSSA\DS_Algo\Mod1HappyNumber\bin\Debug\net8.0\Mod1HappyNumber.runtimeconfig.json
+C:\Users\danie\Documents\MSSA\DS_Algo\Mod1HappyNumber\bin\Debug\net8.0\Mod1HappyNumber.dll
+C:\Users\danie\Documents\MSSA\DS_Algo\Mod1HappyNumber\bin\Debug\net8.0\Mod1HappyNumber.pdb
+C:\Users\danie\Documents\MSSA\DS_Algo\Mod1HappyNumber\obj\Debug\net8.0\Mod1HappyNumber.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\danie\Documents\MSSA\DS_Algo\Mod1HappyNumber\obj\Debug\net8.0\Mod1HappyNumber.AssemblyInfoInputs.cache
+C:\Users\danie\Documents\MSSA\DS_Algo\Mod1HappyNumber\obj\Debug\net8.0\Mod1HappyNumber.AssemblyInfo.cs
+C:\Users\danie\Documents\MSSA\DS_Algo\Mod1HappyNumber\obj\Debug\net8.0\Mod1HappyNumber.csproj.CoreCompileInputs.cache
+C:\Users\danie\Documents\MSSA\DS_Algo\Mod1HappyNumber\obj\Debug\net8.0\Mod1HappyNumber.sourcelink.json
+C:\Users\danie\Documents\MSSA\DS_Algo\Mod1HappyNumber\obj\Debug\net8.0\Mod1HappyNumber.dll
+C:\Users\danie\Documents\MSSA\DS_Algo\Mod1HappyNumber\obj\Debug\net8.0\refint\Mod1HappyNumber.dll
+C:\Users\danie\Documents\MSSA\DS_Algo\Mod1HappyNumber\obj\Debug\net8.0\Mod1HappyNumber.pdb
+C:\Users\danie\Documents\MSSA\DS_Algo\Mod1HappyNumber\obj\Debug\net8.0\Mod1HappyNumber.genruntimeconfig.cache
+C:\Users\danie\Documents\MSSA\DS_Algo\Mod1HappyNumber\obj\Debug\net8.0\ref\Mod1HappyNumber.dll
