@@ -1,0 +1,15 @@
+C:\Users\danie\Documents\MSSA\DS_Algo\Mod2Recursion1\bin\Debug\net8.0\Mod2Recursion1.exe
+C:\Users\danie\Documents\MSSA\DS_Algo\Mod2Recursion1\bin\Debug\net8.0\Mod2Recursion1.deps.json
+C:\Users\danie\Documents\MSSA\DS_Algo\Mod2Recursion1\bin\Debug\net8.0\Mod2Recursion1.runtimeconfig.json
+C:\Users\danie\Documents\MSSA\DS_Algo\Mod2Recursion1\bin\Debug\net8.0\Mod2Recursion1.dll
+C:\Users\danie\Documents\MSSA\DS_Algo\Mod2Recursion1\bin\Debug\net8.0\Mod2Recursion1.pdb
+C:\Users\danie\Documents\MSSA\DS_Algo\Mod2Recursion1\obj\Debug\net8.0\Mod2Recursion1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\danie\Documents\MSSA\DS_Algo\Mod2Recursion1\obj\Debug\net8.0\Mod2Recursion1.AssemblyInfoInputs.cache
+C:\Users\danie\Documents\MSSA\DS_Algo\Mod2Recursion1\obj\Debug\net8.0\Mod2Recursion1.AssemblyInfo.cs
+C:\Users\danie\Documents\MSSA\DS_Algo\Mod2Recursion1\obj\Debug\net8.0\Mod2Recursion1.csproj.CoreCompileInputs.cache
+C:\Users\danie\Documents\MSSA\DS_Algo\Mod2Recursion1\obj\Debug\net8.0\Mod2Recursion1.sourcelink.json
+C:\Users\danie\Documents\MSSA\DS_Algo\Mod2Recursion1\obj\Debug\net8.0\Mod2Recursion1.dll
+C:\Users\danie\Documents\MSSA\DS_Algo\Mod2Recursion1\obj\Debug\net8.0\refint\Mod2Recursion1.dll
+C:\Users\danie\Documents\MSSA\DS_Algo\Mod2Recursion1\obj\Debug\net8.0\Mod2Recursion1.pdb
+C:\Users\danie\Documents\MSSA\DS_Algo\Mod2Recursion1\obj\Debug\net8.0\Mod2Recursion1.genruntimeconfig.cache
+C:\Users\danie\Documents\MSSA\DS_Algo\Mod2Recursion1\obj\Debug\net8.0\ref\Mod2Recursion1.dll

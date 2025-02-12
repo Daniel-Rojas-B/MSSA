@@ -1,0 +1,15 @@
+C:\Users\danie\Documents\MSSA\DS_Algo\Mod2Factorial\bin\Debug\net8.0\Mod2Factorial.exe
+C:\Users\danie\Documents\MSSA\DS_Algo\Mod2Factorial\bin\Debug\net8.0\Mod2Factorial.deps.json
+C:\Users\danie\Documents\MSSA\DS_Algo\Mod2Factorial\bin\Debug\net8.0\Mod2Factorial.runtimeconfig.json
+C:\Users\danie\Documents\MSSA\DS_Algo\Mod2Factorial\bin\Debug\net8.0\Mod2Factorial.dll
+C:\Users\danie\Documents\MSSA\DS_Algo\Mod2Factorial\bin\Debug\net8.0\Mod2Factorial.pdb
+C:\Users\danie\Documents\MSSA\DS_Algo\Mod2Factorial\obj\Debug\net8.0\Mod2Factorial.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\danie\Documents\MSSA\DS_Algo\Mod2Factorial\obj\Debug\net8.0\Mod2Factorial.AssemblyInfoInputs.cache
+C:\Users\danie\Documents\MSSA\DS_Algo\Mod2Factorial\obj\Debug\net8.0\Mod2Factorial.AssemblyInfo.cs
+C:\Users\danie\Documents\MSSA\DS_Algo\Mod2Factorial\obj\Debug\net8.0\Mod2Factorial.csproj.CoreCompileInputs.cache
+C:\Users\danie\Documents\MSSA\DS_Algo\Mod2Factorial\obj\Debug\net8.0\Mod2Factorial.sourcelink.json
+C:\Users\danie\Documents\MSSA\DS_Algo\Mod2Factorial\obj\Debug\net8.0\Mod2Factorial.dll
+C:\Users\danie\Documents\MSSA\DS_Algo\Mod2Factorial\obj\Debug\net8.0\refint\Mod2Factorial.dll
+C:\Users\danie\Documents\MSSA\DS_Algo\Mod2Factorial\obj\Debug\net8.0\Mod2Factorial.pdb
+C:\Users\danie\Documents\MSSA\DS_Algo\Mod2Factorial\obj\Debug\net8.0\Mod2Factorial.genruntimeconfig.cache
+C:\Users\danie\Documents\MSSA\DS_Algo\Mod2Factorial\obj\Debug\net8.0\ref\Mod2Factorial.dll
