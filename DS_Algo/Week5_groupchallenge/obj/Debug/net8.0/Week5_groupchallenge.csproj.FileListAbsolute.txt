@@ -1,0 +1,15 @@
+C:\Users\danie\Documents\MSSA\DS_Algo\Week5_groupchallenge\bin\Debug\net8.0\Week5_groupchallenge.exe
+C:\Users\danie\Documents\MSSA\DS_Algo\Week5_groupchallenge\bin\Debug\net8.0\Week5_groupchallenge.deps.json
+C:\Users\danie\Documents\MSSA\DS_Algo\Week5_groupchallenge\bin\Debug\net8.0\Week5_groupchallenge.runtimeconfig.json
+C:\Users\danie\Documents\MSSA\DS_Algo\Week5_groupchallenge\bin\Debug\net8.0\Week5_groupchallenge.dll
+C:\Users\danie\Documents\MSSA\DS_Algo\Week5_groupchallenge\bin\Debug\net8.0\Week5_groupchallenge.pdb
+C:\Users\danie\Documents\MSSA\DS_Algo\Week5_groupchallenge\obj\Debug\net8.0\Week5_groupchallenge.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\danie\Documents\MSSA\DS_Algo\Week5_groupchallenge\obj\Debug\net8.0\Week5_groupchallenge.AssemblyInfoInputs.cache
+C:\Users\danie\Documents\MSSA\DS_Algo\Week5_groupchallenge\obj\Debug\net8.0\Week5_groupchallenge.AssemblyInfo.cs
+C:\Users\danie\Documents\MSSA\DS_Algo\Week5_groupchallenge\obj\Debug\net8.0\Week5_groupchallenge.csproj.CoreCompileInputs.cache
+C:\Users\danie\Documents\MSSA\DS_Algo\Week5_groupchallenge\obj\Debug\net8.0\Week5_groupchallenge.sourcelink.json
+C:\Users\danie\Documents\MSSA\DS_Algo\Week5_groupchallenge\obj\Debug\net8.0\Week5_groupchallenge.dll
+C:\Users\danie\Documents\MSSA\DS_Algo\Week5_groupchallenge\obj\Debug\net8.0\refint\Week5_groupchallenge.dll
+C:\Users\danie\Documents\MSSA\DS_Algo\Week5_groupchallenge\obj\Debug\net8.0\Week5_groupchallenge.pdb
+C:\Users\danie\Documents\MSSA\DS_Algo\Week5_groupchallenge\obj\Debug\net8.0\Week5_groupchallenge.genruntimeconfig.cache
+C:\Users\danie\Documents\MSSA\DS_Algo\Week5_groupchallenge\obj\Debug\net8.0\ref\Week5_groupchallenge.dll

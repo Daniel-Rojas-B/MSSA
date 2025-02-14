@@ -1,0 +1,15 @@
+C:\Users\danie\Documents\MSSA\DS_Algo\Mod3Fibonacci\obj\Debug\net8.0\Mod3Fibonacci.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\danie\Documents\MSSA\DS_Algo\Mod3Fibonacci\obj\Debug\net8.0\Mod3Fibonacci.AssemblyInfoInputs.cache
+C:\Users\danie\Documents\MSSA\DS_Algo\Mod3Fibonacci\obj\Debug\net8.0\Mod3Fibonacci.AssemblyInfo.cs
+C:\Users\danie\Documents\MSSA\DS_Algo\Mod3Fibonacci\obj\Debug\net8.0\Mod3Fibonacci.csproj.CoreCompileInputs.cache
+C:\Users\danie\Documents\MSSA\DS_Algo\Mod3Fibonacci\obj\Debug\net8.0\Mod3Fibonacci.sourcelink.json
+C:\Users\danie\Documents\MSSA\DS_Algo\Mod3Fibonacci\bin\Debug\net8.0\Mod3Fibonacci.exe
+C:\Users\danie\Documents\MSSA\DS_Algo\Mod3Fibonacci\bin\Debug\net8.0\Mod3Fibonacci.deps.json
+C:\Users\danie\Documents\MSSA\DS_Algo\Mod3Fibonacci\bin\Debug\net8.0\Mod3Fibonacci.runtimeconfig.json
+C:\Users\danie\Documents\MSSA\DS_Algo\Mod3Fibonacci\bin\Debug\net8.0\Mod3Fibonacci.dll
+C:\Users\danie\Documents\MSSA\DS_Algo\Mod3Fibonacci\bin\Debug\net8.0\Mod3Fibonacci.pdb
+C:\Users\danie\Documents\MSSA\DS_Algo\Mod3Fibonacci\obj\Debug\net8.0\Mod3Fibonacci.dll
+C:\Users\danie\Documents\MSSA\DS_Algo\Mod3Fibonacci\obj\Debug\net8.0\refint\Mod3Fibonacci.dll
+C:\Users\danie\Documents\MSSA\DS_Algo\Mod3Fibonacci\obj\Debug\net8.0\Mod3Fibonacci.pdb
+C:\Users\danie\Documents\MSSA\DS_Algo\Mod3Fibonacci\obj\Debug\net8.0\Mod3Fibonacci.genruntimeconfig.cache
+C:\Users\danie\Documents\MSSA\DS_Algo\Mod3Fibonacci\obj\Debug\net8.0\ref\Mod3Fibonacci.dll

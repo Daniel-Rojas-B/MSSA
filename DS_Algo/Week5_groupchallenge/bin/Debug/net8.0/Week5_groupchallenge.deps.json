@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Week5_groupchallenge/1.0.0": {
+        "runtime": {
+          "Week5_groupchallenge.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Week5_groupchallenge/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

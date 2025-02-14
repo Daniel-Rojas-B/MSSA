@@ -1,0 +1,15 @@
+C:\Users\danie\Documents\MSSA\DS_Algo\Mod6SearchAlgorithms\bin\Debug\net8.0\Mod6SearchAlgorithms.exe
+C:\Users\danie\Documents\MSSA\DS_Algo\Mod6SearchAlgorithms\bin\Debug\net8.0\Mod6SearchAlgorithms.deps.json
+C:\Users\danie\Documents\MSSA\DS_Algo\Mod6SearchAlgorithms\bin\Debug\net8.0\Mod6SearchAlgorithms.runtimeconfig.json
+C:\Users\danie\Documents\MSSA\DS_Algo\Mod6SearchAlgorithms\bin\Debug\net8.0\Mod6SearchAlgorithms.dll
+C:\Users\danie\Documents\MSSA\DS_Algo\Mod6SearchAlgorithms\bin\Debug\net8.0\Mod6SearchAlgorithms.pdb
+C:\Users\danie\Documents\MSSA\DS_Algo\Mod6SearchAlgorithms\obj\Debug\net8.0\Mod6SearchAlgorithms.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\danie\Documents\MSSA\DS_Algo\Mod6SearchAlgorithms\obj\Debug\net8.0\Mod6SearchAlgorithms.AssemblyInfoInputs.cache
+C:\Users\danie\Documents\MSSA\DS_Algo\Mod6SearchAlgorithms\obj\Debug\net8.0\Mod6SearchAlgorithms.AssemblyInfo.cs
+C:\Users\danie\Documents\MSSA\DS_Algo\Mod6SearchAlgorithms\obj\Debug\net8.0\Mod6SearchAlgorithms.csproj.CoreCompileInputs.cache
+C:\Users\danie\Documents\MSSA\DS_Algo\Mod6SearchAlgorithms\obj\Debug\net8.0\Mod6SearchAlgorithms.sourcelink.json
+C:\Users\danie\Documents\MSSA\DS_Algo\Mod6SearchAlgorithms\obj\Debug\net8.0\Mod6SearchAlgorithms.dll
+C:\Users\danie\Documents\MSSA\DS_Algo\Mod6SearchAlgorithms\obj\Debug\net8.0\refint\Mod6SearchAlgorithms.dll
+C:\Users\danie\Documents\MSSA\DS_Algo\Mod6SearchAlgorithms\obj\Debug\net8.0\Mod6SearchAlgorithms.pdb
+C:\Users\danie\Documents\MSSA\DS_Algo\Mod6SearchAlgorithms\obj\Debug\net8.0\Mod6SearchAlgorithms.genruntimeconfig.cache
+C:\Users\danie\Documents\MSSA\DS_Algo\Mod6SearchAlgorithms\obj\Debug\net8.0\ref\Mod6SearchAlgorithms.dll

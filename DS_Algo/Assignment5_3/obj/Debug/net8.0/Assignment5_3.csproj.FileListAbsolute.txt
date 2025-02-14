@@ -1,0 +1,15 @@
+C:\Users\danie\Documents\MSSA\DS_Algo\Assignment5_3\bin\Debug\net8.0\Assignment5_3.exe
+C:\Users\danie\Documents\MSSA\DS_Algo\Assignment5_3\bin\Debug\net8.0\Assignment5_3.deps.json
+C:\Users\danie\Documents\MSSA\DS_Algo\Assignment5_3\bin\Debug\net8.0\Assignment5_3.runtimeconfig.json
+C:\Users\danie\Documents\MSSA\DS_Algo\Assignment5_3\bin\Debug\net8.0\Assignment5_3.dll
+C:\Users\danie\Documents\MSSA\DS_Algo\Assignment5_3\bin\Debug\net8.0\Assignment5_3.pdb
+C:\Users\danie\Documents\MSSA\DS_Algo\Assignment5_3\obj\Debug\net8.0\Assignment5_3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\danie\Documents\MSSA\DS_Algo\Assignment5_3\obj\Debug\net8.0\Assignment5_3.AssemblyInfoInputs.cache
+C:\Users\danie\Documents\MSSA\DS_Algo\Assignment5_3\obj\Debug\net8.0\Assignment5_3.AssemblyInfo.cs
+C:\Users\danie\Documents\MSSA\DS_Algo\Assignment5_3\obj\Debug\net8.0\Assignment5_3.csproj.CoreCompileInputs.cache
+C:\Users\danie\Documents\MSSA\DS_Algo\Assignment5_3\obj\Debug\net8.0\Assignment5_3.sourcelink.json
+C:\Users\danie\Documents\MSSA\DS_Algo\Assignment5_3\obj\Debug\net8.0\Assignment5_3.dll
+C:\Users\danie\Documents\MSSA\DS_Algo\Assignment5_3\obj\Debug\net8.0\refint\Assignment5_3.dll
+C:\Users\danie\Documents\MSSA\DS_Algo\Assignment5_3\obj\Debug\net8.0\Assignment5_3.pdb
+C:\Users\danie\Documents\MSSA\DS_Algo\Assignment5_3\obj\Debug\net8.0\Assignment5_3.genruntimeconfig.cache
+C:\Users\danie\Documents\MSSA\DS_Algo\Assignment5_3\obj\Debug\net8.0\ref\Assignment5_3.dll
