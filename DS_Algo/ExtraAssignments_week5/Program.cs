@@ -10,7 +10,9 @@
             Console.WriteLine(FindNumber(new int[] { 1 }));
 
             Console.WriteLine(" ---- Problem 2 ---- ");
-
+            Console.WriteLine(MissingNumber(new int[] { 3, 0, 1 }));
+            Console.WriteLine(MissingNumber(new int[] { 0, 1 }));
+            Console.WriteLine(MissingNumber(new int[] { 9, 6, 4, 2, 3, 5, 7, 0, 1 }));
 
 
             Console.ReadKey();
@@ -30,6 +32,19 @@
                 }
             }
             return set.First();            
+        }
+        static int MissingNumber(int[] nums)
+        {
+            int n = nums.Length;
+            int sum = n * (n + 1) / 2;
+            int currentSum = 0;
+
+            foreach (int num in nums)
+            {
+                currentSum += num;
+            }
+
+            return sum - currentSum;
         }
     }
 }
