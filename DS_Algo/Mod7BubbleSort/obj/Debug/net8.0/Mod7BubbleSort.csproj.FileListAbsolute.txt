@@ -1,0 +1,15 @@
+C:\Users\danie\Documents\MSSA\DS_Algo\Mod7BubbleSort\bin\Debug\net8.0\Mod7BubbleSort.exe
+C:\Users\danie\Documents\MSSA\DS_Algo\Mod7BubbleSort\bin\Debug\net8.0\Mod7BubbleSort.deps.json
+C:\Users\danie\Documents\MSSA\DS_Algo\Mod7BubbleSort\bin\Debug\net8.0\Mod7BubbleSort.runtimeconfig.json
+C:\Users\danie\Documents\MSSA\DS_Algo\Mod7BubbleSort\bin\Debug\net8.0\Mod7BubbleSort.dll
+C:\Users\danie\Documents\MSSA\DS_Algo\Mod7BubbleSort\bin\Debug\net8.0\Mod7BubbleSort.pdb
+C:\Users\danie\Documents\MSSA\DS_Algo\Mod7BubbleSort\obj\Debug\net8.0\Mod7BubbleSort.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\danie\Documents\MSSA\DS_Algo\Mod7BubbleSort\obj\Debug\net8.0\Mod7BubbleSort.AssemblyInfoInputs.cache
+C:\Users\danie\Documents\MSSA\DS_Algo\Mod7BubbleSort\obj\Debug\net8.0\Mod7BubbleSort.AssemblyInfo.cs
+C:\Users\danie\Documents\MSSA\DS_Algo\Mod7BubbleSort\obj\Debug\net8.0\Mod7BubbleSort.csproj.CoreCompileInputs.cache
+C:\Users\danie\Documents\MSSA\DS_Algo\Mod7BubbleSort\obj\Debug\net8.0\Mod7BubbleSort.sourcelink.json
+C:\Users\danie\Documents\MSSA\DS_Algo\Mod7BubbleSort\obj\Debug\net8.0\Mod7BubbleSort.dll
+C:\Users\danie\Documents\MSSA\DS_Algo\Mod7BubbleSort\obj\Debug\net8.0\refint\Mod7BubbleSort.dll
+C:\Users\danie\Documents\MSSA\DS_Algo\Mod7BubbleSort\obj\Debug\net8.0\Mod7BubbleSort.pdb
+C:\Users\danie\Documents\MSSA\DS_Algo\Mod7BubbleSort\obj\Debug\net8.0\Mod7BubbleSort.genruntimeconfig.cache
+C:\Users\danie\Documents\MSSA\DS_Algo\Mod7BubbleSort\obj\Debug\net8.0\ref\Mod7BubbleSort.dll

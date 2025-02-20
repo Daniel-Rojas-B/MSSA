@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Mod5StackArray/1.0.0": {
+        "runtime": {
+          "Mod5StackArray.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Mod5StackArray/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

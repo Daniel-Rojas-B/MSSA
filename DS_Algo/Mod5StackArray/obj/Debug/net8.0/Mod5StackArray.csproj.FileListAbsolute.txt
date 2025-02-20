@@ -1,0 +1,15 @@
+C:\Users\danie\Documents\MSSA\DS_Algo\Mod5StackArray\bin\Debug\net8.0\Mod5StackArray.exe
+C:\Users\danie\Documents\MSSA\DS_Algo\Mod5StackArray\bin\Debug\net8.0\Mod5StackArray.deps.json
+C:\Users\danie\Documents\MSSA\DS_Algo\Mod5StackArray\bin\Debug\net8.0\Mod5StackArray.runtimeconfig.json
+C:\Users\danie\Documents\MSSA\DS_Algo\Mod5StackArray\bin\Debug\net8.0\Mod5StackArray.dll
+C:\Users\danie\Documents\MSSA\DS_Algo\Mod5StackArray\bin\Debug\net8.0\Mod5StackArray.pdb
+C:\Users\danie\Documents\MSSA\DS_Algo\Mod5StackArray\obj\Debug\net8.0\Mod5StackArray.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\danie\Documents\MSSA\DS_Algo\Mod5StackArray\obj\Debug\net8.0\Mod5StackArray.AssemblyInfoInputs.cache
+C:\Users\danie\Documents\MSSA\DS_Algo\Mod5StackArray\obj\Debug\net8.0\Mod5StackArray.AssemblyInfo.cs
+C:\Users\danie\Documents\MSSA\DS_Algo\Mod5StackArray\obj\Debug\net8.0\Mod5StackArray.csproj.CoreCompileInputs.cache
+C:\Users\danie\Documents\MSSA\DS_Algo\Mod5StackArray\obj\Debug\net8.0\Mod5StackArray.sourcelink.json
+C:\Users\danie\Documents\MSSA\DS_Algo\Mod5StackArray\obj\Debug\net8.0\Mod5StackArray.dll
+C:\Users\danie\Documents\MSSA\DS_Algo\Mod5StackArray\obj\Debug\net8.0\refint\Mod5StackArray.dll
+C:\Users\danie\Documents\MSSA\DS_Algo\Mod5StackArray\obj\Debug\net8.0\Mod5StackArray.pdb
+C:\Users\danie\Documents\MSSA\DS_Algo\Mod5StackArray\obj\Debug\net8.0\Mod5StackArray.genruntimeconfig.cache
+C:\Users\danie\Documents\MSSA\DS_Algo\Mod5StackArray\obj\Debug\net8.0\ref\Mod5StackArray.dll

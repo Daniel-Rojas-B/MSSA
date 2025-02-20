@@ -1,0 +1,15 @@
+C:\Users\danie\Documents\MSSA\DS_Algo\Mod5StackLinkedList\bin\Debug\net8.0\Mod5StackLinkedList.exe
+C:\Users\danie\Documents\MSSA\DS_Algo\Mod5StackLinkedList\bin\Debug\net8.0\Mod5StackLinkedList.deps.json
+C:\Users\danie\Documents\MSSA\DS_Algo\Mod5StackLinkedList\bin\Debug\net8.0\Mod5StackLinkedList.runtimeconfig.json
+C:\Users\danie\Documents\MSSA\DS_Algo\Mod5StackLinkedList\bin\Debug\net8.0\Mod5StackLinkedList.dll
+C:\Users\danie\Documents\MSSA\DS_Algo\Mod5StackLinkedList\bin\Debug\net8.0\Mod5StackLinkedList.pdb
+C:\Users\danie\Documents\MSSA\DS_Algo\Mod5StackLinkedList\obj\Debug\net8.0\Mod5StackLinkedList.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\danie\Documents\MSSA\DS_Algo\Mod5StackLinkedList\obj\Debug\net8.0\Mod5StackLinkedList.AssemblyInfoInputs.cache
+C:\Users\danie\Documents\MSSA\DS_Algo\Mod5StackLinkedList\obj\Debug\net8.0\Mod5StackLinkedList.AssemblyInfo.cs
+C:\Users\danie\Documents\MSSA\DS_Algo\Mod5StackLinkedList\obj\Debug\net8.0\Mod5StackLinkedList.csproj.CoreCompileInputs.cache
+C:\Users\danie\Documents\MSSA\DS_Algo\Mod5StackLinkedList\obj\Debug\net8.0\Mod5StackLinkedList.sourcelink.json
+C:\Users\danie\Documents\MSSA\DS_Algo\Mod5StackLinkedList\obj\Debug\net8.0\Mod5StackLinkedList.dll
+C:\Users\danie\Documents\MSSA\DS_Algo\Mod5StackLinkedList\obj\Debug\net8.0\refint\Mod5StackLinkedList.dll
+C:\Users\danie\Documents\MSSA\DS_Algo\Mod5StackLinkedList\obj\Debug\net8.0\Mod5StackLinkedList.pdb
+C:\Users\danie\Documents\MSSA\DS_Algo\Mod5StackLinkedList\obj\Debug\net8.0\Mod5StackLinkedList.genruntimeconfig.cache
+C:\Users\danie\Documents\MSSA\DS_Algo\Mod5StackLinkedList\obj\Debug\net8.0\ref\Mod5StackLinkedList.dll
