@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Mod5QLinkedList/1.0.0": {
+        "runtime": {
+          "Mod5QLinkedList.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Mod5QLinkedList/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

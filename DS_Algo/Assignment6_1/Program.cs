@@ -18,11 +18,18 @@
 
             Console.WriteLine(" ---- Problem 2 ---- ");
 
+            int[] nums1 = { 0, 1, 0, 3, 12 }; 
+            RearrangeZeroes(nums1); 
+            Console.WriteLine(string.Join(", ", nums1));
+
+            int[] nums2 = { 0 };
+            RearrangeZeroes(nums2);
+            Console.WriteLine(string.Join(", ", nums2));
 
             Console.ReadKey();
 
         }
-        public void RearrangeZeroes(int[] nums)
+        public static void RearrangeZeroes(int[] nums)
         {
             int reference = 0; 
 

@@ -1,0 +1,15 @@
+C:\Users\danie\Documents\MSSA\DS_Algo\Mod5Q_Array\bin\Debug\net8.0\Mod5Q_Array.exe
+C:\Users\danie\Documents\MSSA\DS_Algo\Mod5Q_Array\bin\Debug\net8.0\Mod5Q_Array.deps.json
+C:\Users\danie\Documents\MSSA\DS_Algo\Mod5Q_Array\bin\Debug\net8.0\Mod5Q_Array.runtimeconfig.json
+C:\Users\danie\Documents\MSSA\DS_Algo\Mod5Q_Array\bin\Debug\net8.0\Mod5Q_Array.dll
+C:\Users\danie\Documents\MSSA\DS_Algo\Mod5Q_Array\bin\Debug\net8.0\Mod5Q_Array.pdb
+C:\Users\danie\Documents\MSSA\DS_Algo\Mod5Q_Array\obj\Debug\net8.0\Mod5Q_Array.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\danie\Documents\MSSA\DS_Algo\Mod5Q_Array\obj\Debug\net8.0\Mod5Q_Array.AssemblyInfoInputs.cache
+C:\Users\danie\Documents\MSSA\DS_Algo\Mod5Q_Array\obj\Debug\net8.0\Mod5Q_Array.AssemblyInfo.cs
+C:\Users\danie\Documents\MSSA\DS_Algo\Mod5Q_Array\obj\Debug\net8.0\Mod5Q_Array.csproj.CoreCompileInputs.cache
+C:\Users\danie\Documents\MSSA\DS_Algo\Mod5Q_Array\obj\Debug\net8.0\Mod5Q_Array.sourcelink.json
+C:\Users\danie\Documents\MSSA\DS_Algo\Mod5Q_Array\obj\Debug\net8.0\Mod5Q_Array.dll
+C:\Users\danie\Documents\MSSA\DS_Algo\Mod5Q_Array\obj\Debug\net8.0\refint\Mod5Q_Array.dll
+C:\Users\danie\Documents\MSSA\DS_Algo\Mod5Q_Array\obj\Debug\net8.0\Mod5Q_Array.pdb
+C:\Users\danie\Documents\MSSA\DS_Algo\Mod5Q_Array\obj\Debug\net8.0\Mod5Q_Array.genruntimeconfig.cache
+C:\Users\danie\Documents\MSSA\DS_Algo\Mod5Q_Array\obj\Debug\net8.0\ref\Mod5Q_Array.dll

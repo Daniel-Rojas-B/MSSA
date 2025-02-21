@@ -1,0 +1,15 @@
+C:\Users\danie\Documents\MSSA\DS_Algo\Mod5QLinkedList\obj\Debug\net8.0\Mod5QLinkedList.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\danie\Documents\MSSA\DS_Algo\Mod5QLinkedList\obj\Debug\net8.0\Mod5QLinkedList.AssemblyInfoInputs.cache
+C:\Users\danie\Documents\MSSA\DS_Algo\Mod5QLinkedList\obj\Debug\net8.0\Mod5QLinkedList.AssemblyInfo.cs
+C:\Users\danie\Documents\MSSA\DS_Algo\Mod5QLinkedList\obj\Debug\net8.0\Mod5QLinkedList.csproj.CoreCompileInputs.cache
+C:\Users\danie\Documents\MSSA\DS_Algo\Mod5QLinkedList\obj\Debug\net8.0\Mod5QLinkedList.sourcelink.json
+C:\Users\danie\Documents\MSSA\DS_Algo\Mod5QLinkedList\bin\Debug\net8.0\Mod5QLinkedList.exe
+C:\Users\danie\Documents\MSSA\DS_Algo\Mod5QLinkedList\bin\Debug\net8.0\Mod5QLinkedList.deps.json
+C:\Users\danie\Documents\MSSA\DS_Algo\Mod5QLinkedList\bin\Debug\net8.0\Mod5QLinkedList.runtimeconfig.json
+C:\Users\danie\Documents\MSSA\DS_Algo\Mod5QLinkedList\bin\Debug\net8.0\Mod5QLinkedList.dll
+C:\Users\danie\Documents\MSSA\DS_Algo\Mod5QLinkedList\bin\Debug\net8.0\Mod5QLinkedList.pdb
+C:\Users\danie\Documents\MSSA\DS_Algo\Mod5QLinkedList\obj\Debug\net8.0\Mod5QLinkedList.dll
+C:\Users\danie\Documents\MSSA\DS_Algo\Mod5QLinkedList\obj\Debug\net8.0\refint\Mod5QLinkedList.dll
+C:\Users\danie\Documents\MSSA\DS_Algo\Mod5QLinkedList\obj\Debug\net8.0\Mod5QLinkedList.pdb
+C:\Users\danie\Documents\MSSA\DS_Algo\Mod5QLinkedList\obj\Debug\net8.0\Mod5QLinkedList.genruntimeconfig.cache
+C:\Users\danie\Documents\MSSA\DS_Algo\Mod5QLinkedList\obj\Debug\net8.0\ref\Mod5QLinkedList.dll
