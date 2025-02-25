@@ -1,0 +1,15 @@
+C:\Users\danie\Documents\MSSA\DS_Algo\Week6_challenge\bin\Debug\net8.0\Week6_challenge.exe
+C:\Users\danie\Documents\MSSA\DS_Algo\Week6_challenge\bin\Debug\net8.0\Week6_challenge.deps.json
+C:\Users\danie\Documents\MSSA\DS_Algo\Week6_challenge\bin\Debug\net8.0\Week6_challenge.runtimeconfig.json
+C:\Users\danie\Documents\MSSA\DS_Algo\Week6_challenge\bin\Debug\net8.0\Week6_challenge.dll
+C:\Users\danie\Documents\MSSA\DS_Algo\Week6_challenge\bin\Debug\net8.0\Week6_challenge.pdb
+C:\Users\danie\Documents\MSSA\DS_Algo\Week6_challenge\obj\Debug\net8.0\Week6_challenge.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\danie\Documents\MSSA\DS_Algo\Week6_challenge\obj\Debug\net8.0\Week6_challenge.AssemblyInfoInputs.cache
+C:\Users\danie\Documents\MSSA\DS_Algo\Week6_challenge\obj\Debug\net8.0\Week6_challenge.AssemblyInfo.cs
+C:\Users\danie\Documents\MSSA\DS_Algo\Week6_challenge\obj\Debug\net8.0\Week6_challenge.csproj.CoreCompileInputs.cache
+C:\Users\danie\Documents\MSSA\DS_Algo\Week6_challenge\obj\Debug\net8.0\Week6_challenge.sourcelink.json
+C:\Users\danie\Documents\MSSA\DS_Algo\Week6_challenge\obj\Debug\net8.0\Week6_challenge.dll
+C:\Users\danie\Documents\MSSA\DS_Algo\Week6_challenge\obj\Debug\net8.0\refint\Week6_challenge.dll
+C:\Users\danie\Documents\MSSA\DS_Algo\Week6_challenge\obj\Debug\net8.0\Week6_challenge.pdb
+C:\Users\danie\Documents\MSSA\DS_Algo\Week6_challenge\obj\Debug\net8.0\Week6_challenge.genruntimeconfig.cache
+C:\Users\danie\Documents\MSSA\DS_Algo\Week6_challenge\obj\Debug\net8.0\ref\Week6_challenge.dll
