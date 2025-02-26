@@ -1,0 +1,15 @@
+C:\Users\danie\Documents\MSSA\DS_Algo\Mod7ShellSort\bin\Debug\net8.0\Mod7ShellSort.exe
+C:\Users\danie\Documents\MSSA\DS_Algo\Mod7ShellSort\bin\Debug\net8.0\Mod7ShellSort.deps.json
+C:\Users\danie\Documents\MSSA\DS_Algo\Mod7ShellSort\bin\Debug\net8.0\Mod7ShellSort.runtimeconfig.json
+C:\Users\danie\Documents\MSSA\DS_Algo\Mod7ShellSort\bin\Debug\net8.0\Mod7ShellSort.dll
+C:\Users\danie\Documents\MSSA\DS_Algo\Mod7ShellSort\bin\Debug\net8.0\Mod7ShellSort.pdb
+C:\Users\danie\Documents\MSSA\DS_Algo\Mod7ShellSort\obj\Debug\net8.0\Mod7ShellSort.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\danie\Documents\MSSA\DS_Algo\Mod7ShellSort\obj\Debug\net8.0\Mod7ShellSort.AssemblyInfoInputs.cache
+C:\Users\danie\Documents\MSSA\DS_Algo\Mod7ShellSort\obj\Debug\net8.0\Mod7ShellSort.AssemblyInfo.cs
+C:\Users\danie\Documents\MSSA\DS_Algo\Mod7ShellSort\obj\Debug\net8.0\Mod7ShellSort.csproj.CoreCompileInputs.cache
+C:\Users\danie\Documents\MSSA\DS_Algo\Mod7ShellSort\obj\Debug\net8.0\Mod7ShellSort.sourcelink.json
+C:\Users\danie\Documents\MSSA\DS_Algo\Mod7ShellSort\obj\Debug\net8.0\Mod7ShellSort.dll
+C:\Users\danie\Documents\MSSA\DS_Algo\Mod7ShellSort\obj\Debug\net8.0\refint\Mod7ShellSort.dll
+C:\Users\danie\Documents\MSSA\DS_Algo\Mod7ShellSort\obj\Debug\net8.0\Mod7ShellSort.pdb
+C:\Users\danie\Documents\MSSA\DS_Algo\Mod7ShellSort\obj\Debug\net8.0\Mod7ShellSort.genruntimeconfig.cache
+C:\Users\danie\Documents\MSSA\DS_Algo\Mod7ShellSort\obj\Debug\net8.0\ref\Mod7ShellSort.dll
