@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assignment7_3", "Assignment7_3.csproj", "{D296A48D-4F2D-4E57-96E8-C366E0DC32BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mod8BST", "..\Mod8BST\Mod8BST.csproj", "{063532A9-64E9-4615-9FF9-4A0618DC38AA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D296A48D-4F2D-4E57-96E8-C366E0DC32BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D296A48D-4F2D-4E57-96E8-C366E0DC32BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D296A48D-4F2D-4E57-96E8-C366E0DC32BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D296A48D-4F2D-4E57-96E8-C366E0DC32BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{063532A9-64E9-4615-9FF9-4A0618DC38AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{063532A9-64E9-4615-9FF9-4A0618DC38AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{063532A9-64E9-4615-9FF9-4A0618DC38AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{063532A9-64E9-4615-9FF9-4A0618DC38AA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,15 @@
+C:\Users\danie\Documents\MSSA\DS_Algo\Mod8BST\bin\Debug\net8.0\Mod8BST.exe
+C:\Users\danie\Documents\MSSA\DS_Algo\Mod8BST\bin\Debug\net8.0\Mod8BST.deps.json
+C:\Users\danie\Documents\MSSA\DS_Algo\Mod8BST\bin\Debug\net8.0\Mod8BST.runtimeconfig.json
+C:\Users\danie\Documents\MSSA\DS_Algo\Mod8BST\bin\Debug\net8.0\Mod8BST.dll
+C:\Users\danie\Documents\MSSA\DS_Algo\Mod8BST\bin\Debug\net8.0\Mod8BST.pdb
+C:\Users\danie\Documents\MSSA\DS_Algo\Mod8BST\obj\Debug\net8.0\Mod8BST.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\danie\Documents\MSSA\DS_Algo\Mod8BST\obj\Debug\net8.0\Mod8BST.AssemblyInfoInputs.cache
+C:\Users\danie\Documents\MSSA\DS_Algo\Mod8BST\obj\Debug\net8.0\Mod8BST.AssemblyInfo.cs
+C:\Users\danie\Documents\MSSA\DS_Algo\Mod8BST\obj\Debug\net8.0\Mod8BST.csproj.CoreCompileInputs.cache
+C:\Users\danie\Documents\MSSA\DS_Algo\Mod8BST\obj\Debug\net8.0\Mod8BST.sourcelink.json
+C:\Users\danie\Documents\MSSA\DS_Algo\Mod8BST\obj\Debug\net8.0\Mod8BST.dll
+C:\Users\danie\Documents\MSSA\DS_Algo\Mod8BST\obj\Debug\net8.0\refint\Mod8BST.dll
+C:\Users\danie\Documents\MSSA\DS_Algo\Mod8BST\obj\Debug\net8.0\Mod8BST.pdb
+C:\Users\danie\Documents\MSSA\DS_Algo\Mod8BST\obj\Debug\net8.0\Mod8BST.genruntimeconfig.cache
+C:\Users\danie\Documents\MSSA\DS_Algo\Mod8BST\obj\Debug\net8.0\ref\Mod8BST.dll
