@@ -174,3 +174,6 @@ C:\Users\danie\Documents\MSSA\SoccerBettingAPI\bin\Debug\net8.0\soccer-betting-f
 C:\Users\danie\Documents\MSSA\SoccerBettingAPI\bin\Debug\net8.0\soccer-betting-frontend\package.json
 C:\Users\danie\Documents\MSSA\SoccerBettingAPI\bin\Debug\net8.0\soccer-betting-frontend\public\manifest.json
 C:\Users\danie\Documents\MSSA\SoccerBettingAPI\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\danie\Documents\MSSA\SoccerBettingAPI\bin\Debug\net8.0\package-lock.json
+C:\Users\danie\Documents\MSSA\SoccerBettingAPI\bin\Debug\net8.0\package.json
+C:\Users\danie\Documents\MSSA\SoccerBettingAPI\bin\Debug\net8.0\BCrypt.Net-Next.dll

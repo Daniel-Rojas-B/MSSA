@@ -12,6 +12,28 @@ namespace SoccerBettingAPI
         {
             var builder = WebApplication.CreateBuilder(args);
 
+            var MyAllowSpecificOrigins = "_myAllowSpecificOrigins";
+
+            builder.Services.AddCors(options =>
+            {
+                options.AddPolicy(name: MyAllowSpecificOrigins,
+                    policy =>
+                    {
+                        policy.WithOrigins("http://localhost:3000") // Allow frontend
+                              .AllowAnyMethod()
+                              .AllowAnyHeader()
+                              .AllowCredentials();
+                    });
+            });
+
+            builder.WebHost.ConfigureKestrel(options =>
+            {
+                options.ListenAnyIP(5180); // HTTP
+                options.ListenAnyIP(7020, listenOptions =>
+                {
+                    listenOptions.UseHttps(); // HTTPS
+                });
+            });
             // Add services to the container.
             // ✅ Ensure connection string is correct in appsettings.json
             builder.Services.AddDbContext<SoccerBettingContext>(options =>
@@ -41,6 +63,8 @@ namespace SoccerBettingAPI
 
             builder.Services.AddControllers();
             builder.Services.AddDbContext<SoccerBettingContext>();
+
+
             builder.Services.AddAuthorization();
 
             var app = builder.Build();
@@ -54,9 +78,11 @@ namespace SoccerBettingAPI
 
             app.UseHttpsRedirection();
 
-            app.UseAuthentication();
-            app.UseAuthorization();
+            app.UseCors(MyAllowSpecificOrigins); 
 
+            app.UseAuthentication();
+
+            app.UseAuthorization();
 
             app.MapControllers();
 
