@@ -22,15 +22,20 @@ function Login() {
     // Handle Login
     const handleLogin = async (e) => {
         e.preventDefault();
+        setError(""); // Clear any previous errors
 
         try {
-            const response = await fetch("http://localhost:7020/api/auth/login", {
+            const response = await fetch("https://localhost:7020/api/auth/login", {
                 method: "POST",
                 headers: { "Content-Type": "application/json" },
-                body: JSON.stringify({ username, passwordHash: password }),
+                body: JSON.stringify({
+                    username,
+                    password: password
+                }),
             });
 
             if (!response.ok) {
+                const errorData = await response.json();
                 throw new Error("Invalid login credentials");
             }
 
@@ -78,6 +83,8 @@ function Login() {
 
             setRegisterSuccess("User registered successfully!");
             setRegisterData({ username: "", password: "", email: "" });
+
+            navigate("/dashboard"); // Redirect to Dashboard
 
         } catch (err) {
             setRegisterError(err.message);
