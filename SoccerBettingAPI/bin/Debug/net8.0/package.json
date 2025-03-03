@@ -1,9 +1,9 @@
 {
     "dependencies": {
-        "framer-motion": "^12.4.7"
+        "framer-motion": "^12.4.7",
+        "openai": "^4.86.1"
     },
     "scripts": {
         "start": "set PORT=3000 && react-scripts start"
-
     }
 }

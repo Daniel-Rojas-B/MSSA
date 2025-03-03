@@ -177,3 +177,4 @@ C:\Users\danie\Documents\MSSA\SoccerBettingAPI\bin\Debug\net8.0\Microsoft.AspNet
 C:\Users\danie\Documents\MSSA\SoccerBettingAPI\bin\Debug\net8.0\package-lock.json
 C:\Users\danie\Documents\MSSA\SoccerBettingAPI\bin\Debug\net8.0\package.json
 C:\Users\danie\Documents\MSSA\SoccerBettingAPI\bin\Debug\net8.0\BCrypt.Net-Next.dll
+C:\Users\danie\Documents\MSSA\soccerbettingapi\bin\Debug\net8.0\Newtonsoft.Json.dll

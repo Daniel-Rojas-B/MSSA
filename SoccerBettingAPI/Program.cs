@@ -14,6 +14,7 @@ namespace SoccerBettingAPI
 
             var MyAllowSpecificOrigins = "_myAllowSpecificOrigins";
 
+            // CORS Configuration
             builder.Services.AddCors(options =>
             {
                 options.AddPolicy(name: MyAllowSpecificOrigins,
@@ -31,25 +32,39 @@ namespace SoccerBettingAPI
                 options.ListenAnyIP(5180); // HTTP
                 options.ListenAnyIP(7020, listenOptions =>
                 {
-                    listenOptions.UseHttps(); // HTTPS
+                    listenOptions.UseHttps(); // HTTPS (Ensure a valid certificate is available)
                 });
             });
-            // Add services to the container.
-            // ✅ Ensure connection string is correct in appsettings.json
+
+            // Database Context
+            var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
+            if (string.IsNullOrEmpty(connectionString))
+            {
+                throw new InvalidOperationException("Database connection string is missing!");
+            }
             builder.Services.AddDbContext<SoccerBettingContext>(options =>
-                options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+                options.UseSqlServer(connectionString));
 
             builder.Services.AddControllers();
-            // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+
+            // Swagger configuration
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
 
-            // ✅ Ensure Configuration is Registered
-            var configuration = builder.Configuration;
-            builder.Services.AddSingleton<IConfiguration>(configuration);
+            // Add HttpClient
+            builder.Services.AddHttpClient();
 
-            // ✅ Configure JWT authentication
-            var key = Encoding.UTF8.GetBytes(builder.Configuration["Jwt:Key"]);
+            // Register IConfiguration
+            builder.Services.AddSingleton<IConfiguration>(builder.Configuration);
+
+            // JWT Authentication
+            var jwtKey = builder.Configuration["Jwt:Key"];
+            if (string.IsNullOrEmpty(jwtKey))
+            {
+                throw new InvalidOperationException("JWT Key is missing in configuration!");
+            }
+            var key = Encoding.UTF8.GetBytes(jwtKey);
+
             builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
                 .AddJwtBearer(options =>
                 {
@@ -65,10 +80,6 @@ namespace SoccerBettingAPI
                     };
                 });
 
-            builder.Services.AddControllers();
-            builder.Services.AddDbContext<SoccerBettingContext>();
-
-
             builder.Services.AddAuthorization();
 
             var app = builder.Build();
@@ -80,17 +91,14 @@ namespace SoccerBettingAPI
                 app.UseSwaggerUI();
             }
 
-            app.UseHttpsRedirection();
-
-            app.UseCors(MyAllowSpecificOrigins); 
-
+            app.UseRouting();
+            app.UseCors(MyAllowSpecificOrigins);
             app.UseAuthentication();
-
             app.UseAuthorization();
-
             app.MapControllers();
-
             app.Run();
         }
     }
 }
+
+
