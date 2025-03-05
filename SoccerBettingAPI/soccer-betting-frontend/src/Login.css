@@ -68,9 +68,9 @@
         opacity: 0.8;
     }
 h2 {
-    font-size: 48px;
+    font-size: 23px;
     font-weight: bold;
-    text-transform: uppercase;
+    
     text-align: center;
     background: linear-gradient(45deg, #006400, #228B22, #32CD32, #006400);
     -webkit-background-clip: text;

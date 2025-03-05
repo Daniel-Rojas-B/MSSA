@@ -1,138 +1,246 @@
 ﻿import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
+import "./Dashboard.css";
+
 
 function Dashboard() {
     const navigate = useNavigate();
-    const [prediction, setPrediction] = useState("Loading prediction...");
+    const [prediction, setPrediction] = useState("Select teams and match date ...");
 
+    const [league, setLeague] = useState("");
+    const [teamA, setTeamA] = useState('');
+    const [teamB, setTeamB] = useState('');
+    
+    const [matchDate, setMatchDate] = useState("");
+    const [odds, setOdds] = useState({ home: 0, tie: 0, away: 0 });
+
+    const leagues = {
+        "Premier League": [
+            "Arsenal",
+            "Aston Villa",
+            "Bournemouth",
+            "Brentford",
+            "Chelsea",
+            "Crystal Palace",
+            "Everton",
+            "Fulham",
+            "Liverpool",
+            "Luton Town",
+            "Manchester City",
+            "Manchester United",
+            "Newcastle United",
+            "Nottingham Forest",
+            "Sheffield United",
+            "Tottenham Hotspur",
+            "West Ham United",
+            "Wolverhampton Wanderers"
+        ],
+        "La Liga": [
+            "Alaves",
+            "Athletic Bilbao",
+            "Atletico Madrid",
+            "Barcelona",
+            "Real Madrid",
+            "Celta Vigo",
+            "Cadiz",
+            "Getafe",
+            "Granada",
+            "Mallorca",
+            "Osasuna",
+            "Rayo Vallecano",
+            "Real Betis",
+            "Real Sociedad",
+            "Sevilla",
+            "Valencia",
+            "Villarreal"
+        ],
+        "Serie A": [
+            "Atalanta",
+            "Bologna",
+            "Cagliari",
+            "Empoli",
+            "Fiorentina",
+            "Genoa",
+            "Inter Milan",
+            "Juventus",
+            "Lazio",
+            "Lecce",
+            "Milan",
+            "Monza",
+            "Napoli",
+            "Roma",
+            "Salernitana",
+            "Sampdoria",
+            "Sassuolo",
+            "Spezia",
+            "Torino",
+            "Udinese"
+        ],
+        "Bundesliga": [
+            "Bayer Leverkusen",
+            "Bayern Munich",
+            "Bochum",
+            "Borussia Dortmund",
+            "Cologne",
+            "Eintracht Frankfurt",
+            "Freiburg",
+            "Hoffenheim",
+            "Mainz",
+            "RB Leipzig",
+            "Wolfsburg",
+            "Werder Bremen",
+            "Union Berlin",
+            "VfB Stuttgart"
+        ],
+        "Ligue 1": [
+            "Angers SCO",
+            "Auxerre",
+            "Brest",
+            "Lens",
+            "Lille",
+            "Lyon",
+            "Marseille",
+            "Monaco",
+            "Montpellier",
+            "Nice",
+            "Paris Saint-Germain",
+            "Reims",
+            "Rennes",
+            "Strasbourg",
+            "Toulouse",
+            "Clermont",
+            "Lorient",
+            "Nantes"],
+    };
+
+    const backendUrl = "http://localhost:5180";
+    const token = localStorage.getItem("token"); // Retrieve JWT
+
+    const handleFetchOdds = () => {
+        if (league && teamA && teamB && matchDate) {
+            // Simulating fetching odds from an API
+            setOdds({
+                home: (Math.random() * 3 + 1).toFixed(2),
+                tie: (Math.random() * 3 + 2).toFixed(2),
+                away: (Math.random() * 3 + 1).toFixed(2),
+            });
+        }
+    };
     const handleLogout = () => {
         localStorage.removeItem("token"); // Remove JWT token
         navigate("/"); // Redirect to Login
     };
 
     useEffect(() => {
-        const homeTeam = "Liverpool";
-        const awayTeam = "Manchester City";
-        const backendUrl = "http://localhost:5180";
-        const token = localStorage.getItem("token"); // Retrieve JWT
+        if (teamA && teamB) {
+                       
 
-        async function fetchPrediction() {
-            try {
-                const response = await fetch(`${backendUrl}/api/Prediction/match?homeTeam=${homeTeam}&awayTeam=${awayTeam}`, {
-                    method: "GET",
-                    headers: {
-                        "Authorization": `Bearer ${token}`,  // Send JWT token
-                        "Content-Type": "application/json",
-                    },
-                    credentials: "include", // Ensure credentials are sent
-                });
+            async function fetchPrediction() {
+                try {
+                    const response = await fetch(`${backendUrl}/api/Prediction/match?homeTeam=${teamA}&awayTeam=${teamB}`, {
+                        method: "GET",
+                        headers: {
+                            "Authorization": `Bearer ${token}`,  // Send JWT token
+                            "Content-Type": "application/json",
+                        },
+                        credentials: "include", // Ensure credentials are sent
+                    });
 
-                if (!response.ok) {
-                    throw new Error(`HTTP error! Status: ${response.status}`);
+                    if (!response.ok) {
+                        throw new Error(`HTTP error! Status: ${response.status}`);
+                    }
+
+                    const data = await response.json();
+                    setPrediction(`Prediction: ${data.prediction}`);
+                } catch (error) {
+                    console.error("Error fetching prediction:", error);
+                    setPrediction("Failed to load prediction.");
                 }
-
-                const data = await response.json();
-                setPrediction(`Prediction: ${data.prediction}`);
-            } catch (error) {
-                console.error("Error fetching prediction:", error);
-                setPrediction("Failed to load prediction.");
             }
+
+            fetchPrediction();
         }
+    }, [teamA, teamB]); // Only runs when teamA or teamB change
 
-        fetchPrediction();
-    }, []); // Run once when component mounts
-
+    
+    
     return (
         <div className="container">
-            {/* Fixed Header */}
-            <div
-                className="header"
-                style={{
-                    display: "flex",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    position: "fixed",
-                    top: "0",
-                    left: "0",
-                    width: "100%",
-                    backgroundColor: "black",
-                    padding: "15px",
-                    boxShadow: "0px 4px 6px rgba(0, 0, 0, 0.3)",
-                    zIndex: "1000"
-                }}
-            >
-                {/* SVG Logo */}
-                <svg width="300" height="100" viewBox="0 0 300 100" xmlns="http://www.w3.org/2000/svg">
-                    <defs>
-                        <linearGradient id="greenGradient" x1="0%" y1="0%" x2="100%" y2="0%">
-                            <stop offset="0%" style={{ stopColor: "#28a745", stopOpacity: 1 }} />
-                            <stop offset="100%" style={{ stopColor: "#218838", stopOpacity: 1 }} />
-                        </linearGradient>
-                    </defs>
+            {/* Header */}
+            <div className="header">
+                <div className="logo-container">
+                    <svg width="300" height="100" viewBox="0 0 300 100" xmlns="http://www.w3.org/2000/svg">
+                        <defs>
+                            <linearGradient id="greenGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+                                <stop offset="0%" style={{ stopColor: "#28a745", stopOpacity: 1 }} />
+                                <stop offset="100%" style={{ stopColor: "#218838", stopOpacity: 1 }} />
+                            </linearGradient>
+                        </defs>
 
-                    {/* Soccer Ball */}
-                    <circle cx="40" cy="50" r="20" fill="black" stroke="white" strokeWidth="3" />
-                    <polygon points="40,30 30,40 35,50 45,50 50,40" fill="white" />
-                    <polygon points="40,70 30,60 35,50 45,50 50,60" fill="white" />
+                        {/* Soccer Ball */}
+                        <circle cx="40" cy="50" r="20" fill="black" stroke="white" strokeWidth="3" />
+                        <polygon points="40,30 30,40 35,50 45,50 50,40" fill="white" />
+                        <polygon points="40,70 30,60 35,50 45,50 50,60" fill="white" />
 
-                    {/* Text */}
-                    <text x="70" y="45" fontFamily="Arial, sans-serif" fontSize="20" fill="url(#greenGradient)" fontWeight="bold">
-                        Bet & Chill
-                    </text>
-                    <text x="70" y="70" fontFamily="Arial, sans-serif" fontSize="14" fill="lightgrey">
-                        - Soccer Betting -
-                    </text>
-                </svg>
-
-                {/* Logout Button */}
-                <button
-                    onClick={handleLogout}
-                    style={{
-                        position: "absolute",
-                        top: "20px",
-                        right: "50px",
-                        backgroundColor: "#dc3545",
-                        color: "white",
-                        border: "none",
-                        padding: "10px 15px",
-                        fontSize: "16px",
-                        cursor: "pointer",
-                        borderRadius: "5px"
-                    }}
-                >
-                    Logout
-                </button>
-            </div>
-
-            {/* Page Content */}
-            <div style={{
-                display: "flex",
-                justifyContent: "center",
-                alignItems: "center",
-                minHeight: "calc(100vh - 100px)", // Ensures full viewport height minus header
-                marginTop: "100px", // Adjusts space under the fixed header
-                padding: "20px"
-            }}>
-                <div style={{
-                    width: "80%", // Wide responsive box
-                    maxWidth: "900px", // Prevents excessive width on larger screens
-                    padding: "30px",
-                    backgroundColor: "white",
-                    borderRadius: "12px",
-                    boxShadow: "0px 4px 10px rgba(0, 0, 0, 0.1)", // Soft shadow for depth
-                    textAlign: "center"
-                }}>
-                    <h1>Welcome to Dashboard</h1>
-                    <div>
-                        <h2>Match Prediction</h2>
-                        <p>{prediction}</p>
-                    </div>
+                        {/* Text */}
+                        <text x="70" y="45" fontFamily="Arial, sans-serif" fontSize="20" fill="url(#greenGradient)" fontWeight="bold">
+                            Bet & Chill
+                        </text>
+                        <text x="70" y="70" fontFamily="Arial, sans-serif" fontSize="14" fill="grey">
+                            - Soccer Betting -
+                        </text>
+                    </svg>
                 </div>
+
+                <button className="logout-btn" onClick={handleLogout}>Logout</button>
             </div>
 
+            <div>
+                <p> soccer betting App</p>
+            </div>
 
+            {/* Dashboard */}
+            <div className="dashboard">
+                <h1>Bets Dashboard</h1>
+                <div className="selection">
+                    <select value={league} onChange={(e) => { setLeague(e.target.value); setTeamA(""); setTeamB(""); }}>
+                        <option value="">Select League</option>
+                        {Object.keys(leagues).map((lg) => (
+                            <option key={lg} value={lg}>{lg}</option>
+                        ))}
+                    </select>
 
-        </div>
+                    <select value={teamA} onChange={(e) => { setTeamA(e.target.value); setTeamB(""); }} disabled={!league}>
+                        <option value="">Select Team A</option>
+                        {league && leagues[league].map((team) => (
+                            <option key={team} value={team}>{team}</option>
+                        ))}
+                    </select>
+
+                    <select value={teamB} onChange={(e) => setTeamB(e.target.value)} disabled={!league || !teamA}>
+                        <option value="">Select Team B</option>
+                        {league && leagues[league].filter((team) => team !== teamA).map((team) => (
+                            <option key={team} value={team}>{team}</option>
+                        ))}
+                    </select>
+
+                    <input type="date" value={matchDate} onChange={(e) => setMatchDate(e.target.value)} />
+
+                    <button onClick={handleFetchOdds} disabled={!teamA || !teamB || !matchDate}>Get Odds</button>
+                </div>
+
+                {odds.home !== 0 && (
+                    <div className="odds-container">
+                        <div className="odds-box home">🏠 Home: {odds.home}</div>
+                        <div className="odds-box tie">⚖️ Tie: {odds.tie}</div>
+                        <div className="odds-box away">🚀 Away: {odds.away}</div>
+                    </div>
+                )}
+
+                <h2>Match Brief and Prediction</h2>
+                <p style={{ color: 'red' }}>{prediction}</p>
+            </div>
+        </div>    
     );
 }
 

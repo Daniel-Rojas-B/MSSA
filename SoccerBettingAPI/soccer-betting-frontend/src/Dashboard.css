@@ -1,0 +1,224 @@
+﻿/* General Styles */
+body {
+    background-color: #f0f4f8;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: black;
+    height: 80px; /* Adjusted height for better responsiveness */
+    width: 100%;
+    position: fixed; /* Keeps it at the top even when scrolling */
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.logo-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logout-btn {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 10px 16px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 4px;
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    margin: 0px 40px;
+}
+
+    .logout-btn:hover {
+        background-color: #c82333;
+    }
+
+/* Main Container */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 120px;
+}
+
+.dashboard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #222; /* Dark background to match the theme */
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 90%; /* Makes it responsive */
+    max-width: 800px; /* Prevents it from stretching too much */
+    margin: 100px auto; /* Centers it with margin from top */
+}
+
+
+
+/* Selection Container */
+.selection {
+    display: flex;
+    flex-wrap: wrap; /* Allows wrapping on smaller screens */
+    justify-content: center;
+    align-items: center;
+    gap: 15px; /* Adds space between elements */
+    margin-top: 20px;
+}
+
+    .selection select,
+    .selection input,
+    .selection button {
+        padding: 10px;
+        font-size: 16px;
+        border-radius: 5px;
+        border: none;
+    }
+
+    .selection select {
+        width: 150px;
+    }
+
+    .selection input {
+        width: 160px;
+    }
+
+    .selection button {
+        background-color: #dc3545;
+        color: white;
+        cursor: pointer;
+        font-weight: bold;
+        transition: background 0.3s;
+    }
+
+        .selection button:disabled {
+            background-color: grey;
+            cursor: not-allowed;
+        }
+
+        .selection button:hover:not(:disabled) {
+            background-color: #218838;
+        }
+/* Input Fields */
+select, input[type="date"] {
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    background-color: #fafafa;
+    transition: all 0.3s ease;
+}
+
+    select:focus, input[type="date"]:focus {
+        outline: none;
+        border-color: #28a745;
+        box-shadow: 0 0 8px rgba(40, 167, 69, 0.4);
+    }
+
+/* Button Styles */
+button {
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    padding: 14px;
+    font-size: 18px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+    button:disabled {
+        background-color: #ccc;
+        cursor: not-allowed;
+    }
+
+    button:hover:enabled {
+        background-color: red;
+    }
+
+.odds-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.odds-box {
+    background: #28a745;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+    .odds-box:hover {
+        transform: translateY(-5px);
+    }
+
+    .odds-box.home {
+        background-color: #007bff;
+        color: white;
+    }
+
+    .odds-box.tie {
+        background-color: #ffc107;
+        color: black;
+    }
+
+    .odds-box.away {
+        background-color: #dc3545;
+        color: white;
+    }
+
+@media (max-width: 768px) {
+    .selection {
+        flex-direction: column; /* Stack elements vertically on small screens */
+    }
+
+        .selection select,
+        .selection input,
+        .selection button {
+            width: 100%;
+        }
+            .dashboard {
+        width: 95%;
+        margin: 80px auto; /* Adjust spacing for smaller screens */
+        padding: 15px;
+    }
+        .header {
+        flex-direction: row;
+        height: 70px; /* Reduce height for smaller screens */
+        padding: 10px;
+    }
+
+    .logout-btn {
+        padding: 8px 12px;
+        font-size: 12px;
+    }
+
+    svg {
+        width: 250px; /* Scale down logo for smaller screens */
+    }
+    
+}
+h1 {
+    background: linear-gradient(90deg, #28a745, #218838); /* Green gradient */
+    -webkit-background-clip: text; /* Ensures the gradient is applied to the text */
+    color: transparent; /* Makes the text color transparent so the gradient is visible */
+    font-size: 2rem; /* Adjust font size as needed */
+    font-weight: bold;
+}

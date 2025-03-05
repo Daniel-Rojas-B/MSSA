@@ -37,7 +37,7 @@ namespace SoccerBettingAPI.Controllers
                 messages = new[]
                 {
             new { role = "system", content = "You are a soccer match predictor." },
-            new { role = "user", content = $"Based on the current form, team statistics, head-to-head results, and key player performances, give a brief description of {homeTeam} vs {awayTeam} match. Provide a 4 sentences paragraph for your prediction. Give me a tentative score" }
+            new { role = "user", content = $"Based on the current form, team statistics, head-to-head results, and key player performances, give a two sentences brief description of {homeTeam} vs {awayTeam} match. Give me a tentative score written in third person and the home, away and tie odds" }
         }
             };
 
