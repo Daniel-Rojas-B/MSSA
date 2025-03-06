@@ -6,27 +6,50 @@ import "./Dashboard.css";
 function Dashboard() {
     const navigate = useNavigate();
     const [prediction, setPrediction] = useState("Select League and Teams ...");
-
     const [league, setLeague] = useState("");
     const [teamA, setTeamA] = useState('');
-    const [teamB, setTeamB] = useState('');
-
-    // Place bet State variables
+    const [teamB, setTeamB] = useState('');    
     const [betType, setBetType] = useState('');
     const [betAmount, setBetAmount] = useState('');
     const [message, setMessage] = useState('');
+    const [bets, setBets] = useState([]);
+    const [editingIndex, setEditingIndex] = useState(null);
 
-    // Handle placing the bet
     const handlePlaceBet = () => {
         if (!betType || !betAmount || betAmount <= 0) {
             setMessage('Please select a valid bet type and amount.');
             return;
         }
+
+        const newBet = { league, teamA, teamB, betType, betAmount };
+
+        if (editingIndex !== null) {
+            const updatedBets = [...bets];
+            updatedBets[editingIndex] = newBet;
+            setBets(updatedBets);
+            setEditingIndex(null);
+        } else {
+            setBets([...bets, newBet]);
+        }
+
         setMessage(`Bet placed! Type: ${betType}, Amount: $${betAmount}`);
+        setBetType('');
+        setBetAmount('');
     };
-    
-    const [matchDate, setMatchDate] = useState("");
-    const [odds, setOdds] = useState({ home: 0, tie: 0, away: 0 });
+
+    const handleEditBet = (index) => {
+        const bet = bets[index];
+        setLeague(bet.league);
+        setTeamA(bet.teamA);
+        setTeamB(bet.teamB);
+        setBetType(bet.betType);
+        setBetAmount(bet.betAmount);
+        setEditingIndex(index);
+    };
+
+    const handleDeleteBet = (index) => {
+        setBets(bets.filter((_, i) => i !== index));
+    };
 
     const leagues = {
         "Premier": [
@@ -130,16 +153,7 @@ function Dashboard() {
     const backendUrl = "http://localhost:5180";
     const token = localStorage.getItem("token"); // Retrieve JWT
 
-    const handleFetchOdds = () => {
-        if (league && teamA && teamB && matchDate) {
-            // Simulating fetching odds from an API
-            setOdds({
-                home: (Math.random() * 3 + 1).toFixed(2),
-                tie: (Math.random() * 3 + 2).toFixed(2),
-                away: (Math.random() * 3 + 1).toFixed(2),
-            });
-        }
-    };
+    
     const handleLogout = () => {
         localStorage.removeItem("token"); // Remove JWT token
         navigate("/"); // Redirect to Login
@@ -213,7 +227,7 @@ function Dashboard() {
 
             {/* Dashboard */}
             <div className="dashboard">
-                <h1>Bets Dashboard</h1>
+                <h1>Dashboard</h1>
                 <div className="selection">
                     <label>League:</label>
                     <select value={league} onChange={(e) => { setLeague(e.target.value); setTeamA(""); setTeamB(""); }}>
@@ -243,16 +257,9 @@ function Dashboard() {
 
                     {/*<button onClick={handleFetchOdds} disabled={!teamA || !teamB || !matchDate}>Get Odds</button>*/}
                 </div>
+                
 
-                {odds.home !== 0 && (
-                    <div className="odds-container">
-                        <div className="odds-box home">🏠 Home: {odds.home}</div>
-                        <div className="odds-box tie">⚖️ Tie: {odds.tie}</div>
-                        <div className="odds-box away">🚀 Away: {odds.away}</div>
-                    </div>
-                )}
-
-                <h2>Match Brief and Odds</h2>
+                <h2>Brief and Odds</h2>
                 <p style={{ color: 'red' }}>{prediction}</p>
 
                 <div className="betting-selection">
@@ -265,17 +272,37 @@ function Dashboard() {
                     </select>
 
                     <label>Bet Amount:</label>
-                    <input
-                        type="number"
-                        value={betAmount}
-                        onChange={(e) => setBetAmount(e.target.value)}
-                        min="1"
-                        placeholder="Enter amount"
-                    />
-
-                    <button className="bet-button" onClick={handlePlaceBet} disabled={!betType || !betAmount || betAmount <= 0}>Place Bet</button>
+                    <input className="responsive-input" type="number" value={betAmount} onChange={(e) => setBetAmount(e.target.value)} min="1" />
+                    <button className="bet-button"  onClick={handlePlaceBet}>{editingIndex !== null ? "Update Bet" : "Place Bet"}</button>                    
                 </div>
-
+                <p style={{ color: 'green' }}>{message}</p>
+                <table className="bet-table">
+                    <thead>
+                        <tr>
+                            <th>League</th>
+                            <th>Home Team</th>
+                            <th>Away Team</th>
+                            <th>Bet Type</th>
+                            <th>Amount</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {bets.map((bet, index) => (
+                            <tr key={index}>
+                                <td>{bet.league}</td>
+                                <td>{bet.teamA}</td>
+                                <td>{bet.teamB}</td>
+                                <td>{bet.betType}</td>
+                                <td>${bet.betAmount}</td>
+                                <td>
+                                    <button className="edit-button" onClick={() => handleEditBet(index)}>Edit</button>
+                                    <button className="delete-button" onClick={() => handleDeleteBet(index)}>Delete</button>
+                                </td>
+                            </tr>
+                        ))}
+                    </tbody>
+                </table>
             </div>
         </div>    
     );
