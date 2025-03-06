@@ -37,7 +37,7 @@ namespace SoccerBettingAPI.Controllers
                 messages = new[]
                 {
             new { role = "system", content = "You are a soccer match predictor." },
-            new { role = "user", content = $"Based on the current form, team statistics, head-to-head results, and key player performances, give a two sentences brief description of {homeTeam} vs {awayTeam} match. Give me a tentative score written in third person and the home, away and tie odds" }
+            new { role = "user", content = $"Based on 2025 current form, team statistics, head-to-head results, and key player performances, give a two sentences brief description of {homeTeam} vs {awayTeam} match. Use all the bet websites available and generate the home, away and tie odds in american format" }
         }
             };
 

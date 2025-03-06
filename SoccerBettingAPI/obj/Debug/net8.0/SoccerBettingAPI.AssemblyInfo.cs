@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SoccerBettingAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1603da5d7698b6671ab11ef38924ed13a2f9b0bb")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+68e9ac58529f134354bfdb70ca6b31dce880aabe")]
 [assembly: System.Reflection.AssemblyProductAttribute("SoccerBettingAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SoccerBettingAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

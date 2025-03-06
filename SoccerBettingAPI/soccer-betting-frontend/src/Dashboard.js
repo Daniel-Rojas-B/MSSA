@@ -5,17 +5,31 @@ import "./Dashboard.css";
 
 function Dashboard() {
     const navigate = useNavigate();
-    const [prediction, setPrediction] = useState("Select teams and match date ...");
+    const [prediction, setPrediction] = useState("Select League and Teams ...");
 
     const [league, setLeague] = useState("");
     const [teamA, setTeamA] = useState('');
     const [teamB, setTeamB] = useState('');
+
+    // Place bet State variables
+    const [betType, setBetType] = useState('');
+    const [betAmount, setBetAmount] = useState('');
+    const [message, setMessage] = useState('');
+
+    // Handle placing the bet
+    const handlePlaceBet = () => {
+        if (!betType || !betAmount || betAmount <= 0) {
+            setMessage('Please select a valid bet type and amount.');
+            return;
+        }
+        setMessage(`Bet placed! Type: ${betType}, Amount: $${betAmount}`);
+    };
     
     const [matchDate, setMatchDate] = useState("");
     const [odds, setOdds] = useState({ home: 0, tie: 0, away: 0 });
 
     const leagues = {
-        "Premier League": [
+        "Premier": [
             "Arsenal",
             "Aston Villa",
             "Bournemouth",
@@ -195,14 +209,13 @@ function Dashboard() {
                 <button className="logout-btn" onClick={handleLogout}>Logout</button>
             </div>
 
-            <div>
-                <p> soccer betting App</p>
-            </div>
+           
 
             {/* Dashboard */}
             <div className="dashboard">
                 <h1>Bets Dashboard</h1>
                 <div className="selection">
+                    <label>League:</label>
                     <select value={league} onChange={(e) => { setLeague(e.target.value); setTeamA(""); setTeamB(""); }}>
                         <option value="">Select League</option>
                         {Object.keys(leagues).map((lg) => (
@@ -210,6 +223,7 @@ function Dashboard() {
                         ))}
                     </select>
 
+                    <label>Home Team:</label>
                     <select value={teamA} onChange={(e) => { setTeamA(e.target.value); setTeamB(""); }} disabled={!league}>
                         <option value="">Select Team A</option>
                         {league && leagues[league].map((team) => (
@@ -217,6 +231,7 @@ function Dashboard() {
                         ))}
                     </select>
 
+                    <label>Away Team:</label>
                     <select value={teamB} onChange={(e) => setTeamB(e.target.value)} disabled={!league || !teamA}>
                         <option value="">Select Team B</option>
                         {league && leagues[league].filter((team) => team !== teamA).map((team) => (
@@ -224,9 +239,9 @@ function Dashboard() {
                         ))}
                     </select>
 
-                    <input type="date" value={matchDate} onChange={(e) => setMatchDate(e.target.value)} />
+                    {/*<input type="date" value={matchDate} onChange={(e) => setMatchDate(e.target.value)} />*/}
 
-                    <button onClick={handleFetchOdds} disabled={!teamA || !teamB || !matchDate}>Get Odds</button>
+                    {/*<button onClick={handleFetchOdds} disabled={!teamA || !teamB || !matchDate}>Get Odds</button>*/}
                 </div>
 
                 {odds.home !== 0 && (
@@ -237,8 +252,30 @@ function Dashboard() {
                     </div>
                 )}
 
-                <h2>Match Brief and Prediction</h2>
+                <h2>Match Brief and Odds</h2>
                 <p style={{ color: 'red' }}>{prediction}</p>
+
+                <div className="betting-selection">
+                    <label>Type of Bet:</label>
+                    <select value={betType} onChange={(e) => setBetType(e.target.value)}>
+                        <option value="">Select Bet Type</option>
+                        <option value="home">Home</option>
+                        <option value="tie">Tie</option>
+                        <option value="away">Away</option>
+                    </select>
+
+                    <label>Bet Amount:</label>
+                    <input
+                        type="number"
+                        value={betAmount}
+                        onChange={(e) => setBetAmount(e.target.value)}
+                        min="1"
+                        placeholder="Enter amount"
+                    />
+
+                    <button className="bet-button" onClick={handlePlaceBet} disabled={!betType || !betAmount || betAmount <= 0}>Place Bet</button>
+                </div>
+
             </div>
         </div>    
     );
