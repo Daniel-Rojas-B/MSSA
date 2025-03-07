@@ -47,7 +47,7 @@ namespace SoccerBettingAPI.Controllers
                 return Unauthorized(new { message = "Invalid username or password" });
             }
 
-            // Generate JWT token (assuming you have this method)
+            // Generate JWT token 
             var token = GenerateJwtToken(user.Username);
 
             return Ok(new { token });

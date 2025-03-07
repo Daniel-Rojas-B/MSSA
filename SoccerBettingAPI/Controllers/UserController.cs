@@ -56,11 +56,9 @@ namespace SoccerBettingAPI.Controllers
             catch (Exception ex)
             {
                 return BadRequest(new { message = "Registration failed.", error = ex.Message });
-            }
+            }      
                   
-                      
-
-            
+                        
         }
     }
 }
