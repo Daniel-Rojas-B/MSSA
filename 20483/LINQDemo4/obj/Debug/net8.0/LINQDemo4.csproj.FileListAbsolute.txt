@@ -1,0 +1,15 @@
+C:\Users\danie\Documents\MSSA\20483\LINQDemo4\bin\Debug\net8.0\LINQDemo4.exe
+C:\Users\danie\Documents\MSSA\20483\LINQDemo4\bin\Debug\net8.0\LINQDemo4.deps.json
+C:\Users\danie\Documents\MSSA\20483\LINQDemo4\bin\Debug\net8.0\LINQDemo4.runtimeconfig.json
+C:\Users\danie\Documents\MSSA\20483\LINQDemo4\bin\Debug\net8.0\LINQDemo4.dll
+C:\Users\danie\Documents\MSSA\20483\LINQDemo4\bin\Debug\net8.0\LINQDemo4.pdb
+C:\Users\danie\Documents\MSSA\20483\LINQDemo4\obj\Debug\net8.0\LINQDemo4.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\danie\Documents\MSSA\20483\LINQDemo4\obj\Debug\net8.0\LINQDemo4.AssemblyInfoInputs.cache
+C:\Users\danie\Documents\MSSA\20483\LINQDemo4\obj\Debug\net8.0\LINQDemo4.AssemblyInfo.cs
+C:\Users\danie\Documents\MSSA\20483\LINQDemo4\obj\Debug\net8.0\LINQDemo4.csproj.CoreCompileInputs.cache
+C:\Users\danie\Documents\MSSA\20483\LINQDemo4\obj\Debug\net8.0\LINQDemo4.sourcelink.json
+C:\Users\danie\Documents\MSSA\20483\LINQDemo4\obj\Debug\net8.0\LINQDemo4.dll
+C:\Users\danie\Documents\MSSA\20483\LINQDemo4\obj\Debug\net8.0\refint\LINQDemo4.dll
+C:\Users\danie\Documents\MSSA\20483\LINQDemo4\obj\Debug\net8.0\LINQDemo4.pdb
+C:\Users\danie\Documents\MSSA\20483\LINQDemo4\obj\Debug\net8.0\LINQDemo4.genruntimeconfig.cache
+C:\Users\danie\Documents\MSSA\20483\LINQDemo4\obj\Debug\net8.0\ref\LINQDemo4.dll

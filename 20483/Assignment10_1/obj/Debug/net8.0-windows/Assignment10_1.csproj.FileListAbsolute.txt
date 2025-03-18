@@ -1,0 +1,17 @@
+C:\Users\danie\Documents\MSSA\20483\Assignment10_1\bin\Debug\net8.0-windows\Assignment10_1.exe
+C:\Users\danie\Documents\MSSA\20483\Assignment10_1\bin\Debug\net8.0-windows\Assignment10_1.deps.json
+C:\Users\danie\Documents\MSSA\20483\Assignment10_1\bin\Debug\net8.0-windows\Assignment10_1.runtimeconfig.json
+C:\Users\danie\Documents\MSSA\20483\Assignment10_1\bin\Debug\net8.0-windows\Assignment10_1.dll
+C:\Users\danie\Documents\MSSA\20483\Assignment10_1\bin\Debug\net8.0-windows\Assignment10_1.pdb
+C:\Users\danie\Documents\MSSA\20483\Assignment10_1\obj\Debug\net8.0-windows\Assignment10_1.Form1.resources
+C:\Users\danie\Documents\MSSA\20483\Assignment10_1\obj\Debug\net8.0-windows\Assignment10_1.csproj.GenerateResource.cache
+C:\Users\danie\Documents\MSSA\20483\Assignment10_1\obj\Debug\net8.0-windows\Assignment10_1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\danie\Documents\MSSA\20483\Assignment10_1\obj\Debug\net8.0-windows\Assignment10_1.AssemblyInfoInputs.cache
+C:\Users\danie\Documents\MSSA\20483\Assignment10_1\obj\Debug\net8.0-windows\Assignment10_1.AssemblyInfo.cs
+C:\Users\danie\Documents\MSSA\20483\Assignment10_1\obj\Debug\net8.0-windows\Assignment10_1.csproj.CoreCompileInputs.cache
+C:\Users\danie\Documents\MSSA\20483\Assignment10_1\obj\Debug\net8.0-windows\Assignment10_1.sourcelink.json
+C:\Users\danie\Documents\MSSA\20483\Assignment10_1\obj\Debug\net8.0-windows\Assignment10_1.dll
+C:\Users\danie\Documents\MSSA\20483\Assignment10_1\obj\Debug\net8.0-windows\refint\Assignment10_1.dll
+C:\Users\danie\Documents\MSSA\20483\Assignment10_1\obj\Debug\net8.0-windows\Assignment10_1.pdb
+C:\Users\danie\Documents\MSSA\20483\Assignment10_1\obj\Debug\net8.0-windows\Assignment10_1.genruntimeconfig.cache
+C:\Users\danie\Documents\MSSA\20483\Assignment10_1\obj\Debug\net8.0-windows\ref\Assignment10_1.dll

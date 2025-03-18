@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\danie\\Documents\\MSSA\\SoccerBettingAPI\\SoccerBettingAPI.csproj": {}
+    "C:\\Users\\danie\\DOCUMENTS\\mssa\\soccerbettingapi\\SoccerBettingAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\danie\\Documents\\MSSA\\SoccerBettingAPI\\SoccerBettingAPI.csproj": {
+    "C:\\Users\\danie\\DOCUMENTS\\mssa\\soccerbettingapi\\SoccerBettingAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\danie\\Documents\\MSSA\\SoccerBettingAPI\\SoccerBettingAPI.csproj",
+        "projectUniqueName": "C:\\Users\\danie\\DOCUMENTS\\mssa\\soccerbettingapi\\SoccerBettingAPI.csproj",
         "projectName": "SoccerBettingAPI",
-        "projectPath": "C:\\Users\\danie\\Documents\\MSSA\\SoccerBettingAPI\\SoccerBettingAPI.csproj",
+        "projectPath": "C:\\Users\\danie\\DOCUMENTS\\mssa\\soccerbettingapi\\SoccerBettingAPI.csproj",
         "packagesPath": "C:\\Users\\danie\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\danie\\Documents\\MSSA\\SoccerBettingAPI\\obj\\",
+        "outputPath": "C:\\Users\\danie\\DOCUMENTS\\mssa\\soccerbettingapi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

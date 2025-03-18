@@ -1,0 +1,17 @@
+C:\Users\danie\Documents\MSSA\20483\Mod6Serializationdemo\obj\Debug\net8.0-windows\Mod6Serializationdemo.Form1.resources
+C:\Users\danie\Documents\MSSA\20483\Mod6Serializationdemo\obj\Debug\net8.0-windows\Mod6Serializationdemo.csproj.GenerateResource.cache
+C:\Users\danie\Documents\MSSA\20483\Mod6Serializationdemo\obj\Debug\net8.0-windows\Mod6Serializationdemo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\danie\Documents\MSSA\20483\Mod6Serializationdemo\obj\Debug\net8.0-windows\Mod6Serializationdemo.AssemblyInfoInputs.cache
+C:\Users\danie\Documents\MSSA\20483\Mod6Serializationdemo\obj\Debug\net8.0-windows\Mod6Serializationdemo.AssemblyInfo.cs
+C:\Users\danie\Documents\MSSA\20483\Mod6Serializationdemo\obj\Debug\net8.0-windows\Mod6Serializationdemo.csproj.CoreCompileInputs.cache
+C:\Users\danie\Documents\MSSA\20483\Mod6Serializationdemo\obj\Debug\net8.0-windows\Mod6Serializationdemo.sourcelink.json
+C:\Users\danie\Documents\MSSA\20483\Mod6Serializationdemo\bin\Debug\net8.0-windows\Mod6Serializationdemo.exe
+C:\Users\danie\Documents\MSSA\20483\Mod6Serializationdemo\bin\Debug\net8.0-windows\Mod6Serializationdemo.deps.json
+C:\Users\danie\Documents\MSSA\20483\Mod6Serializationdemo\bin\Debug\net8.0-windows\Mod6Serializationdemo.runtimeconfig.json
+C:\Users\danie\Documents\MSSA\20483\Mod6Serializationdemo\bin\Debug\net8.0-windows\Mod6Serializationdemo.dll
+C:\Users\danie\Documents\MSSA\20483\Mod6Serializationdemo\bin\Debug\net8.0-windows\Mod6Serializationdemo.pdb
+C:\Users\danie\Documents\MSSA\20483\Mod6Serializationdemo\obj\Debug\net8.0-windows\Mod6Serializationdemo.dll
+C:\Users\danie\Documents\MSSA\20483\Mod6Serializationdemo\obj\Debug\net8.0-windows\refint\Mod6Serializationdemo.dll
+C:\Users\danie\Documents\MSSA\20483\Mod6Serializationdemo\obj\Debug\net8.0-windows\Mod6Serializationdemo.pdb
+C:\Users\danie\Documents\MSSA\20483\Mod6Serializationdemo\obj\Debug\net8.0-windows\Mod6Serializationdemo.genruntimeconfig.cache
+C:\Users\danie\Documents\MSSA\20483\Mod6Serializationdemo\obj\Debug\net8.0-windows\ref\Mod6Serializationdemo.dll

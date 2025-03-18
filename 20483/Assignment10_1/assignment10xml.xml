@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfCustomer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Customer>
+    <Id>1</Id>
+    <Name>daniel</Name>
+    <Balance>1</Balance>
+  </Customer>
+  <Customer>
+    <Id>2</Id>
+    <Name>monica</Name>
+    <Balance>2</Balance>
+  </Customer>
+  <Customer>
+    <Id>3</Id>
+    <Name>danny</Name>
+    <Balance>3</Balance>
+  </Customer>
+</ArrayOfCustomer>
