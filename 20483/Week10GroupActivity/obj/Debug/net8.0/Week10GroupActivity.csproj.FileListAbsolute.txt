@@ -1,0 +1,15 @@
+C:\Users\danie\Documents\MSSA\20483\Week10GroupActivity\obj\Debug\net8.0\Week10GroupActivity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\danie\Documents\MSSA\20483\Week10GroupActivity\obj\Debug\net8.0\Week10GroupActivity.AssemblyInfoInputs.cache
+C:\Users\danie\Documents\MSSA\20483\Week10GroupActivity\obj\Debug\net8.0\Week10GroupActivity.AssemblyInfo.cs
+C:\Users\danie\Documents\MSSA\20483\Week10GroupActivity\obj\Debug\net8.0\Week10GroupActivity.csproj.CoreCompileInputs.cache
+C:\Users\danie\Documents\MSSA\20483\Week10GroupActivity\obj\Debug\net8.0\Week10GroupActivity.sourcelink.json
+C:\Users\danie\Documents\MSSA\20483\Week10GroupActivity\bin\Debug\net8.0\Week10GroupActivity.exe
+C:\Users\danie\Documents\MSSA\20483\Week10GroupActivity\bin\Debug\net8.0\Week10GroupActivity.deps.json
+C:\Users\danie\Documents\MSSA\20483\Week10GroupActivity\bin\Debug\net8.0\Week10GroupActivity.runtimeconfig.json
+C:\Users\danie\Documents\MSSA\20483\Week10GroupActivity\bin\Debug\net8.0\Week10GroupActivity.dll
+C:\Users\danie\Documents\MSSA\20483\Week10GroupActivity\bin\Debug\net8.0\Week10GroupActivity.pdb
+C:\Users\danie\Documents\MSSA\20483\Week10GroupActivity\obj\Debug\net8.0\Week10GroupActivity.dll
+C:\Users\danie\Documents\MSSA\20483\Week10GroupActivity\obj\Debug\net8.0\refint\Week10GroupActivity.dll
+C:\Users\danie\Documents\MSSA\20483\Week10GroupActivity\obj\Debug\net8.0\Week10GroupActivity.pdb
+C:\Users\danie\Documents\MSSA\20483\Week10GroupActivity\obj\Debug\net8.0\Week10GroupActivity.genruntimeconfig.cache
+C:\Users\danie\Documents\MSSA\20483\Week10GroupActivity\obj\Debug\net8.0\ref\Week10GroupActivity.dll
