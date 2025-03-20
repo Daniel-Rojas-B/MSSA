@@ -1,0 +1,15 @@
+C:\Users\danie\Documents\MSSA\20483\Mod7DBFirstDemo\bin\Debug\Mod7DBFirstDemo.exe.config
+C:\Users\danie\Documents\MSSA\20483\Mod7DBFirstDemo\bin\Debug\Mod7DBFirstDemo.exe
+C:\Users\danie\Documents\MSSA\20483\Mod7DBFirstDemo\bin\Debug\Mod7DBFirstDemo.pdb
+C:\Users\danie\Documents\MSSA\20483\Mod7DBFirstDemo\bin\Debug\EntityFramework.dll
+C:\Users\danie\Documents\MSSA\20483\Mod7DBFirstDemo\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\danie\Documents\MSSA\20483\Mod7DBFirstDemo\bin\Debug\EntityFramework.xml
+C:\Users\danie\Documents\MSSA\20483\Mod7DBFirstDemo\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\danie\Documents\MSSA\20483\Mod7DBFirstDemo\obj\Debug\Mod7DBFirstDemo.csproj.AssemblyReference.cache
+C:\Users\danie\Documents\MSSA\20483\Mod7DBFirstDemo\obj\Debug\Mod7DBFirstDemo.Form1.resources
+C:\Users\danie\Documents\MSSA\20483\Mod7DBFirstDemo\obj\Debug\Mod7DBFirstDemo.Properties.Resources.resources
+C:\Users\danie\Documents\MSSA\20483\Mod7DBFirstDemo\obj\Debug\Mod7DBFirstDemo.csproj.GenerateResource.cache
+C:\Users\danie\Documents\MSSA\20483\Mod7DBFirstDemo\obj\Debug\Mod7DBFirstDemo.csproj.CoreCompileInputs.cache
+C:\Users\danie\Documents\MSSA\20483\Mod7DBFirstDemo\obj\Debug\Mod7DBFi.9703FA40.Up2Date
+C:\Users\danie\Documents\MSSA\20483\Mod7DBFirstDemo\obj\Debug\Mod7DBFirstDemo.exe
+C:\Users\danie\Documents\MSSA\20483\Mod7DBFirstDemo\obj\Debug\Mod7DBFirstDemo.pdb
