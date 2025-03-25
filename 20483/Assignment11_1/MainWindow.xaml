@@ -69,6 +69,33 @@
                     </Grid>
                 </StackPanel>
             </Border>
+            <Border Grid.Column="1" BorderBrush="blue" BorderThickness="3" Margin="5">
+                <StackPanel Margin="5">
+                    <Label Content="Update Book" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="22"/>
+                    <Grid Margin="5" x:Name="UpdateBookGrid">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                        </Grid.RowDefinitions>
+                        <Label Grid.Row="0" Grid.Column="0" Content="ISBN"/>
+                        <TextBox Grid.Row="0" Grid.Column="1" Text="{Binding ISBN}"/>
+                        <Label Grid.Row="1" Grid.Column="0" Content="Name"/>
+                        <TextBox Grid.Row="1" Grid.Column="1" Text="{Binding Name}"/>
+                        <Label Grid.Row="2" Grid.Column="0" Content="Author Name"/>
+                        <TextBox Grid.Row="2" Grid.Column="1" Text="{Binding AuthorName}"/>
+                        <Label Grid.Row="3" Grid.Column="0" Content="Description"/>
+                        <TextBox Grid.Row="3" Grid.Column="1" Text="{Binding Description}"/>
+                        <Button Grid.Row="4" Grid.ColumnSpan="2" Content="Update" Click="UpdateBook"/>
+                    </Grid>
+                </StackPanel>
+            </Border>
         </Grid>
     </Grid>
 </Window>

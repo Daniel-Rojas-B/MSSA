@@ -1,4 +1,5 @@
-﻿using System.Security.AccessControl;
+﻿using System.Net.Http.Headers;
+using System.Security.AccessControl;
 using System.Text;
 using System.Windows;
 using System.Windows.Controls;
@@ -39,9 +40,17 @@ namespace Assignment11_1
             newBook = new Book();
             AddBookGrid.DataContext = newBook;
         }
+        private void UpdateBook(object sender, RoutedEventArgs e)
+        {
+            this.dbContext.Update(selectedBook);
+            this.dbContext.SaveChanges();
+            GetBooks();
+        }
+        Book selectedBook = new Book();
         private void UpdateBookForEdit(object sender, RoutedEventArgs e)
         {
-
+            selectedBook = (sender as FrameworkElement).DataContext as Book;
+            UpdateBookGrid.DataContext = selectedBook;
         }
         private void DeleteBook(object sender, RoutedEventArgs e)
         {
