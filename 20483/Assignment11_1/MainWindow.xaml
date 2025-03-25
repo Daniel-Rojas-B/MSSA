@@ -1,0 +1,74 @@
+﻿<Window x:Class="Assignment11_1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Assignment11_1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" Background="AntiqueWhite">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="60"/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Label Grid.Row="0" HorizontalAlignment="Center" Content="CRUD Operations" FontSize="18" FontWeight="Bold"/>
+        <DataGrid Grid.Row="1" AutoGenerateColumns="False" Margin="5" Name="Book_Data_Grid" IsReadOnly="True">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Book ISBN" Binding="{Binding ISBN}"/>
+                <DataGridTextColumn Header="Book Name" Binding="{Binding Name}"/>
+                <DataGridTextColumn Header="Author Name" Binding="{Binding AuthorName}"/>
+                <DataGridTextColumn Header="Description" Binding="{Binding Description}"/>
+                <DataGridTemplateColumn Header="Update Book">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Button Content="Edit" Click="UpdateBookForEdit"/>                            
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+                
+                <DataGridTemplateColumn Header="Delete Book">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Button Content="Delete" Click="DeleteBook"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+                
+            </DataGrid.Columns>
+        </DataGrid>
+        <Grid Grid.Row="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>                
+            </Grid.ColumnDefinitions>
+            <Border Grid.Column="0" BorderBrush="blue" BorderThickness="3" Margin="5">
+                <StackPanel Margin="5">
+                    <Label Content="Add Book" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="22"/>
+                    <Grid Margin="5" x:Name="AddBookGrid">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                        </Grid.RowDefinitions>
+                        <Label Grid.Row="0" Grid.Column="0" Content="ISBN"/>
+                        <TextBox Grid.Row="0" Grid.Column="1" Text="{Binding ISBN}"/>
+                        <Label Grid.Row="1" Grid.Column="0" Content="Name"/>
+                        <TextBox Grid.Row="1" Grid.Column="1" Text="{Binding Name}"/>
+                        <Label Grid.Row="2" Grid.Column="0" Content="Author Name"/>
+                        <TextBox Grid.Row="2" Grid.Column="1" Text="{Binding AuthorName}"/>
+                        <Label Grid.Row="3" Grid.Column="0" Content="Description"/>
+                        <TextBox Grid.Row="3" Grid.Column="1" Text="{Binding Description}"/>
+                        <Button Grid.Row="4" Grid.ColumnSpan="2" Content="Add" Click="AddBook"/>
+                    </Grid>
+                </StackPanel>
+            </Border>
+        </Grid>
+    </Grid>
+</Window>
