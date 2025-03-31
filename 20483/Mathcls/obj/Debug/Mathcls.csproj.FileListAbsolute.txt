@@ -1,0 +1,6 @@
+C:\Users\danie\Documents\MSSA\20483\Mathcls\bin\Debug\Mathcls.dll
+C:\Users\danie\Documents\MSSA\20483\Mathcls\bin\Debug\Mathcls.pdb
+C:\Users\danie\Documents\MSSA\20483\Mathcls\obj\Debug\Mathcls.csproj.AssemblyReference.cache
+C:\Users\danie\Documents\MSSA\20483\Mathcls\obj\Debug\Mathcls.csproj.CoreCompileInputs.cache
+C:\Users\danie\Documents\MSSA\20483\Mathcls\obj\Debug\Mathcls.dll
+C:\Users\danie\Documents\MSSA\20483\Mathcls\obj\Debug\Mathcls.pdb

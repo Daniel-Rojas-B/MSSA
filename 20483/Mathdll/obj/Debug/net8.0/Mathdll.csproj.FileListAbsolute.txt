@@ -1,0 +1,12 @@
+C:\Users\danie\Documents\MSSA\20483\Mathdll\bin\Debug\net8.0\Mathdll.deps.json
+C:\Users\danie\Documents\MSSA\20483\Mathdll\bin\Debug\net8.0\Mathdll.dll
+C:\Users\danie\Documents\MSSA\20483\Mathdll\bin\Debug\net8.0\Mathdll.pdb
+C:\Users\danie\Documents\MSSA\20483\Mathdll\obj\Debug\net8.0\Mathdll.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\danie\Documents\MSSA\20483\Mathdll\obj\Debug\net8.0\Mathdll.AssemblyInfoInputs.cache
+C:\Users\danie\Documents\MSSA\20483\Mathdll\obj\Debug\net8.0\Mathdll.AssemblyInfo.cs
+C:\Users\danie\Documents\MSSA\20483\Mathdll\obj\Debug\net8.0\Mathdll.csproj.CoreCompileInputs.cache
+C:\Users\danie\Documents\MSSA\20483\Mathdll\obj\Debug\net8.0\Mathdll.sourcelink.json
+C:\Users\danie\Documents\MSSA\20483\Mathdll\obj\Debug\net8.0\Mathdll.dll
+C:\Users\danie\Documents\MSSA\20483\Mathdll\obj\Debug\net8.0\refint\Mathdll.dll
+C:\Users\danie\Documents\MSSA\20483\Mathdll\obj\Debug\net8.0\Mathdll.pdb
+C:\Users\danie\Documents\MSSA\20483\Mathdll\obj\Debug\net8.0\ref\Mathdll.dll

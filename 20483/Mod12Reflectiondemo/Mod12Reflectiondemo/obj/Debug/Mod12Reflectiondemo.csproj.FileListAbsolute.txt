@@ -1,0 +1,14 @@
+C:\Training\MSSA\20483\PCAD10\Mod12Reflectiondemo\bin\Debug\Mod12Reflectiondemo.exe.config
+C:\Training\MSSA\20483\PCAD10\Mod12Reflectiondemo\bin\Debug\Mod12Reflectiondemo.exe
+C:\Training\MSSA\20483\PCAD10\Mod12Reflectiondemo\bin\Debug\Mod12Reflectiondemo.pdb
+C:\Training\MSSA\20483\PCAD10\Mod12Reflectiondemo\obj\Debug\Mod12Reflectiondemo.csproj.AssemblyReference.cache
+C:\Training\MSSA\20483\PCAD10\Mod12Reflectiondemo\obj\Debug\Mod12Reflectiondemo.csproj.CoreCompileInputs.cache
+C:\Training\MSSA\20483\PCAD10\Mod12Reflectiondemo\obj\Debug\Mod12Reflectiondemo.exe
+C:\Training\MSSA\20483\PCAD10\Mod12Reflectiondemo\obj\Debug\Mod12Reflectiondemo.pdb
+C:\Users\danie\Documents\MSSA\20483\Mod12Reflectiondemo\Mod12Reflectiondemo\bin\Debug\Mod12Reflectiondemo.exe.config
+C:\Users\danie\Documents\MSSA\20483\Mod12Reflectiondemo\Mod12Reflectiondemo\bin\Debug\Mod12Reflectiondemo.exe
+C:\Users\danie\Documents\MSSA\20483\Mod12Reflectiondemo\Mod12Reflectiondemo\bin\Debug\Mod12Reflectiondemo.pdb
+C:\Users\danie\Documents\MSSA\20483\Mod12Reflectiondemo\Mod12Reflectiondemo\obj\Debug\Mod12Reflectiondemo.csproj.AssemblyReference.cache
+C:\Users\danie\Documents\MSSA\20483\Mod12Reflectiondemo\Mod12Reflectiondemo\obj\Debug\Mod12Reflectiondemo.csproj.CoreCompileInputs.cache
+C:\Users\danie\Documents\MSSA\20483\Mod12Reflectiondemo\Mod12Reflectiondemo\obj\Debug\Mod12Reflectiondemo.exe
+C:\Users\danie\Documents\MSSA\20483\Mod12Reflectiondemo\Mod12Reflectiondemo\obj\Debug\Mod12Reflectiondemo.pdb
