@@ -1,0 +1,15 @@
+C:\Users\danie\Documents\MSSA\20483\Week11_ChallengeLab\bin\Debug\net8.0\Week11_ChallengeLab.exe
+C:\Users\danie\Documents\MSSA\20483\Week11_ChallengeLab\bin\Debug\net8.0\Week11_ChallengeLab.deps.json
+C:\Users\danie\Documents\MSSA\20483\Week11_ChallengeLab\bin\Debug\net8.0\Week11_ChallengeLab.runtimeconfig.json
+C:\Users\danie\Documents\MSSA\20483\Week11_ChallengeLab\bin\Debug\net8.0\Week11_ChallengeLab.dll
+C:\Users\danie\Documents\MSSA\20483\Week11_ChallengeLab\bin\Debug\net8.0\Week11_ChallengeLab.pdb
+C:\Users\danie\Documents\MSSA\20483\Week11_ChallengeLab\obj\Debug\net8.0\Week11_ChallengeLab.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\danie\Documents\MSSA\20483\Week11_ChallengeLab\obj\Debug\net8.0\Week11_ChallengeLab.AssemblyInfoInputs.cache
+C:\Users\danie\Documents\MSSA\20483\Week11_ChallengeLab\obj\Debug\net8.0\Week11_ChallengeLab.AssemblyInfo.cs
+C:\Users\danie\Documents\MSSA\20483\Week11_ChallengeLab\obj\Debug\net8.0\Week11_ChallengeLab.csproj.CoreCompileInputs.cache
+C:\Users\danie\Documents\MSSA\20483\Week11_ChallengeLab\obj\Debug\net8.0\Week11_ChallengeLab.sourcelink.json
+C:\Users\danie\Documents\MSSA\20483\Week11_ChallengeLab\obj\Debug\net8.0\Week11_ChallengeLab.dll
+C:\Users\danie\Documents\MSSA\20483\Week11_ChallengeLab\obj\Debug\net8.0\refint\Week11_ChallengeLab.dll
+C:\Users\danie\Documents\MSSA\20483\Week11_ChallengeLab\obj\Debug\net8.0\Week11_ChallengeLab.pdb
+C:\Users\danie\Documents\MSSA\20483\Week11_ChallengeLab\obj\Debug\net8.0\Week11_ChallengeLab.genruntimeconfig.cache
+C:\Users\danie\Documents\MSSA\20483\Week11_ChallengeLab\obj\Debug\net8.0\ref\Week11_ChallengeLab.dll
