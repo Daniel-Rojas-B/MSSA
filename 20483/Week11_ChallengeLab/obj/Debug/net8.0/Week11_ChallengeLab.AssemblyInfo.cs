@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Week11_ChallengeLab")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+124a718cc43009e8d1267cc3913ee8b5c9e8311e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6035ad156c2ccbb9d290f71a6cea354e3a0bc5fc")]
 [assembly: System.Reflection.AssemblyProductAttribute("Week11_ChallengeLab")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Week11_ChallengeLab")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
