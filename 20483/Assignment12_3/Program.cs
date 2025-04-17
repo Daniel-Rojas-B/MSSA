@@ -6,6 +6,7 @@
         {
             Console.WriteLine("---- Problem 1----");
             RemoveDuplicates("abbaca");
+            RemoveDuplicates("azxxzy");
         }
         public static void RemoveDuplicates(string word)
         {
