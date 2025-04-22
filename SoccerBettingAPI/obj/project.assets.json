@@ -4986,11 +4986,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\danie\\Documents\\MSSA\\soccerbettingapi\\SoccerBettingAPI.csproj",
+      "projectUniqueName": "C:\\Users\\danie\\Documents\\MSSA\\SoccerBettingAPI\\SoccerBettingAPI.csproj",
       "projectName": "SoccerBettingAPI",
-      "projectPath": "C:\\Users\\danie\\Documents\\MSSA\\soccerbettingapi\\SoccerBettingAPI.csproj",
+      "projectPath": "C:\\Users\\danie\\Documents\\MSSA\\SoccerBettingAPI\\SoccerBettingAPI.csproj",
       "packagesPath": "C:\\Users\\danie\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\danie\\Documents\\MSSA\\soccerbettingapi\\obj\\",
+      "outputPath": "C:\\Users\\danie\\Documents\\MSSA\\SoccerBettingAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -5005,6 +5005,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

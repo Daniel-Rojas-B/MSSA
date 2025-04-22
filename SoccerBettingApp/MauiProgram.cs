@@ -1,0 +1,46 @@
+﻿using Microsoft.Extensions.Logging;
+using SoccerBettingApp.Services;
+using SoccerBettingApp.ViewModel;  
+using SoccerBettingApp.View;
+
+namespace SoccerBettingApp
+{
+    public static class MauiProgram
+    {
+        public static MauiApp CreateMauiApp()
+        {
+            var builder = MauiApp.CreateBuilder();
+            builder
+                .UseMauiApp<App>()
+                .ConfigureFonts(fonts =>
+                {
+                    fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
+                    fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
+                });
+
+            // Register services
+            builder.Services.AddSingleton<UserService>();
+            builder.Services.AddSingleton<MatchService>();
+            builder.Services.AddSingleton<BetService>();
+
+            // Register view models
+            builder.Services.AddTransient<BetViewModel>();
+            builder.Services.AddTransient<HistoryViewModel>();
+            builder.Services.AddTransient<LoginViewModel>();  
+            builder.Services.AddTransient<MatchListViewModel>();
+
+            // Register pages (views)
+            builder.Services.AddTransient<BetPage>();
+            builder.Services.AddTransient<HistoryPage>();
+            builder.Services.AddTransient<LoginPage>();
+            builder.Services.AddTransient<MainPage>();
+            builder.Services.AddTransient<MatchListPage>();
+
+#if DEBUG
+            builder.Logging.AddDebug();
+#endif
+
+            return builder.Build();
+        }
+    }
+}

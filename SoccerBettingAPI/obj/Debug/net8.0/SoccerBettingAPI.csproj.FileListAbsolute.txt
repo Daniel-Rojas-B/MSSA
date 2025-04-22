@@ -1,5 +1,10 @@
 C:\Users\danie\Documents\MSSA\SoccerBettingAPI\bin\Debug\net8.0\appsettings.Development.json
 C:\Users\danie\Documents\MSSA\SoccerBettingAPI\bin\Debug\net8.0\appsettings.json
+C:\Users\danie\Documents\MSSA\SoccerBettingAPI\bin\Debug\net8.0\package-lock.json
+C:\Users\danie\Documents\MSSA\SoccerBettingAPI\bin\Debug\net8.0\package.json
+C:\Users\danie\Documents\MSSA\SoccerBettingAPI\bin\Debug\net8.0\soccer-betting-frontend\package-lock.json
+C:\Users\danie\Documents\MSSA\SoccerBettingAPI\bin\Debug\net8.0\soccer-betting-frontend\package.json
+C:\Users\danie\Documents\MSSA\SoccerBettingAPI\bin\Debug\net8.0\soccer-betting-frontend\public\manifest.json
 C:\Users\danie\Documents\MSSA\SoccerBettingAPI\bin\Debug\net8.0\SoccerBettingAPI.staticwebassets.endpoints.json
 C:\Users\danie\Documents\MSSA\SoccerBettingAPI\bin\Debug\net8.0\SoccerBettingAPI.exe
 C:\Users\danie\Documents\MSSA\SoccerBettingAPI\bin\Debug\net8.0\SoccerBettingAPI.deps.json
@@ -8,7 +13,9 @@ C:\Users\danie\Documents\MSSA\SoccerBettingAPI\bin\Debug\net8.0\SoccerBettingAPI
 C:\Users\danie\Documents\MSSA\SoccerBettingAPI\bin\Debug\net8.0\SoccerBettingAPI.pdb
 C:\Users\danie\Documents\MSSA\SoccerBettingAPI\bin\Debug\net8.0\Azure.Core.dll
 C:\Users\danie\Documents\MSSA\SoccerBettingAPI\bin\Debug\net8.0\Azure.Identity.dll
+C:\Users\danie\Documents\MSSA\SoccerBettingAPI\bin\Debug\net8.0\BCrypt.Net-Next.dll
 C:\Users\danie\Documents\MSSA\SoccerBettingAPI\bin\Debug\net8.0\Humanizer.dll
+C:\Users\danie\Documents\MSSA\SoccerBettingAPI\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\danie\Documents\MSSA\SoccerBettingAPI\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Users\danie\Documents\MSSA\SoccerBettingAPI\bin\Debug\net8.0\Microsoft.Build.Locator.dll
 C:\Users\danie\Documents\MSSA\SoccerBettingAPI\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
@@ -45,6 +52,7 @@ C:\Users\danie\Documents\MSSA\SoccerBettingAPI\bin\Debug\net8.0\Microsoft.OpenAp
 C:\Users\danie\Documents\MSSA\SoccerBettingAPI\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
 C:\Users\danie\Documents\MSSA\SoccerBettingAPI\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
 C:\Users\danie\Documents\MSSA\SoccerBettingAPI\bin\Debug\net8.0\Mono.TextTemplating.dll
+C:\Users\danie\Documents\MSSA\SoccerBettingAPI\bin\Debug\net8.0\Newtonsoft.Json.dll
 C:\Users\danie\Documents\MSSA\SoccerBettingAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\danie\Documents\MSSA\SoccerBettingAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\danie\Documents\MSSA\SoccerBettingAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
@@ -164,17 +172,10 @@ C:\Users\danie\Documents\MSSA\SoccerBettingAPI\obj\Debug\net8.0\staticwebassets\
 C:\Users\danie\Documents\MSSA\SoccerBettingAPI\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.SoccerBettingAPI.props
 C:\Users\danie\Documents\MSSA\SoccerBettingAPI\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.SoccerBettingAPI.props
 C:\Users\danie\Documents\MSSA\SoccerBettingAPI\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\danie\Documents\MSSA\SoccerBettingAPI\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\danie\Documents\MSSA\SoccerBettingAPI\obj\Debug\net8.0\SoccerBe.D5A6BEA1.Up2Date
 C:\Users\danie\Documents\MSSA\SoccerBettingAPI\obj\Debug\net8.0\SoccerBettingAPI.dll
 C:\Users\danie\Documents\MSSA\SoccerBettingAPI\obj\Debug\net8.0\refint\SoccerBettingAPI.dll
 C:\Users\danie\Documents\MSSA\SoccerBettingAPI\obj\Debug\net8.0\SoccerBettingAPI.pdb
 C:\Users\danie\Documents\MSSA\SoccerBettingAPI\obj\Debug\net8.0\SoccerBettingAPI.genruntimeconfig.cache
 C:\Users\danie\Documents\MSSA\SoccerBettingAPI\obj\Debug\net8.0\ref\SoccerBettingAPI.dll
-C:\Users\danie\Documents\MSSA\SoccerBettingAPI\bin\Debug\net8.0\soccer-betting-frontend\package-lock.json
-C:\Users\danie\Documents\MSSA\SoccerBettingAPI\bin\Debug\net8.0\soccer-betting-frontend\package.json
-C:\Users\danie\Documents\MSSA\SoccerBettingAPI\bin\Debug\net8.0\soccer-betting-frontend\public\manifest.json
-C:\Users\danie\Documents\MSSA\SoccerBettingAPI\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
-C:\Users\danie\Documents\MSSA\SoccerBettingAPI\bin\Debug\net8.0\package-lock.json
-C:\Users\danie\Documents\MSSA\SoccerBettingAPI\bin\Debug\net8.0\package.json
-C:\Users\danie\Documents\MSSA\SoccerBettingAPI\bin\Debug\net8.0\BCrypt.Net-Next.dll
-C:\Users\danie\Documents\MSSA\soccerbettingapi\bin\Debug\net8.0\Newtonsoft.Json.dll

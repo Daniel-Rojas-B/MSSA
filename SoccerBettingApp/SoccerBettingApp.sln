@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoccerBettingApp", "SoccerBettingApp.csproj", "{09D433F2-A59B-4BBC-A139-C96BC83CA5EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoccerBettingAPI", "..\SoccerBettingAPI\SoccerBettingAPI.csproj", "{7634D7FA-3B0A-4190-AE42-C258E8FA9CBE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{09D433F2-A59B-4BBC-A139-C96BC83CA5EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09D433F2-A59B-4BBC-A139-C96BC83CA5EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09D433F2-A59B-4BBC-A139-C96BC83CA5EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09D433F2-A59B-4BBC-A139-C96BC83CA5EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7634D7FA-3B0A-4190-AE42-C258E8FA9CBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7634D7FA-3B0A-4190-AE42-C258E8FA9CBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7634D7FA-3B0A-4190-AE42-C258E8FA9CBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7634D7FA-3B0A-4190-AE42-C258E8FA9CBE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
