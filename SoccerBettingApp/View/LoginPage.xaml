@@ -1,11 +1,98 @@
-<!-- Views/LoginPage.xaml -->
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="SoccerBettingApp.View.LoginPage"
-             Title="Login">
-    <VerticalStackLayout Padding="30" Spacing="20">
-        <Label Text="Welcome to Soccer Betting!" FontSize="24" HorizontalOptions="Center" />
-        <Entry Placeholder="Enter username" Text="{Binding Username}" />
-        <Button Text="Login" Command="{Binding LoginCommand}" />
-    </VerticalStackLayout>
+             NavigationPage.HasNavigationBar="False">
+
+    <ContentPage.Resources>
+        <Style TargetType="Label">
+            <Setter Property="TextColor" Value="White"/>
+        </Style>
+        <Style TargetType="Entry">
+            <Setter Property="BackgroundColor" Value="Transparent"/>
+            <Setter Property="TextColor" Value="Black"/>
+            <Setter Property="HeightRequest" Value="1"/>
+        </Style>
+        <Style TargetType="Button">
+            <Setter Property="BackgroundColor" Value="#1DB954"/>
+            <Setter Property="TextColor" Value="White"/>
+            <Setter Property="FontAttributes" Value="Bold"/>
+            <Setter Property="CornerRadius" Value="12"/>
+            <Setter Property="HeightRequest" Value="40"/>
+        </Style>
+    </ContentPage.Resources>
+
+    <ScrollView>
+        <Grid>
+            <!-- Background Image -->
+            <Image Source="background4.png"
+                   Aspect="AspectFill"
+                   Opacity="0.8"
+                   VerticalOptions="FillAndExpand"
+                   HorizontalOptions="FillAndExpand" />
+
+            <!-- Foreground Content -->
+            <VerticalStackLayout Padding="20" Spacing="20" VerticalOptions="Start"
+                                 Margin="0,275,0,0">
+
+                <!-- Input Fields -->
+                <Frame BackgroundColor="#FFFFFFDD"
+                       CornerRadius="10"
+                       Padding="10"
+                       HasShadow="True">
+                    <Entry Placeholder="Username"
+                           Text="{Binding Username}" />
+                </Frame>
+
+                <Frame BackgroundColor="#FFFFFFDD"
+                       CornerRadius="10"
+                       Padding="10"
+                       HasShadow="True">
+                    <Entry Placeholder="Password"
+                           Text="{Binding Password}" 
+                           IsPassword="True" />
+                </Frame>
+
+                <!-- Login Button -->
+                <Button Text="Login"
+                Command="{Binding LoginCommand}" 
+                    HorizontalOptions="FillAndExpand"
+                    VerticalOptions="Center"
+                Padding="10"/>
+
+                <!-- New Username Field -->
+                <Frame BackgroundColor="#FFFFFFDD"
+                       CornerRadius="10"
+                       Padding="10"
+                       HasShadow="True">
+                    <Entry Placeholder="New Username"
+                           Text="{Binding NewUsername}" />
+                </Frame>
+
+                <!-- New Password Field -->
+                <Frame BackgroundColor="#FFFFFFDD"
+                       CornerRadius="10"
+                       Padding="10"
+                       HasShadow="True">
+                    <Entry Placeholder="New Password"
+                           Text="{Binding NewPassword}" 
+                           IsPassword="True" />
+                </Frame>
+
+                <!-- Register Button (Blue) -->
+                <Button Text="Register"
+                        Command="{Binding RegisterCommand}"
+                        HorizontalOptions="FillAndExpand"
+                        VerticalOptions="Center"
+                        Padding="10"
+                        BackgroundColor="Blue" />
+
+                
+            </VerticalStackLayout>
+        </Grid>
+    </ScrollView>
 </ContentPage>
+
+
+
+
+
