@@ -8,9 +8,19 @@ namespace SoccerBettingApp.Model
 {
     public class Match
     {
-        public string MatchId { get; set; }
-        public string HomeTeam { get; set; }
-        public string AwayTeam { get; set; }
-        public DateTime MatchDate { get; set; }
+        public int MatchId { get; set; }
+        public string Name { get; set; }
+        public string StartingAt { get; set; }
+
+        public string DisplayTitle => Name;
+        public string DisplayDate =>
+            DateTime.TryParse(StartingAt, out var date)
+                ? date.ToString("dddd, MMMM dd, yyyy hh:mm tt")
+                : StartingAt;
+
+    }
+    public class MatchApiResponse
+    {
+        public List<Match> Data { get; set; }
     }
 }

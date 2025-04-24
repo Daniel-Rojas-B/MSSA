@@ -30,6 +30,9 @@ namespace SoccerBettingApp
             builder.Services.AddSingleton<MatchService>();
             builder.Services.AddSingleton<BetService>();
 
+            builder.Services.AddSingleton<HttpClient>();
+            builder.Services.AddSingleton<SoccerApiService>();
+
             // 👇 Register view models
             builder.Services.AddTransient<BetViewModel>();
             builder.Services.AddTransient<HistoryViewModel>();

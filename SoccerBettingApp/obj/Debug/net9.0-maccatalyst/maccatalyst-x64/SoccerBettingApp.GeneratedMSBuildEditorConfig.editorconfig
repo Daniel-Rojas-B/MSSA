@@ -17,61 +17,61 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = SoccerBettingApp
-build_property.ProjectDir = C:\Users\danie\Documents\MSSA\soccerbettingapp\
+build_property.ProjectDir = C:\Users\danie\Documents\MSSA\SoccerBettingApp\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.EffectiveAnalysisLevelStyle = 9.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/danie/Documents/MSSA/soccerbettingapp/App.xaml]
+[C:/Users/danie/Documents/MSSA/SoccerBettingApp/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = SoccerBettingApp.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[C:/Users/danie/Documents/MSSA/soccerbettingapp/AppShell.xaml]
+[C:/Users/danie/Documents/MSSA/SoccerBettingApp/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = SoccerBettingApp.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[C:/Users/danie/Documents/MSSA/soccerbettingapp/Resources/Styles/Colors.xaml]
+[C:/Users/danie/Documents/MSSA/SoccerBettingApp/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = SoccerBettingApp.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
 
-[C:/Users/danie/Documents/MSSA/soccerbettingapp/Resources/Styles/Styles.xaml]
+[C:/Users/danie/Documents/MSSA/SoccerBettingApp/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = SoccerBettingApp.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
 
-[C:/Users/danie/Documents/MSSA/soccerbettingapp/View/BetPage.xaml]
+[C:/Users/danie/Documents/MSSA/SoccerBettingApp/View/BetPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = SoccerBettingApp.View.BetPage.xaml
 build_metadata.AdditionalFiles.TargetPath = View\BetPage.xaml
 build_metadata.AdditionalFiles.RelativePath = View\BetPage.xaml
 
-[C:/Users/danie/Documents/MSSA/soccerbettingapp/View/HistoryPage.xaml]
+[C:/Users/danie/Documents/MSSA/SoccerBettingApp/View/HistoryPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = SoccerBettingApp.View.HistoryPage.xaml
 build_metadata.AdditionalFiles.TargetPath = View\HistoryPage.xaml
 build_metadata.AdditionalFiles.RelativePath = View\HistoryPage.xaml
 
-[C:/Users/danie/Documents/MSSA/soccerbettingapp/View/LoginPage.xaml]
+[C:/Users/danie/Documents/MSSA/SoccerBettingApp/View/LoginPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = SoccerBettingApp.View.LoginPage.xaml
 build_metadata.AdditionalFiles.TargetPath = View\LoginPage.xaml
 build_metadata.AdditionalFiles.RelativePath = View\LoginPage.xaml
 
-[C:/Users/danie/Documents/MSSA/soccerbettingapp/View/MainPage.xaml]
+[C:/Users/danie/Documents/MSSA/SoccerBettingApp/View/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = SoccerBettingApp.View.MainPage.xaml
 build_metadata.AdditionalFiles.TargetPath = View\MainPage.xaml
 build_metadata.AdditionalFiles.RelativePath = View\MainPage.xaml
 
-[C:/Users/danie/Documents/MSSA/soccerbettingapp/View/MatchListPage.xaml]
+[C:/Users/danie/Documents/MSSA/SoccerBettingApp/View/MatchListPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = SoccerBettingApp.View.MatchListPage.xaml
 build_metadata.AdditionalFiles.TargetPath = View\MatchListPage.xaml

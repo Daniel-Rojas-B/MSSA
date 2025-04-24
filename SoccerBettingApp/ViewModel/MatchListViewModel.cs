@@ -4,36 +4,65 @@ using System.Threading.Tasks;
 using SoccerBettingApp.Model;
 using SoccerBettingApp.Services;
 using Microsoft.Maui.Controls;
+using System.ComponentModel;
+using System.Runtime.CompilerServices;
+using Newtonsoft.Json;
 
 namespace SoccerBettingApp.ViewModel
 {
-    public class MatchListViewModel
+    public class MatchListViewModel : INotifyPropertyChanged
     {
-        private readonly MatchService _matchService;
+        private readonly SoccerApiService _soccerApiService;
 
-        public ObservableCollection<Match> Matches { get; } = new();
+        public ObservableCollection<Match> Matches { get; set; } = new();
 
-        public MatchListViewModel(MatchService matchService)
+        // Constructor accepts SoccerApiService, which will be injected
+        public MatchListViewModel(SoccerApiService soccerApiService)
         {
-            _matchService = matchService;
-            _ = LoadMatchesAsync(); // fire and forget; optionally await from UI
+            _soccerApiService = soccerApiService;
+            Matches = new ObservableCollection<Match>();
+            LoadMatches();
         }
 
-        private async Task LoadMatchesAsync()
+        // LoadMatches method now uses SoccerApiService to get matches
+        private async Task LoadMatches()
         {
             try
             {
-                var list = await _matchService.GetUpcomingMatchesAsync();
-                Matches.Clear();
+                // Calling the GetMatchesAsync method from SoccerApiService
+                var matches = await _soccerApiService.GetMatchesAsync(); // Matches will now be a List<Match>
 
-                foreach (var match in list)
-                    Matches.Add(match);
+                if (matches != null && matches.Any())
+                {
+                    Matches.Clear(); // Clear any existing matches in the ObservableCollection
+
+                    // Add each match to the ObservableCollection individually
+                    foreach (var match in matches)
+                    {
+                        Matches.Add(match);
+                    }
+                }
+                else
+                {
+                    // Handle the case when there are no matches or when the list is null
+                    Console.WriteLine("No matches found.");
+                }
             }
             catch (Exception ex)
             {
-                await Application.Current.MainPage.DisplayAlert("Error", $"Failed to load matches: {ex.Message}", "OK");
+                // Handle the error if something goes wrong
+                Console.WriteLine($"Error loading matches: {ex.Message}");
             }
+        }
+
+        // === INotifyPropertyChanged Implementation ===
+        public event PropertyChangedEventHandler PropertyChanged;
+
+        protected void OnPropertyChanged([CallerMemberName] string propertyName = null)
+        {
+            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
         }
     }
 }
+
 

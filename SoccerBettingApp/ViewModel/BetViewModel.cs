@@ -44,7 +44,7 @@ namespace SoccerBettingApp.ViewModel
 
             var bet = new Bet
             {
-                MatchId = SelectedMatch.MatchId,
+                // MatchId = SelectedMatch.MatchId, ?????
                 SelectedOutcome = SelectedOutcome,
                 PlacedAt = DateTime.Now,
                 UserId = currentUser.Id

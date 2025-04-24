@@ -1,29 +1,19 @@
-<!-- Views/MatchListPage.xaml -->
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="SoccerBettingApp.View.MatchListPage"
-             Title="Matches">
-    <VerticalStackLayout Padding="20">
-        <CollectionView ItemsSource="{Binding Matches}">
-            <CollectionView.ItemTemplate>
-                <DataTemplate>
-                    <Frame BorderColor="Gray" Padding="10" Margin="5">
-                        <VerticalStackLayout>
-                            <Label Text="{Binding HomeTeam}" FontAttributes="Bold"/>
-                            <Label Text="vs"/>
-                            <Label Text="{Binding AwayTeam}" FontAttributes="Bold"/>
-                            <Label Text="{Binding MatchDate}" FontSize="12"/>
-                            <Button Text="Place Bet"
-                                    Clicked="OnPlaceBetClicked"
-                                    CommandParameter="{Binding}" />
-                        </VerticalStackLayout>
-                    </Frame>
-                </DataTemplate>
-            </CollectionView.ItemTemplate>
-        </CollectionView>
-
-        <Button Text="View My History"
-                Clicked="OnHistoryClicked"
-                HorizontalOptions="Center" />
-    </VerticalStackLayout>
+             Title="Upcoming Matches">
+    <CollectionView ItemsSource="{Binding Matches}">
+        <CollectionView.ItemTemplate>
+            <DataTemplate>
+                <Frame Margin="10" Padding="10" BorderColor="Gray" CornerRadius="10">
+                    <StackLayout>
+                        <Label Text="{Binding DisplayTitle}" FontAttributes="Bold" FontSize="18"/>
+                        <Label Text="{Binding DisplayDate}" FontSize="14" TextColor="Gray"/>
+                    </StackLayout>
+                </Frame>
+            </DataTemplate>
+        </CollectionView.ItemTemplate>
+    </CollectionView>
 </ContentPage>
+
+
