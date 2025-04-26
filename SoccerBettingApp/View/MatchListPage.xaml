@@ -118,7 +118,7 @@
                                     <Frame.GestureRecognizers>
                                         <TapGestureRecognizer Command="{Binding SelectAwayCommand}"/>
                                     </Frame.GestureRecognizers>
-                                    <Label Text="{Binding AwayValue}" 
+                                    <Label Text="test" 
                                            FontSize="14" 
                                            TextColor="#333333" 
                                            HorizontalOptions="Center" 

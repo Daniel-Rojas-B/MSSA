@@ -1,59 +1,46 @@
-﻿//using System;
-//using System.Collections.Generic;
-//using System.Linq;
-//using System.Text;
-//using System.Text.Json;
-//using System.Threading.Tasks;
+﻿//using System.Net.Http.Json;
 //using SoccerBettingApp.Model;
 
-//namespace SoccerBettingApp.Services
+//public class MatchService
 //{
-//    public class MatchService
+//    private readonly HttpClient _httpClient;
+
+//    public MatchService()
 //    {
-//        private readonly HttpClient _httpClient;
-//        private const string ApiUrl = "https://api.sportmonks.com/v3/football/fixtures/between/2025-04-24/2025-05-01?api_token=DBsyG5AnMjQ31nhvc4yLGQZXhPnVtPxEZzw2htf96A4wCxnEpRd0mYkPULrJ&filters=fixtureLeagues:8";
+//        _httpClient = new HttpClient();
+//    }
 
-//        public MatchService()
+//    public async Task<List<Match>> GetMatchesAsync()
+//    {
+//        var url = "https://api.sportmonks.com/v3/football/fixtures/between/2025-04-24/2025-05-01?api_token=DBsyG5AnMjQ31nhvc4yLGQZXhPnVtPxEZzw2htf96A4wCxnEpRd0mYkPULrJ&include=odds&filters=markets:1;fixtureLeagues:8";
+
+//        var response = await _httpClient.GetAsync(url);
+//        if (!response.IsSuccessStatusCode)
+//            return new List<Match>();
+
+//        var jsonString = await response.Content.ReadAsStringAsync();
+
+//        var apiResponse = JsonSerializer.Deserialize<ApiResponse>(jsonString);
+
+//        // Map the API response to your Match objects
+//        var matches = new List<Match>();
+
+//        foreach (var fixture in apiResponse.data)
 //        {
-//            _httpClient = new HttpClient();
+//            var match = new Match
+//            {
+//                DisplayTitle = $"{fixture.homeTeamName} vs {fixture.awayTeamName}",
+//                DisplayDate = fixture.starting_at.ToString("g"),
+//                HomeValue = fixture.odds?.FirstOrDefault(x => x.label == "Home")?.value ?? "-",
+//                TieValue = fixture.odds?.FirstOrDefault(x => x.label == "Draw")?.value ?? "-",
+//                AwayValue = fixture.odds?.FirstOrDefault(x => x.label == "Away")?.value ?? "-"
+//            };
+//            matches.Add(match);
 //        }
 
-//        public async Task<List<Match>> GetMatchesAsync()
-//        {
-//            try
-//            {
-//                var response = await _httpClient.GetStringAsync(ApiUrl);
-//                var jsonDoc = JsonDocument.Parse(response);
-
-//                var matches = new List<Match>();
-
-//                if (jsonDoc.RootElement.TryGetProperty("data", out JsonElement dataArray))
-//                {
-//                    foreach (var item in dataArray.EnumerateArray())
-//                    {
-//                        System.Diagnostics.Debug.WriteLine($"Raw starting_at: {item.GetProperty("starting_at")}");
-//                        var name = item.GetProperty("name").GetString();
-
-//                        var startingAt = item.GetProperty("starting_at").GetString();
-
-//                        matches.Add(new Match
-//                        {
-//                            Name = name,
-//                            StartingAt = startingAt
-                            
-//                        });
-//                    }
-//                }
-
-//                return matches;
-//            }
-//            catch (Exception ex)
-//            {
-//                Console.WriteLine($"Error fetching matches: {ex.Message}");
-//                return new List<Match>();
-//            }
-//        }
+//        return matches;
 //    }
 //}
 
-    
+
+

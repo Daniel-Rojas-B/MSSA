@@ -39,10 +39,12 @@ namespace SoccerBettingApp.ViewModel
                     // Add each match to the ObservableCollection individually
                     foreach (var match in matches)
                     {
-                        System.Diagnostics.Debug.WriteLine($"Loaded Match: {match.Name}, Date: {match.StartingAt}");  // debugging line
+                        // System.Diagnostics.Debug.WriteLine($"Loaded Match: {match.Name}, Date: {match.StartingAt}");  // debugging line
                         
                         Matches.Add(match);
                     }
+                    // Now load the odds for the matches
+                    await LoadOdds();
                 }
                 else
                 {
@@ -56,6 +58,40 @@ namespace SoccerBettingApp.ViewModel
                 Console.WriteLine($"Error loading matches: {ex.Message}");
             }
         }
+
+        // LoadOdds method now fetches odds for the matches
+        private async Task LoadOdds()
+        {
+            try
+            {
+                // Get the matches with odds
+                var matchesWithOdds = await _soccerApiService.GetMatchOddsAsync();
+
+                // Update the Matches collection with odds data
+                foreach (var match in matchesWithOdds)
+                {
+                    // Update the properties with the fetched odds
+                    var existingMatch = Matches.FirstOrDefault(m => m.MatchId == match.MatchId);
+                    if (existingMatch != null)
+                    {
+                        existingMatch.HomeValue = match.HomeValue;
+                        existingMatch.TieValue = match.TieValue;
+                        existingMatch.AwayValue = match.AwayValue;
+
+                        
+                    }
+                }
+
+                // Notify the UI about the changes to the matches (with odds)
+                OnPropertyChanged(nameof(Matches)); // Notify UI that the collection has changed
+            }
+            catch (Exception ex)
+            {
+                // Handle the error if something goes wrong
+                Console.WriteLine($"Error loading odds: {ex.Message}");
+            }
+        }
+
 
         // === INotifyPropertyChanged Implementation ===
         public event PropertyChangedEventHandler PropertyChanged;
