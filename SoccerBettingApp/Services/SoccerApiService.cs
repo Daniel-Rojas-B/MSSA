@@ -29,6 +29,7 @@ namespace SoccerBettingApp.Services
 
                 string json = await response.Content.ReadAsStringAsync();
 
+                System.Diagnostics.Debug.WriteLine("Raw JSON response:\n" + json);
 
 
                 if (string.IsNullOrEmpty(json))
@@ -41,6 +42,7 @@ namespace SoccerBettingApp.Services
                 // If your API returns a wrapper object around matches, you may need to adjust this line
                 var apiResponse = JsonConvert.DeserializeObject<MatchApiResponse>(json);
                 return apiResponse?.Data ?? new List<Match>();
+                
 
                 if (apiResponse == null || apiResponse.Data == null)
                 {

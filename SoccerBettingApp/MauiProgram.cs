@@ -27,7 +27,7 @@ namespace SoccerBettingApp
             // 👇 Register services
             builder.Services.AddSingleton<AzureSqlService>();
             builder.Services.AddSingleton<UserService>();
-            builder.Services.AddSingleton<MatchService>();
+            //builder.Services.AddSingleton<MatchService>();
             builder.Services.AddSingleton<BetService>();
 
             builder.Services.AddSingleton<HttpClient>();

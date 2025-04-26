@@ -8,7 +8,7 @@
                 <Frame Margin="10" Padding="10" BorderColor="Gray" CornerRadius="10">
                     <StackLayout>
                         <Label Text="{Binding DisplayTitle}" FontAttributes="Bold" FontSize="18"/>
-                        <Label Text="{Binding DisplayDate}" FontSize="14" TextColor="Gray"/>
+                        <Label Text="{Binding DisplayDate}" FontSize="10" TextColor="Grey"/>
                     </StackLayout>
                 </Frame>
             </DataTemplate>

@@ -14,7 +14,7 @@ namespace SoccerBettingApp.ViewModel
     {
         private readonly SoccerApiService _soccerApiService;
 
-        public ObservableCollection<Match> Matches { get; set; } = new();
+        public ObservableCollection<Match> Matches { get; set; } = new ObservableCollection<Match>();
 
         // Constructor accepts SoccerApiService, which will be injected
         public MatchListViewModel(SoccerApiService soccerApiService)
@@ -39,6 +39,8 @@ namespace SoccerBettingApp.ViewModel
                     // Add each match to the ObservableCollection individually
                     foreach (var match in matches)
                     {
+                        System.Diagnostics.Debug.WriteLine($"Loaded Match: {match.Name}, Date: {match.StartingAt}");  // debugging line
+                        
                         Matches.Add(match);
                     }
                 }
