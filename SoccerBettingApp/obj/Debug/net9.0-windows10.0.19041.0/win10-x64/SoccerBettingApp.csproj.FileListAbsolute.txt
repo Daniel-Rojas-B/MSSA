@@ -526,3 +526,5 @@ C:\Users\danie\Documents\MSSA\SoccerBettingApp\obj\Debug\net9.0-windows10.0.1904
 C:\Users\danie\Documents\MSSA\SoccerBettingApp\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\qualifiers.txt
 C:\Users\danie\Documents\MSSA\SoccerBettingApp\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\qualifiers.txt.intermediate
 C:\Users\danie\Documents\MSSA\SoccerBettingApp\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\MultipleQualifiersPerDimensionFound.txt
+C:\Users\danie\Documents\MSSA\SoccerBettingApp\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\backgroundmatches.scale-100.png
+C:\Users\danie\Documents\MSSA\SoccerBettingApp\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\backgroundmatches.scale-100.png

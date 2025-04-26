@@ -1,20 +1,34 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:xct="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
              x:Class="SoccerBettingApp.View.MatchListPage"
              Title="Upcoming Matches"
-             BackgroundColor="#F5F5F5">
+             BackgroundColor="#1A1A1A">
+
     <CollectionView ItemsSource="{Binding Matches}">
         <CollectionView.ItemTemplate>
             <DataTemplate>
                 <Frame Margin="10" 
                        Padding="15" 
-                       BorderColor="#E0E0E0" 
-                       CornerRadius="15" 
-                       BackgroundColor="White"
-                       HasShadow="True">
+                       BorderColor="Transparent"
+                       CornerRadius="20" 
+                       HasShadow="True"
+                       IsClippedToBounds="True">
+
+                    <!-- Fancy Gradient Background -->
+                    <Frame.Background>
+                        <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                            <GradientStop Color="#0F2027" Offset="0.0" />
+                            <GradientStop Color="#203A43" Offset="0.5" />
+                            <GradientStop Color="#2C5364" Offset="1.0" />
+                        </LinearGradientBrush>
+                    </Frame.Background>
+
                     <Grid ColumnDefinitions="2*,3*,2*,1*" 
                           ColumnSpacing="10" 
-                          RowSpacing="10">
+                          RowSpacing="10"
+                          Padding="10">
+
                         <!-- First Column: Title and Date -->
                         <StackLayout Grid.Column="0" 
                                      VerticalOptions="Center" 
@@ -22,17 +36,18 @@
                             <Label Text="{Binding DisplayTitle}" 
                                    FontAttributes="Bold" 
                                    FontSize="16" 
-                                   TextColor="#333333"/>
+                                   TextColor="White"/>
                             <Label Text="{Binding DisplayDate}" 
                                    FontSize="12" 
-                                   TextColor="#666666"/>
+                                   TextColor="#CCCCCC"/>
                         </StackLayout>
 
-                        <!-- Second Column: Home, Tie, Away (Horizontal) -->
+                        <!-- Second Column: Home, Tie, Away -->
                         <Grid Grid.Column="1" 
                               ColumnDefinitions="*,*,*" 
                               ColumnSpacing="10" 
                               VerticalOptions="Center">
+
                             <!-- Home -->
                             <StackLayout Grid.Column="0" 
                                          Spacing="5" 
@@ -40,14 +55,14 @@
                                 <Label Text="Home" 
                                        FontAttributes="Bold" 
                                        FontSize="14" 
-                                       TextColor="#333333" 
+                                       TextColor="White" 
                                        HorizontalOptions="Center"/>
-                                <Frame BackgroundColor="{Binding HomeSelected, Converter={StaticResource BoolToColorConverter}, ConverterParameter='Home'}" 
-                                       BorderColor="#D0D0D0" 
+                                <Frame BorderColor="#D0D0D0" 
                                        CornerRadius="8" 
                                        Padding="10" 
                                        HeightRequest="50" 
-                                       WidthRequest="80">
+                                       WidthRequest="50"
+                                       BackgroundColor="{Binding HomeSelected, Converter={StaticResource BoolToColorConverter}, ConverterParameter='Home'}">
                                     <Frame.GestureRecognizers>
                                         <TapGestureRecognizer Command="{Binding SelectHomeCommand}"/>
                                     </Frame.GestureRecognizers>
@@ -66,14 +81,14 @@
                                 <Label Text="Tie" 
                                        FontAttributes="Bold" 
                                        FontSize="14" 
-                                       TextColor="#333333" 
+                                       TextColor="White" 
                                        HorizontalOptions="Center"/>
-                                <Frame BackgroundColor="{Binding TieSelected, Converter={StaticResource BoolToColorConverter}, ConverterParameter='Tie'}" 
-                                       BorderColor="#D0D0D0" 
+                                <Frame BorderColor="#D0D0D0" 
                                        CornerRadius="8" 
                                        Padding="10" 
                                        HeightRequest="50" 
-                                       WidthRequest="80">
+                                       WidthRequest="50"
+                                       BackgroundColor="{Binding TieSelected, Converter={StaticResource BoolToColorConverter}, ConverterParameter='Tie'}">
                                     <Frame.GestureRecognizers>
                                         <TapGestureRecognizer Command="{Binding SelectTieCommand}"/>
                                     </Frame.GestureRecognizers>
@@ -92,14 +107,14 @@
                                 <Label Text="Away" 
                                        FontAttributes="Bold" 
                                        FontSize="14" 
-                                       TextColor="#333333" 
+                                       TextColor="White" 
                                        HorizontalOptions="Center"/>
-                                <Frame BackgroundColor="{Binding AwaySelected, Converter={StaticResource BoolToColorConverter}, ConverterParameter='Away'}" 
-                                       BorderColor="#D0D0D0" 
+                                <Frame BorderColor="#D0D0D0" 
                                        CornerRadius="8" 
                                        Padding="10" 
                                        HeightRequest="50" 
-                                       WidthRequest="80">
+                                       WidthRequest="50"
+                                       BackgroundColor="{Binding AwaySelected, Converter={StaticResource BoolToColorConverter}, ConverterParameter='Away'}">
                                     <Frame.GestureRecognizers>
                                         <TapGestureRecognizer Command="{Binding SelectAwayCommand}"/>
                                     </Frame.GestureRecognizers>
@@ -119,17 +134,18 @@
                             <Label Text="Bet" 
                                    FontAttributes="Bold" 
                                    FontSize="14" 
-                                   TextColor="#333333" 
+                                   TextColor="White" 
                                    HorizontalOptions="Center"/>
                             <Frame BorderColor="Transparent" 
                                    CornerRadius="8" 
                                    Padding="10" 
+                                   WidthRequest="70"
                                    BackgroundColor="White">
                                 <Entry Text="{Binding BetAmount}" 
                                        Keyboard="Numeric" 
                                        TextColor="#333333" 
-                                       FontSize="14" 
-                                       Placeholder="Enter amount" 
+                                       FontSize="9" 
+                                       Placeholder="Amount" 
                                        HorizontalOptions="FillAndExpand" 
                                        VerticalOptions="Center"/>
                             </Frame>
@@ -138,7 +154,7 @@
                         <!-- Fourth Column: Bet Button -->
                         <Button Grid.Column="3" 
                                 Text="Bet" 
-                                BackgroundColor="#4CAF50" 
+                                BackgroundColor="#00C853" 
                                 TextColor="White" 
                                 FontAttributes="Bold" 
                                 FontSize="14" 
@@ -148,6 +164,7 @@
                                 HorizontalOptions="Center" 
                                 Command="{Binding PlaceBetCommand}"/>
                     </Grid>
+
                 </Frame>
             </DataTemplate>
         </CollectionView.ItemTemplate>
