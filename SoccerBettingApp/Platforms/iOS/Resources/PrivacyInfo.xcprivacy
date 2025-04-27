@@ -37,7 +37,9 @@ More information: https://aka.ms/maui-privacy-manifest
             </array>
         </dict>
         <!--
-            The entry below is only needed when you're using the Preferences API in your app.
+            The 
+			
+below is only needed when you're using the Preferences API in your app.
         <dict>
             <key>NSPrivacyAccessedAPIType</key>
             <string>NSPrivacyAccessedAPICategoryUserDefaults</string>

@@ -19,6 +19,19 @@ namespace SoccerBettingApp.Model
     }
     public class Match : INotifyPropertyChanged
     {
+        decimal _betAmount;
+        public decimal BetAmount
+        {
+            get => _betAmount;
+            set
+            {
+                if (_betAmount != value)
+                {
+                    _betAmount = value;
+                    OnPropertyChanged();
+                }
+            }
+        }
         [JsonProperty("id")]
         public int MatchId { get; set; }
 
@@ -92,15 +105,15 @@ namespace SoccerBettingApp.Model
         public bool IsAwaySelected => SelectedOutcome == "Away";
 
         // Commands
-        public ICommand SelectHomeCommand { get; }
-        public ICommand SelectTieCommand { get; }
-        public ICommand SelectAwayCommand { get; }
+        public ICommand SelectHomeCommand { get; set; }
+        public ICommand SelectTieCommand { get; set; }
+        public ICommand SelectAwayCommand { get; set; }
 
         public Match()
         {
-            SelectHomeCommand = new Command(() => SelectedOutcome = "Home");
-            SelectTieCommand = new Command(() => SelectedOutcome = "Tie");
-            SelectAwayCommand = new Command(() => SelectedOutcome = "Away");
+            SelectHomeCommand = new Command(SelectHome);
+            SelectTieCommand = new Command(SelectTie);
+            SelectAwayCommand = new Command(SelectAway);
         }
 
         // Odds for this match
@@ -112,6 +125,21 @@ namespace SoccerBettingApp.Model
         {
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
         }
+        public void SelectHome()
+        {
+            SelectedOutcome = "Home";
+        }
+
+        public void SelectTie()
+        {
+            SelectedOutcome = "Tie";
+        }
+
+        public void SelectAway()
+        {
+            SelectedOutcome = "Away";
+        }
+
     }
 
     public class MatchApiResponse
@@ -119,4 +147,6 @@ namespace SoccerBettingApp.Model
         [JsonProperty("data")]
         public List<Match> Data { get; set; }
     }
+
+
 }

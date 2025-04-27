@@ -6,10 +6,9 @@ namespace SoccerBettingApp.View;
 
 public partial class BetPage : ContentPage
 {
-    public BetPage(BetViewModel viewModel, Match selectedMatch)
+    public BetPage(BetViewModel viewModel)
     {
         InitializeComponent();
-        viewModel.SelectedMatch = selectedMatch;
         BindingContext = viewModel;
     }
 }

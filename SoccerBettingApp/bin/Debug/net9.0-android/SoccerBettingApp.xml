@@ -4,6 +4,15 @@
         <name>SoccerBettingApp</name>
     </assembly>
     <members>
+        <member name="T:SoccerBettingApp.ViewModel.BetViewModel">
+            <inheritdoc/>
+        </member>
+        <member name="F:SoccerBettingApp.ViewModel.BetViewModel.loadBetsCommand">
+            <summary>The backing field for <see cref="P:SoccerBettingApp.ViewModel.BetViewModel.LoadBetsCommand"/>.</summary>
+        </member>
+        <member name="P:SoccerBettingApp.ViewModel.BetViewModel.LoadBetsCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:SoccerBettingApp.ViewModel.BetViewModel.LoadBetsAsync"/>.</summary>
+        </member>
         <member name="T:SoccerBettingApp.ViewModel.MatchListViewModel">
             <inheritdoc/>
             <inheritdoc/>

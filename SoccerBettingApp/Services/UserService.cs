@@ -10,7 +10,7 @@ namespace SoccerBettingApp.Services
     public class UserService
     {
         private readonly List<User> _users = new();
-        public User CurrentUser { get; private set; }
+        public User CurrentUser { get; set; }
 
         public bool Login(string username)
         {

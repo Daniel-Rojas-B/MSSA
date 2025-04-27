@@ -2,6 +2,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:xct="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
              xmlns:converters="clr-namespace:SoccerBettingApp.Converters"
+             xmlns:vm="clr-namespace:SoccerBettingApp.ViewModel"
              x:Class="SoccerBettingApp.View.MatchListPage"
              Title="Upcoming Matches"
              BackgroundColor="#1A1A1A">
@@ -12,7 +13,9 @@
         </ResourceDictionary>
     </ContentPage.Resources>
 
-    <CollectionView ItemsSource="{Binding Matches}">
+    <CollectionView ItemsSource="{Binding Matches}"
+                    SelectionMode="Single"
+                    SelectedItem="{Binding SelectedMatch, Mode=TwoWay}">
         <CollectionView.ItemTemplate>
             <DataTemplate>
                 <Frame Margin="10" 
@@ -148,13 +151,10 @@
                                    Padding="10" 
                                    WidthRequest="70"
                                    BackgroundColor="White">
-                                <Entry Text="{Binding BetAmount}" 
-                                       Keyboard="Numeric" 
-                                       TextColor="#333333" 
-                                       FontSize="9" 
-                                       Placeholder="Amount" 
-                                       HorizontalOptions="FillAndExpand" 
-                                       VerticalOptions="Center"/>
+                                <Entry 
+                                      Text="{Binding BetAmount, Mode=TwoWay}" 
+                                      Keyboard="Numeric"
+                                      Placeholder="Amount" />       
                             </Frame>
                         </StackLayout>
 
@@ -169,7 +169,7 @@
                                 HeightRequest="50" 
                                 VerticalOptions="Center" 
                                 HorizontalOptions="Center" 
-                                Command="{Binding PlaceBetCommand}"/>
+                                Command="{Binding Source={RelativeSource AncestorType={x:Type vm:MatchListViewModel}},Path=PlaceBetCommand}"/>
                     </Grid>
 
                 </Frame>
