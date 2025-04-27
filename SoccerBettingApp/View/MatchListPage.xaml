@@ -66,7 +66,7 @@
                                     <Frame.GestureRecognizers>
                                         <TapGestureRecognizer Command="{Binding SelectHomeCommand}"/>
                                     </Frame.GestureRecognizers>
-                                    <Label Text="{Binding HomeValue}" 
+                                    <Label Text="{Binding HomeValue, FallbackValue='N/A'}" 
                                            FontSize="14" 
                                            TextColor="#333333" 
                                            HorizontalOptions="Center" 
@@ -92,7 +92,7 @@
                                     <Frame.GestureRecognizers>
                                         <TapGestureRecognizer Command="{Binding SelectTieCommand}"/>
                                     </Frame.GestureRecognizers>
-                                    <Label Text="{Binding TieValue}" 
+                                    <Label Text="{Binding TieValue, FallbackValue='N/A'}" 
                                            FontSize="14" 
                                            TextColor="#333333" 
                                            HorizontalOptions="Center" 
@@ -118,7 +118,7 @@
                                     <Frame.GestureRecognizers>
                                         <TapGestureRecognizer Command="{Binding SelectAwayCommand}"/>
                                     </Frame.GestureRecognizers>
-                                    <Label Text="test" 
+                                    <Label Text="{Binding AwayValue, FallbackValue='N/A'}" 
                                            FontSize="14" 
                                            TextColor="#333333" 
                                            HorizontalOptions="Center" 

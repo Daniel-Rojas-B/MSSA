@@ -1,7 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Globalization;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 using Newtonsoft.Json;
@@ -14,7 +16,7 @@ namespace SoccerBettingApp.Model
         public string Value { get; set; } // The odds value
         public int BookmakerId { get; set; } // Bookmaker ID
     }
-    public class Match
+    public class Match : INotifyPropertyChanged
     {
         [JsonProperty("id")]
         public int MatchId { get; set; }
@@ -31,13 +33,40 @@ namespace SoccerBettingApp.Model
             DateTime.TryParse(StartingAt, out var date)
                 ? date.ToString("dddd, MMMM dd, yyyy hh:mm tt")
                 : StartingAt ?? "No date available";
-        
-        
-        public string HomeValue { get; set; }
-        
-        public string TieValue { get; set; }
-        
-        public string AwayValue { get; set; }
+
+
+        private string _homeValue;
+        public string HomeValue
+        {
+            get => _homeValue;
+            set
+            {
+                _homeValue = value;
+                OnPropertyChanged();
+            }
+        }
+
+        private string _tieValue;
+        public string TieValue
+        {
+            get => _tieValue;
+            set
+            {
+                _tieValue = value;
+                OnPropertyChanged();
+            }
+        }
+
+        private string _awayValue;
+        public string AwayValue
+        {
+            get => _awayValue;
+            set
+            {
+                _awayValue = value;
+                OnPropertyChanged();
+            }
+        } 
 
         // boolean properties for background color change
         public bool HomeSelected { get; set; }
@@ -46,6 +75,13 @@ namespace SoccerBettingApp.Model
 
         // Odds for this match
         public List<MatchOdd> Odds { get; set; } = new List<MatchOdd>();
+
+        public event PropertyChangedEventHandler PropertyChanged;
+
+        protected virtual void OnPropertyChanged([CallerMemberName] string propertyName = null)
+        {
+            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
+        }
     }
 
     public class MatchApiResponse

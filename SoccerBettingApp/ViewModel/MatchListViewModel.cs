@@ -12,6 +12,7 @@ namespace SoccerBettingApp.ViewModel
 {
     public class MatchListViewModel : INotifyPropertyChanged
     {
+        
         private readonly SoccerApiService _soccerApiService;
 
         public ObservableCollection<Match> Matches { get; set; } = new ObservableCollection<Match>();
@@ -25,7 +26,7 @@ namespace SoccerBettingApp.ViewModel
         }
 
         // LoadMatches method now uses SoccerApiService to get matches
-        private async Task LoadMatches()
+        public async Task LoadMatches()
         {
             try
             {
@@ -66,10 +67,12 @@ namespace SoccerBettingApp.ViewModel
             {
                 // Get the matches with odds
                 var matchesWithOdds = await _soccerApiService.GetMatchOddsAsync();
+                Console.WriteLine($"Fetched {matchesWithOdds.Count} matches with odds");
 
                 // Update the Matches collection with odds data
                 foreach (var match in matchesWithOdds)
                 {
+                    Console.WriteLine($"Match: {match.Name}, Home: {match.HomeValue}, Tie: {match.TieValue}, Away: {match.AwayValue}");
                     // Update the properties with the fetched odds
                     var existingMatch = Matches.FirstOrDefault(m => m.MatchId == match.MatchId);
                     if (existingMatch != null)
@@ -78,7 +81,7 @@ namespace SoccerBettingApp.ViewModel
                         existingMatch.TieValue = match.TieValue;
                         existingMatch.AwayValue = match.AwayValue;
 
-                        
+                        Console.WriteLine($"Updated match {existingMatch.Name} with odds");
                     }
                 }
 
