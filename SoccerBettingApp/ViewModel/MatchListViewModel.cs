@@ -7,25 +7,90 @@ using Microsoft.Maui.Controls;
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
 using Newtonsoft.Json;
+using System.Linq;
+using CommunityToolkit.Mvvm.ComponentModel;
+using CommunityToolkit.Mvvm.Input;
 
 namespace SoccerBettingApp.ViewModel
 {
-    public class MatchListViewModel : INotifyPropertyChanged
+    public partial class MatchListViewModel : ObservableObject
+
     {
         
         private readonly SoccerApiService _soccerApiService;
+        readonly AzureSqlService _db;
+        readonly UserService _user;
 
-        public ObservableCollection<Match> Matches { get; set; } = new ObservableCollection<Match>();
+        public ObservableCollection<Match> Matches { get; set; } = new();
 
-        public Match SelectedMatch => Matches.FirstOrDefault(m =>
-        m.IsHomeSelected || m.IsTieSelected || m.IsAwaySelected);
+        [ObservableProperty] 
+        private Match selectedMatch;
+
+        [ObservableProperty] 
+        private decimal betAmount;
+
+        // DIFFERENT property (no conflict with SelectedMatch)
+        public Match FirstSelectedMatch => Matches.FirstOrDefault(m => m.IsHomeSelected || m.IsTieSelected || m.IsAwaySelected);
 
         // Constructor accepts SoccerApiService, which will be injected
-        public MatchListViewModel(SoccerApiService soccerApiService)
+        public MatchListViewModel(SoccerApiService soccerApiService, AzureSqlService db,  UserService userService)
         {
             _soccerApiService = soccerApiService;
-            Matches = new ObservableCollection<Match>();
-            LoadMatches();
+            _db = db;
+            _user = userService;
+            _ = LoadMatchesAsync();
+        }
+
+        [RelayCommand]
+        private async Task LoadMatchesAsync()
+        {
+            try
+            {
+                var list = await _soccerApiService.GetMatchOddsAsync();
+                Matches.Clear();
+                foreach (var m in list)
+                    Matches.Add(m);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error loading matches: {ex.Message}");
+            }
+        }
+
+        [RelayCommand]
+        private async Task PlaceBetAsync()
+        {
+            if (SelectedMatch == null || SelectedMatch.SelectedOutcome == null || BetAmount <= 0)
+            {
+                await Application.Current.MainPage.DisplayAlert("Error", "Select Home/Tie/Away and enter an amount", "OK");
+                return;
+            }
+
+            var user = _user.CurrentUser;
+            if (user == null)
+            {
+                await Application.Current.MainPage.DisplayAlert("Error", "Not logged in", "OK");
+                return;
+            }
+
+            var bet = new Bet
+            {
+                MatchId = SelectedMatch.MatchId,
+                MatchName = SelectedMatch.Name,
+                SelectedOutcome = SelectedMatch.SelectedOutcome,
+                Amount = BetAmount,
+                PlacedAt = DateTime.UtcNow,
+                UserId = user.Id
+            };
+
+            await _db.PlaceBetAsync(bet);
+
+            // Reset
+            BetAmount = 0;
+            SelectedMatch.SelectedOutcome = null;
+
+            // Navigate to MyBets
+            await Shell.Current.GoToAsync(nameof(View.BetPage));
         }
 
         // LoadMatches method now uses SoccerApiService to get matches
@@ -99,13 +164,7 @@ namespace SoccerBettingApp.ViewModel
         }
 
 
-        // === INotifyPropertyChanged Implementation ===
-        public event PropertyChangedEventHandler PropertyChanged;
-
-        protected void OnPropertyChanged([CallerMemberName] string propertyName = null)
-        {
-            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
-        }
+        
     }
 }
 

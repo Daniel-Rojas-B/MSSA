@@ -1,10 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Microsoft.Data.SqlClient;
 using Microsoft.Extensions.Configuration;
+using SoccerBettingApp.Model;
 
 namespace SoccerBettingApp.Services
 {    
@@ -80,7 +82,52 @@ namespace SoccerBettingApp.Services
                 }
             }
         }
+        public async Task PlaceBetAsync(Bet bet)
+        {
+            const string sql = @"
+    INSERT INTO dbo.Bets (MatchId, MatchName, SelectedOutcome, Amount, PlacedAt, UserId)
+    VALUES (@m,@n,@o,@a,@p,@u)";
+            await using var conn = new SqlConnection(_connectionString);
+            await conn.OpenAsync();
+            await using var cmd = new SqlCommand(sql, conn);
+            cmd.Parameters.AddWithValue("@m", bet.MatchId);
+            cmd.Parameters.AddWithValue("@n", bet.MatchName);
+            cmd.Parameters.AddWithValue("@o", bet.SelectedOutcome);
+            cmd.Parameters.AddWithValue("@a", bet.Amount);
+            cmd.Parameters.AddWithValue("@p", bet.PlacedAt);
+            cmd.Parameters.AddWithValue("@u", bet.UserId);
+            await cmd.ExecuteNonQueryAsync();
+        }
 
+        public async Task<List<Bet>> GetUserBetsAsync(Guid userId)
+        {
+            const string sql = @"
+    SELECT BetId,MatchId,MatchName,SelectedOutcome,Amount,PlacedAt,UserId,IsCorrect
+      FROM dbo.Bets
+     WHERE UserId = @u
+  ORDER BY PlacedAt DESC";
+            var list = new List<Bet>();
+            await using var conn = new SqlConnection(_connectionString);
+            await conn.OpenAsync();
+            await using var cmd = new SqlCommand(sql, conn);
+            cmd.Parameters.AddWithValue("@u", userId);
+            await using var rdr = await cmd.ExecuteReaderAsync(CommandBehavior.CloseConnection);
+            while (await rdr.ReadAsync())
+            {
+                list.Add(new Bet
+                {
+                    BetId = rdr.GetInt32(0),
+                    MatchId = rdr.GetInt32(1),
+                    MatchName = rdr.GetString(2),
+                    SelectedOutcome = rdr.GetString(3),
+                    Amount = rdr.GetDecimal(4),
+                    PlacedAt = rdr.GetDateTime(5),
+                    UserId = rdr.GetGuid(6),
+                    IsCorrect = rdr.IsDBNull(7) ? null : rdr.GetBoolean(7)
+                });
+            }
+            return list;
+        }
 
         // You can add methods like RegisterUserAsync(), PlaceBetAsync(), GetMatchListAsync(), etc.
     }

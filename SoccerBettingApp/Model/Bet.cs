@@ -8,10 +8,13 @@ namespace SoccerBettingApp.Model
 {
     public class Bet
     {
-        public string MatchId { get; set; }
-        public string SelectedOutcome { get; set; } // "Win", "Draw", "Lose"
+        public int BetId { get; set; }         // identity PK
+        public int MatchId { get; set; }         // was string
+        public string MatchName { get; set; }         // store name too
+        public string SelectedOutcome { get; set; }       // "Home"/"Tie"/"Away"
+        public decimal Amount { get; set; }
         public DateTime PlacedAt { get; set; }
         public Guid UserId { get; set; }
-        public bool? IsCorrect { get; set; } // null until match is complete
+        public bool? IsCorrect { get; set; }         // optional
     }
 }

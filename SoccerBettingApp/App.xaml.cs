@@ -5,17 +5,19 @@ namespace SoccerBettingApp
 {
     public partial class App : Application
     {
-        public App(LoginPage loginPage)
+        public static IServiceProvider Services { get; private set; }
+
+        public App(IServiceProvider services)
         {
             InitializeComponent();
-            MainPage = new NavigationPage(loginPage); // Or use NavigationPage(new LoginPage()) if not using Shell
+
+            Services = services;
+
+            
+            MainPage = new NavigationPage(App.Services.GetRequiredService<LoginPage>());
+
         }
-
-        //  Safe access to the DI service provider
-        public static IServiceProvider Services =>
-            Current?.Handler?.MauiContext?.Services!;
-
-
     }
 }
+
 

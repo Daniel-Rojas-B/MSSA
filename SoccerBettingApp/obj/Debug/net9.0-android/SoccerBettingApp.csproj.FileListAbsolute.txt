@@ -28,9 +28,9 @@ C:\Users\danie\Documents\MSSA\SoccerBettingApp\obj\Debug\net9.0-android\mauifont
 C:\Users\danie\Documents\MSSA\SoccerBettingApp\obj\Debug\net9.0-android\resizetizer\f\FluentUI.cs
 C:\Users\danie\Documents\MSSA\SoccerBettingApp\obj\Debug\net9.0-android\resizetizer\f\OpenSans-Regular.ttf
 C:\Users\danie\Documents\MSSA\SoccerBettingApp\obj\Debug\net9.0-android\resizetizer\f\OpenSans-Semibold.ttf
-C:\Users\danie\Documents\MSSA\SoccerBettingApp\obj\Debug\net9.0-android\resizetizer\r\drawable\backgroundmatches.png
-C:\Users\danie\Documents\MSSA\SoccerBettingApp\obj\Debug\net9.0-android\resizetizer\r\drawable\background3.jpg
 C:\Users\danie\Documents\MSSA\SoccerBettingApp\obj\Debug\net9.0-android\resizetizer\r\drawable\background2.jpg
+C:\Users\danie\Documents\MSSA\SoccerBettingApp\obj\Debug\net9.0-android\resizetizer\r\drawable\background3.jpg
+C:\Users\danie\Documents\MSSA\SoccerBettingApp\obj\Debug\net9.0-android\resizetizer\r\drawable\backgroundmatches.png
 C:\Users\danie\Documents\MSSA\SoccerBettingApp\obj\Debug\net9.0-android\resizetizer\r\drawable\background.jpg
 C:\Users\danie\Documents\MSSA\SoccerBettingApp\obj\Debug\net9.0-android\resizetizer\r\drawable\background4.png
 C:\Users\danie\Documents\MSSA\SoccerBettingApp\obj\Debug\net9.0-android\resizetizer\r\drawable-xxxhdpi\dotnet_bot.png
@@ -181,6 +181,10 @@ C:\Users\danie\Documents\MSSA\SoccerBettingApp\obj\Debug\net9.0-android\android\
 C:\Users\danie\Documents\MSSA\SoccerBettingApp\obj\Debug\net9.0-android\android\assets\x86_64\Microsoft.Bcl.Cryptography.dll
 C:\Users\danie\Documents\MSSA\SoccerBettingApp\obj\Debug\net9.0-android\android\assets\x86_64\Microsoft.CSharp.dll
 C:\Users\danie\Documents\MSSA\SoccerBettingApp\obj\Debug\net9.0-android\android\assets\x86_64\Microsoft.Data.SqlClient.dll
+C:\Users\danie\Documents\MSSA\SoccerBettingApp\obj\Debug\net9.0-android\android\assets\x86_64\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\danie\Documents\MSSA\SoccerBettingApp\obj\Debug\net9.0-android\android\assets\x86_64\Microsoft.EntityFrameworkCore.dll
+C:\Users\danie\Documents\MSSA\SoccerBettingApp\obj\Debug\net9.0-android\android\assets\x86_64\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\danie\Documents\MSSA\SoccerBettingApp\obj\Debug\net9.0-android\android\assets\x86_64\Microsoft.EntityFrameworkCore.SqlServer.dll
 C:\Users\danie\Documents\MSSA\SoccerBettingApp\obj\Debug\net9.0-android\android\assets\x86_64\Microsoft.Extensions.Caching.Abstractions.dll
 C:\Users\danie\Documents\MSSA\SoccerBettingApp\obj\Debug\net9.0-android\android\assets\x86_64\Microsoft.Extensions.Caching.Memory.dll
 C:\Users\danie\Documents\MSSA\SoccerBettingApp\obj\Debug\net9.0-android\android\assets\x86_64\Microsoft.Extensions.Configuration.Abstractions.dll

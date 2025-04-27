@@ -1,4 +1,5 @@
-﻿using Microsoft.Extensions.Logging;
+﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Configuration;
 using SoccerBettingApp.Services;
 using SoccerBettingApp.ViewModel;
@@ -12,9 +13,10 @@ namespace SoccerBettingApp
         {
             var builder = MauiApp.CreateBuilder();
 
-            // 👇 Load configuration from appsettings.json
-            ((IConfigurationBuilder)builder.Configuration)
-                .AddJsonFile("appsettings.json", optional: false, reloadOnChange: true);
+            // configuration from appsettings or Secrets
+            builder.Configuration.AddJsonFile("appsettings.json", optional: true, reloadOnChange: true);
+            builder.Services.AddSingleton<IConfiguration>(builder.Configuration);
+
 
             builder
                 .UseMauiApp<App>()
@@ -43,7 +45,7 @@ namespace SoccerBettingApp
             builder.Services.AddTransient<BetPage>();
             builder.Services.AddTransient<HistoryPage>();
             builder.Services.AddTransient<LoginPage>();
-            builder.Services.AddTransient<MainPage>();
+            //builder.Services.AddTransient<MainPage>();
             builder.Services.AddTransient<MatchListPage>();
 
 #if DEBUG

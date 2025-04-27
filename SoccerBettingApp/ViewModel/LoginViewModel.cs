@@ -41,8 +41,9 @@ namespace SoccerBettingApp.ViewModel
 
             if (success)
             {
-                var matchListViewModel = App.Services.GetRequiredService<MatchListViewModel>();
-                await Application.Current.MainPage.Navigation.PushAsync(new MatchListPage());
+                var page = App.Services.GetRequiredService<MatchListPage>();
+                await Application.Current.MainPage.Navigation.PushAsync(page);
+
             }
             else
             {
@@ -68,8 +69,9 @@ namespace SoccerBettingApp.ViewModel
                 NewPassword = string.Empty;
                 OnPropertyChanged(nameof(NewUsername));
                 OnPropertyChanged(nameof(NewPassword));
-                var matchListViewModel = App.Services.GetRequiredService<MatchListViewModel>();
-                await Application.Current.MainPage.Navigation.PushAsync(new MatchListPage());
+                var page = App.Services.GetRequiredService<MatchListPage>();
+                await Application.Current.MainPage.Navigation.PushAsync(page);
+
             }
             else
             {
