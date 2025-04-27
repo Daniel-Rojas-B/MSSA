@@ -17,6 +17,9 @@ namespace SoccerBettingApp.ViewModel
 
         public ObservableCollection<Match> Matches { get; set; } = new ObservableCollection<Match>();
 
+        public Match SelectedMatch => Matches.FirstOrDefault(m =>
+        m.IsHomeSelected || m.IsTieSelected || m.IsAwaySelected);
+
         // Constructor accepts SoccerApiService, which will be injected
         public MatchListViewModel(SoccerApiService soccerApiService)
         {

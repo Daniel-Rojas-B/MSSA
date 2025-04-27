@@ -6,6 +6,7 @@ using System.Linq;
 using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Input;
 using Newtonsoft.Json;
 
 namespace SoccerBettingApp.Model
@@ -66,12 +67,41 @@ namespace SoccerBettingApp.Model
                 _awayValue = value;
                 OnPropertyChanged();
             }
-        } 
+        }
 
-        // boolean properties for background color change
-        public bool HomeSelected { get; set; }
-        public bool TieSelected { get; set; }
-        public bool AwaySelected { get; set; }
+        private string _selectedOutcome; // "Home", "Tie", or "Away"
+        public string SelectedOutcome
+        {
+            get => _selectedOutcome;
+            set
+            {
+                if (_selectedOutcome != value)
+                {
+                    _selectedOutcome = value;
+                    OnPropertyChanged();
+                    OnPropertyChanged(nameof(IsHomeSelected));
+                    OnPropertyChanged(nameof(IsTieSelected));
+                    OnPropertyChanged(nameof(IsAwaySelected));
+                }
+            }
+        }
+
+        // Helper properties for binding
+        public bool IsHomeSelected => SelectedOutcome == "Home";
+        public bool IsTieSelected => SelectedOutcome == "Tie";
+        public bool IsAwaySelected => SelectedOutcome == "Away";
+
+        // Commands
+        public ICommand SelectHomeCommand { get; }
+        public ICommand SelectTieCommand { get; }
+        public ICommand SelectAwayCommand { get; }
+
+        public Match()
+        {
+            SelectHomeCommand = new Command(() => SelectedOutcome = "Home");
+            SelectTieCommand = new Command(() => SelectedOutcome = "Tie");
+            SelectAwayCommand = new Command(() => SelectedOutcome = "Away");
+        }
 
         // Odds for this match
         public List<MatchOdd> Odds { get; set; } = new List<MatchOdd>();

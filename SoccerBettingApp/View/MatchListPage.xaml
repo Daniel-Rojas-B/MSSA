@@ -1,9 +1,16 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:xct="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+             xmlns:converters="clr-namespace:SoccerBettingApp.Converters"
              x:Class="SoccerBettingApp.View.MatchListPage"
              Title="Upcoming Matches"
              BackgroundColor="#1A1A1A">
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <converters:BoolToColorConverter x:Key="BoolToColorConverter" />
+        </ResourceDictionary>
+    </ContentPage.Resources>
 
     <CollectionView ItemsSource="{Binding Matches}">
         <CollectionView.ItemTemplate>
@@ -62,7 +69,7 @@
                                        Padding="10" 
                                        HeightRequest="50" 
                                        WidthRequest="50"
-                                       BackgroundColor="{Binding HomeSelected, Converter={StaticResource BoolToColorConverter}, ConverterParameter='Home'}">
+                                       BackgroundColor="{Binding IsHomeSelected, Converter={StaticResource BoolToColorConverter}, ConverterParameter='Home'}">
                                     <Frame.GestureRecognizers>
                                         <TapGestureRecognizer Command="{Binding SelectHomeCommand}"/>
                                     </Frame.GestureRecognizers>
@@ -88,7 +95,7 @@
                                        Padding="10" 
                                        HeightRequest="50" 
                                        WidthRequest="50"
-                                       BackgroundColor="{Binding TieSelected, Converter={StaticResource BoolToColorConverter}, ConverterParameter='Tie'}">
+                                       BackgroundColor="{Binding IsTieSelected, Converter={StaticResource BoolToColorConverter}, ConverterParameter='Tie'}">
                                     <Frame.GestureRecognizers>
                                         <TapGestureRecognizer Command="{Binding SelectTieCommand}"/>
                                     </Frame.GestureRecognizers>
@@ -114,7 +121,7 @@
                                        Padding="10" 
                                        HeightRequest="50" 
                                        WidthRequest="50"
-                                       BackgroundColor="{Binding AwaySelected, Converter={StaticResource BoolToColorConverter}, ConverterParameter='Away'}">
+                                       BackgroundColor="{Binding IsAwaySelected, Converter={StaticResource BoolToColorConverter}, ConverterParameter='Away'}">
                                     <Frame.GestureRecognizers>
                                         <TapGestureRecognizer Command="{Binding SelectAwayCommand}"/>
                                     </Frame.GestureRecognizers>
