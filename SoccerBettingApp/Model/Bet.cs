@@ -13,8 +13,10 @@ namespace SoccerBettingApp.Model
         public string MatchName { get; set; }         // store name too
         public string SelectedOutcome { get; set; }       // "Home"/"Tie"/"Away"
         public decimal Amount { get; set; }
+        public decimal OddsValue { get; set; }
         public DateTime PlacedAt { get; set; }
         public Guid UserId { get; set; }
-        public bool? IsCorrect { get; set; }         // optional
+        public bool? IsCorrect { get; set; }
+        public decimal PotentialReturn => Amount * OddsValue;
     }
 }

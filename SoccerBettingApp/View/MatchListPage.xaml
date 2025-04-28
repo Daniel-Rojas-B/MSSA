@@ -1,4 +1,4 @@
-<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+﻿<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:xct="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
              xmlns:converters="clr-namespace:SoccerBettingApp.Converters"
@@ -13,11 +13,27 @@
         </ResourceDictionary>
     </ContentPage.Resources>
 
+    <ScrollView>
+    <StackLayout Spacing="0">
+        <!-- Header -->
+        <Grid BackgroundColor="#003300" Padding="10">
+            <Label Text="⚽  Upcoming Matches 05/01/2025 - 05/08/2025" 
+         FontSize="20" 
+         HorizontalTextAlignment="Center"
+          
+         FontAttributes="Bold" 
+         TextColor="#FFD700" 
+         HorizontalOptions="Center" />
+        </Grid>    
+    
+
     <CollectionView ItemsSource="{Binding Matches}"
                     SelectionMode="Single"
                     SelectedItem="{Binding SelectedMatch, Mode=TwoWay}">
         <CollectionView.ItemTemplate>
             <DataTemplate>
+                
+
                 <Frame Margin="10" 
                        Padding="15" 
                        BorderColor="Transparent"
@@ -25,19 +41,22 @@
                        HasShadow="True"
                        IsClippedToBounds="True">
 
-                    <!-- Fancy Gradient Background -->
+                    <!--  Gradient Background -->
                     <Frame.Background>
                         <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
-                            <GradientStop Color="#0F2027" Offset="0.0" />
-                            <GradientStop Color="#203A43" Offset="0.5" />
-                            <GradientStop Color="#2C5364" Offset="1.0" />
+                            <GradientStop Color="#001a00" Offset="0.0" />
+                            <!-- even darker green -->
+                            <GradientStop Color="#003300" Offset="0.5" />
+                            <!-- your exact green -->
+                            <GradientStop Color="#004d00" Offset="1.0" />
+                            <!-- slightly lighter green -->
                         </LinearGradientBrush>
                     </Frame.Background>
 
                     <Grid ColumnDefinitions="2*,3*,2*,1*" 
-                          ColumnSpacing="10" 
-                          RowSpacing="10"
-                          Padding="10">
+                          ColumnSpacing="5" 
+                          RowSpacing="5"
+                          Padding="5">
 
                         <!-- First Column: Title and Date -->
                         <StackLayout Grid.Column="0" 
@@ -45,10 +64,10 @@
                                      Spacing="5">
                             <Label Text="{Binding DisplayTitle}" 
                                    FontAttributes="Bold" 
-                                   FontSize="16" 
+                                   FontSize="12" 
                                    TextColor="White"/>
                             <Label Text="{Binding DisplayDate}" 
-                                   FontSize="12" 
+                                   FontSize="10" 
                                    TextColor="#CCCCCC"/>
                         </StackLayout>
 
@@ -64,7 +83,7 @@
                                          HorizontalOptions="Center">
                                 <Label Text="Home" 
                                        FontAttributes="Bold" 
-                                       FontSize="14" 
+                                       FontSize="12" 
                                        TextColor="White" 
                                        HorizontalOptions="Center"/>
                                 <Frame BorderColor="#D0D0D0" 
@@ -77,7 +96,7 @@
                                         <TapGestureRecognizer Command="{Binding SelectHomeCommand}"/>
                                     </Frame.GestureRecognizers>
                                     <Label Text="{Binding HomeValue, FallbackValue='N/A'}" 
-                                           FontSize="14" 
+                                           FontSize="12" 
                                            TextColor="#333333" 
                                            HorizontalOptions="Center" 
                                            VerticalOptions="Center"/>
@@ -90,7 +109,7 @@
                                          HorizontalOptions="Center">
                                 <Label Text="Tie" 
                                        FontAttributes="Bold" 
-                                       FontSize="14" 
+                                       FontSize="12" 
                                        TextColor="White" 
                                        HorizontalOptions="Center"/>
                                 <Frame BorderColor="#D0D0D0" 
@@ -103,7 +122,7 @@
                                         <TapGestureRecognizer Command="{Binding SelectTieCommand}"/>
                                     </Frame.GestureRecognizers>
                                     <Label Text="{Binding TieValue, FallbackValue='N/A'}" 
-                                           FontSize="14" 
+                                           FontSize="12" 
                                            TextColor="#333333" 
                                            HorizontalOptions="Center" 
                                            VerticalOptions="Center"/>
@@ -116,7 +135,7 @@
                                          HorizontalOptions="Center">
                                 <Label Text="Away" 
                                        FontAttributes="Bold" 
-                                       FontSize="14" 
+                                       FontSize="12" 
                                        TextColor="White" 
                                        HorizontalOptions="Center"/>
                                 <Frame BorderColor="#D0D0D0" 
@@ -129,7 +148,7 @@
                                         <TapGestureRecognizer Command="{Binding SelectAwayCommand}"/>
                                     </Frame.GestureRecognizers>
                                     <Label Text="{Binding AwayValue, FallbackValue='N/A'}" 
-                                           FontSize="14" 
+                                           FontSize="12" 
                                            TextColor="#333333" 
                                            HorizontalOptions="Center" 
                                            VerticalOptions="Center"/>
@@ -143,19 +162,18 @@
                                      Spacing="5">
                             <Label Text="Bet" 
                                    FontAttributes="Bold" 
-                                   FontSize="14" 
+                                   FontSize="12" 
                                    TextColor="White" 
                                    HorizontalOptions="Center"/>
-                            <Frame BorderColor="Transparent" 
-                                   CornerRadius="8" 
-                                   Padding="10" 
-                                   WidthRequest="70"
-                                   BackgroundColor="White">
+                            
                                 <Entry 
                                       Text="{Binding BetAmount, Mode=TwoWay}" 
                                       Keyboard="Numeric"
-                                      Placeholder="Amount" />       
-                            </Frame>
+                                      BackgroundColor="LightYellow"
+                                      HeightRequest="52" 
+                                      WidthRequest="40"
+                                      Placeholder="" />       
+                            
                         </StackLayout>
 
                         <!-- Fourth Column: Bet Button -->
@@ -176,4 +194,6 @@
             </DataTemplate>
         </CollectionView.ItemTemplate>
     </CollectionView>
+    </StackLayout>
+    </ScrollView>
 </ContentPage>

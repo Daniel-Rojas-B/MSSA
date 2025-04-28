@@ -1,25 +1,104 @@
-<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+﻿<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:vm="clr-namespace:SoccerBettingApp.ViewModel"
              x:Class="SoccerBettingApp.View.BetPage"
-             Title="My Bets">
-    
+             Title="My Bets"
+             BackgroundColor="#004d00">
 
-    <CollectionView ItemsSource="{Binding Bets}">
-        <CollectionView.ItemTemplate>
-            <DataTemplate>
-                <Frame Padding="10" Margin="5" CornerRadius="8">
-                    <StackLayout>
-                        <Label Text="{Binding MatchName}" FontAttributes="Bold"/>
-                        <Label Text="{Binding SelectedOutcome}"/>
-                        <Label Text="{Binding Amount, StringFormat='{}{0:C}'}"/>
-                        <Label Text="{Binding PlacedAt, StringFormat='{}{0:MMM dd, yyyy h:mm tt}'}"
-                   FontSize="Small" TextColor="Gray"/>
-                    </StackLayout>
-                </Frame>
-            </DataTemplate>
-        </CollectionView.ItemTemplate>
-    </CollectionView>
+    <!-- Page Resources for styling -->
+    <ContentPage.Resources>
+        <Style TargetType="Frame" x:Key="BetCardStyle">
+            <Setter Property="CornerRadius" Value="15" />
+            <Setter Property="HasShadow" Value="True" />
+            <Setter Property="Padding" Value="15" />
+            <Setter Property="Margin" Value="8" />
+            <Setter Property="Background">
+                <Setter.Value>
+                    <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                        <GradientStop Color="#8BC34A" Offset="0.0" />
+                        <GradientStop Color="#CDDC39" Offset="1.0" />
+                    </LinearGradientBrush>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </ContentPage.Resources>
+
+    <ScrollView>
+        <StackLayout Spacing="0">
+        <!-- Header -->
+        <Grid BackgroundColor="#003300" Padding="20">
+            <Label Text="💰  My Bets" 
+             FontSize="28" 
+             FontAttributes="Bold" 
+             TextColor="#FFD700" 
+             HorizontalOptions="Center" />
+        </Grid>
+
+        
+            <!-- Bets List -->
+        <CollectionView ItemsSource="{Binding Bets}" 
+                    Margin="0,10,0,0">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Frame Style="{StaticResource BetCardStyle}">
+                        <Grid ColumnDefinitions="*,Auto" RowDefinitions="Auto,Auto,Auto,Auto">
+                            <!-- Match Name -->
+                            <Label Text="{Binding MatchName}" 
+                     FontAttributes="Bold" 
+                     FontSize="18" 
+                     TextColor="#FFFFFF" 
+                     Grid.Row="0" 
+                     Grid.ColumnSpan="2" />
+
+                            <!-- Separator -->
+                            <BoxView Color="#FFFFFF" 
+                       HeightRequest="1" 
+                       Opacity="0.3" 
+                       Grid.Row="1" 
+                       Grid.ColumnSpan="2" 
+                       Margin="0,8" />
+
+                            <!-- Outcome & Amount -->
+                            <Label Text="{Binding SelectedOutcome}" 
+                     TextColor="#FFFFFF" 
+                     FontAttributes="Bold" 
+                     Grid.Row="2" 
+                     Grid.Column="0" />
+                            <Label Text="{Binding Amount, StringFormat='{}{0:C}'}" 
+                     TextColor="White" 
+                     FontAttributes="Bold" 
+                     Grid.Row="2" 
+                     Grid.Column="1" 
+                     HorizontalOptions="End" />
+                            
+                            <!-- Timestamp -->
+                                <Label Text="{Binding PlacedAt, StringFormat='{}Bet date: {0:MMM dd, yyyy h:mm tt}'}" 
+                     FontSize="12" 
+                     TextColor="#EEEEEE" 
+                     Grid.Row="3" 
+                     Grid.ColumnSpan="2" 
+                     Margin="0,0,0,0" />
+                                <!-- Potential Return -->
+                                <Label Text="{Binding PotentialReturn, StringFormat='Note: Guess the outcome and win a total reward of: {0:C}'}"
+                       FontAttributes="Bold"
+                       FontSize="16"
+                       TextColor="DarkGreen"
+                       Grid.Row="4"
+                       Grid.ColumnSpan="2"
+                       Margin="0,26,0,0" />
+
+                            </Grid>
+
+                            
+
+                        </Frame>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+        
+    </StackLayout>
+    </ScrollView>
 </ContentPage>
+
 
 

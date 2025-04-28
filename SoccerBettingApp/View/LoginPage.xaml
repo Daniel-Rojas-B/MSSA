@@ -13,7 +13,7 @@
             <Setter Property="HeightRequest" Value="1"/>
         </Style>
         <Style TargetType="Button">
-            <Setter Property="BackgroundColor" Value="#1DB954"/>
+            <Setter Property="BackgroundColor" Value="#003300"/>
             <Setter Property="TextColor" Value="White"/>
             <Setter Property="FontAttributes" Value="Bold"/>
             <Setter Property="CornerRadius" Value="12"/>

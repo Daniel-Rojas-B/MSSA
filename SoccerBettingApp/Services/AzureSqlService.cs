@@ -85,8 +85,8 @@ namespace SoccerBettingApp.Services
         public async Task PlaceBetAsync(Bet bet)
         {
             const string sql = @"
-    INSERT INTO dbo.Bets (MatchId, MatchName, SelectedOutcome, Amount, PlacedAt, UserId)
-    VALUES (@m,@n,@o,@a,@p,@u)";
+    INSERT INTO dbo.Bets (MatchId, MatchName, SelectedOutcome, Amount, OddsValue,PlacedAt, UserId)
+    VALUES (@m,@n,@o,@a,@q,@p,@u)";
             await using var conn = new SqlConnection(_connectionString);
             await conn.OpenAsync();
             await using var cmd = new SqlCommand(sql, conn);
@@ -94,6 +94,7 @@ namespace SoccerBettingApp.Services
             cmd.Parameters.AddWithValue("@n", bet.MatchName);
             cmd.Parameters.AddWithValue("@o", bet.SelectedOutcome);
             cmd.Parameters.AddWithValue("@a", bet.Amount);
+            cmd.Parameters.AddWithValue("@q", bet.OddsValue);
             cmd.Parameters.AddWithValue("@p", bet.PlacedAt);
             cmd.Parameters.AddWithValue("@u", bet.UserId);
             await cmd.ExecuteNonQueryAsync();
@@ -102,7 +103,7 @@ namespace SoccerBettingApp.Services
         public async Task<List<Bet>> GetUserBetsAsync(Guid userId)
         {
             const string sql = @"
-    SELECT BetId,MatchId,MatchName,SelectedOutcome,Amount,PlacedAt,UserId,IsCorrect
+    SELECT BetId,MatchId,MatchName,SelectedOutcome,Amount, OddsValue, PlacedAt,UserId,IsCorrect
       FROM dbo.Bets
      WHERE UserId = @u
   ORDER BY PlacedAt DESC";
@@ -116,14 +117,15 @@ namespace SoccerBettingApp.Services
             {
                 list.Add(new Bet
                 {
-                    BetId = rdr.GetInt32(0),
-                    MatchId = rdr.GetInt32(1),
-                    MatchName = rdr.GetString(2),
-                    SelectedOutcome = rdr.GetString(3),
-                    Amount = rdr.GetDecimal(4),
-                    PlacedAt = rdr.GetDateTime(5),
-                    UserId = rdr.GetGuid(6),
-                    IsCorrect = rdr.IsDBNull(7) ? null : rdr.GetBoolean(7)
+                    BetId = (int)rdr["BetId"],
+                    MatchId = (int)rdr["MatchId"],
+                    MatchName = (string)rdr["MatchName"],
+                    SelectedOutcome = (string)rdr["SelectedOutcome"],
+                    Amount = (decimal)rdr["Amount"],
+                    OddsValue = (decimal)rdr["OddsValue"],
+                    PlacedAt = (DateTime)rdr["PlacedAt"],
+                    UserId = (Guid)rdr["UserId"],
+                    IsCorrect = rdr["IsCorrect"] is DBNull ? (bool?)null : (bool)rdr["IsCorrect"]
                 });
             }
             return list;

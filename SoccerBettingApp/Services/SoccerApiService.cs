@@ -22,7 +22,7 @@ namespace SoccerBettingApp.Services
         public async Task<List<Match>> GetMatchesAsync()
         {
             //var fullUrl = $"{BaseUrl}?api_token={ApiToken}&filters=fixtureLeagues:8";
-            var fullUrl = $"https://api.sportmonks.com/v3/football/fixtures/between/2025-04-27/2025-05-01?api_token=DBsyG5AnMjQ31nhvc4yLGQZXhPnVtPxEZzw2htf96A4wCxnEpRd0mYkPULrJ&include=odds&filters=markets:1;fixtureLeagues:8";
+            var fullUrl = $"https://api.sportmonks.com/v3/football/fixtures/between/2025-05-01/2025-05-08?api_token=DBsyG5AnMjQ31nhvc4yLGQZXhPnVtPxEZzw2htf96A4wCxnEpRd0mYkPULrJ&include=odds&filters=markets:1;fixtureLeagues:8";
             try
             {
                 var response = await _httpClient.GetAsync(fullUrl);

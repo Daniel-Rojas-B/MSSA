@@ -104,13 +104,22 @@ namespace SoccerBettingApp.ViewModel
                 return;
             }
 
+            decimal odds = SelectedMatch.SelectedOutcome switch
+            {
+                "Home" => decimal.Parse(SelectedMatch.HomeValue),
+                "Tie" => decimal.Parse(SelectedMatch.TieValue),
+                "Away" => decimal.Parse(SelectedMatch.AwayValue),
+                _ => 0
+            };
+
             // Build your Bet entity using m.BetAmount
             var bet = new Bet
             {
                 MatchId = m.MatchId,
                 MatchName = m.Name,
                 SelectedOutcome = m.SelectedOutcome,
-                Amount = m.BetAmount,            // <-- here!
+                Amount = m.BetAmount,
+                OddsValue = odds,
                 PlacedAt = DateTime.UtcNow,
                 UserId = user.Id
             };
