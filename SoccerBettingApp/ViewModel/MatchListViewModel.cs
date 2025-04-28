@@ -7,6 +7,10 @@ using Microsoft.Maui.Controls;
 using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
 using System.Linq;
+using Microsoft.Data.SqlClient;
+using SoccerBettingApp.View;
+
+
 
 namespace SoccerBettingApp.ViewModel
 {
@@ -110,7 +114,21 @@ namespace SoccerBettingApp.ViewModel
                 UserId = user.Id
             };
 
-            await _db.PlaceBetAsync(bet);
+            try
+            {
+                await _db.PlaceBetAsync(bet);
+            }
+            catch (SqlException ex)
+            {
+                // Log it so you can read it
+                System.Diagnostics.Debug.WriteLine("SQL Error: " + ex.Message);
+                foreach (SqlError err in ex.Errors)
+                    System.Diagnostics.Debug.WriteLine($"  ➜ {err.Message}");
+
+                await Application.Current.MainPage
+                     .DisplayAlert("Database Error", ex.Message, "OK");
+                return;
+            }
 
             // clear per‐match amount if you like:
             m.BetAmount = 0;
@@ -118,7 +136,7 @@ namespace SoccerBettingApp.ViewModel
             await Application.Current.MainPage
                  .DisplayAlert("Success", "Your bet has been placed!", "OK");
 
-            await Shell.Current.GoToAsync(nameof(View.BetPage));
+            await Shell.Current.GoToAsync(nameof(BetPage));
         }
 
         private async Task LoadOdds()

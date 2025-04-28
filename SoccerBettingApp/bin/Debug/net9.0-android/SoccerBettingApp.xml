@@ -21,9 +21,6 @@
         <member name="P:SoccerBettingApp.ViewModel.MatchListViewModel.SelectedMatch">
             <inheritdoc cref="F:SoccerBettingApp.ViewModel.MatchListViewModel.selectedMatch"/>
         </member>
-        <member name="P:SoccerBettingApp.ViewModel.MatchListViewModel.BetAmount">
-            <inheritdoc cref="F:SoccerBettingApp.ViewModel.MatchListViewModel.betAmount"/>
-        </member>
         <member name="F:SoccerBettingApp.ViewModel.MatchListViewModel.loadMatchesCommand">
             <summary>The backing field for <see cref="P:SoccerBettingApp.ViewModel.MatchListViewModel.LoadMatchesCommand"/>.</summary>
         </member>
@@ -51,9 +48,6 @@
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.SelectedMatch">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "SelectedMatch" generated properties.</summary>
         </member>
-        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.BetAmount">
-            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "BetAmount" generated properties.</summary>
-        </member>
         <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs">
             <summary>
             A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instances
@@ -62,9 +56,6 @@
         </member>
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.SelectedMatch">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "SelectedMatch" generated properties.</summary>
-        </member>
-        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.BetAmount">
-            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "BetAmount" generated properties.</summary>
         </member>
     </members>
 </doc>

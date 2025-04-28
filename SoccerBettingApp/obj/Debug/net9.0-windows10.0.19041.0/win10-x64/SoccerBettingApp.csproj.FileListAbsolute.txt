@@ -8,8 +8,8 @@ C:\Users\danie\Documents\MSSA\SoccerBettingApp\bin\Debug\net9.0-windows10.0.1904
 C:\Users\danie\Documents\MSSA\SoccerBettingApp\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\FluentUI.cs
 C:\Users\danie\Documents\MSSA\SoccerBettingApp\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\OpenSans-Regular.ttf
 C:\Users\danie\Documents\MSSA\SoccerBettingApp\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\OpenSans-Semibold.ttf
-C:\Users\danie\Documents\MSSA\SoccerBettingApp\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\background2.scale-100.jpg
 C:\Users\danie\Documents\MSSA\SoccerBettingApp\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\background3.scale-100.jpg
+C:\Users\danie\Documents\MSSA\SoccerBettingApp\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\background2.scale-100.jpg
 C:\Users\danie\Documents\MSSA\SoccerBettingApp\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\backgroundmatches.scale-100.png
 C:\Users\danie\Documents\MSSA\SoccerBettingApp\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\background.scale-100.jpg
 C:\Users\danie\Documents\MSSA\SoccerBettingApp\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\background4.scale-100.png
@@ -532,8 +532,8 @@ C:\Users\danie\Documents\MSSA\SoccerBettingApp\obj\Debug\net9.0-windows10.0.1904
 C:\Users\danie\Documents\MSSA\SoccerBettingApp\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\f\FluentUI.cs
 C:\Users\danie\Documents\MSSA\SoccerBettingApp\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf
 C:\Users\danie\Documents\MSSA\SoccerBettingApp\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Semibold.ttf
-C:\Users\danie\Documents\MSSA\SoccerBettingApp\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\background2.scale-100.jpg
 C:\Users\danie\Documents\MSSA\SoccerBettingApp\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\background3.scale-100.jpg
+C:\Users\danie\Documents\MSSA\SoccerBettingApp\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\background2.scale-100.jpg
 C:\Users\danie\Documents\MSSA\SoccerBettingApp\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\backgroundmatches.scale-100.png
 C:\Users\danie\Documents\MSSA\SoccerBettingApp\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\background.scale-100.jpg
 C:\Users\danie\Documents\MSSA\SoccerBettingApp\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\background4.scale-100.png
