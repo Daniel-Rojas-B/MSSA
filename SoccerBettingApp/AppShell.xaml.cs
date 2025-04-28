@@ -10,6 +10,7 @@ namespace SoccerBettingApp
 
             // Register the route name "BetPage" to the BetPage type
             Routing.RegisterRoute(nameof(BetPage), typeof(BetPage));
+            Routing.RegisterRoute("MainPage", typeof(MatchListPage));
         }
     }
 }

@@ -9,6 +9,7 @@ using CommunityToolkit.Mvvm.Input;
 using System.Linq;
 using Microsoft.Data.SqlClient;
 using SoccerBettingApp.View;
+using System.Diagnostics;
 
 
 
@@ -136,7 +137,23 @@ namespace SoccerBettingApp.ViewModel
             await Application.Current.MainPage
                  .DisplayAlert("Success", "Your bet has been placed!", "OK");
 
-            await Shell.Current.GoToAsync(nameof(BetPage));
+            // debugging lines to see whats the main page
+            Debug.WriteLine($"Application.Current: {Application.Current}");
+            Debug.WriteLine($"MainPage type: {Application.Current?.MainPage?.GetType().FullName}");
+            Debug.WriteLine($"Shell.Current: {Shell.Current}");
+
+            try
+            {
+                var dbService = ServiceHelper.GetService<AzureSqlService>();
+                var userService = ServiceHelper.GetService<UserService>();
+                var viewModel = new BetViewModel(dbService, userService);
+                await Application.Current.MainPage.Navigation.PushAsync(new BetPage(viewModel));
+            }
+            catch (Exception ex)
+            {
+                Debug.WriteLine($"❗ Navigation failed: {ex}");
+                throw;
+            }
         }
 
         private async Task LoadOdds()

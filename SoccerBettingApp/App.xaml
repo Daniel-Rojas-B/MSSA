@@ -2,7 +2,31 @@
 <Application xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:SoccerBettingApp"
+             xmlns:view="clr-namespace:SoccerBettingApp.View"
              x:Class="SoccerBettingApp.App">
+
+    <!-- Tell MAUI to use AppShell as the app’s MainPage -->
+    <Application.MainPage>
+        <Shell
+      x:Name="AppShell"
+      Title="SoccerBettingApp"
+      xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+      Shell.FlyoutBehavior="Disabled">
+
+            <!-- Your Matches page -->
+            <ShellContent
+        Title="Home"
+        Route="MainPage"
+        ContentTemplate="{DataTemplate view:MatchListPage}" />
+
+            <!-- Your Bets page -->
+            <ShellContent
+        Title="My Bets"
+        Route="BetPage"
+        ContentTemplate="{DataTemplate view:BetPage}" />
+        </Shell>
+    </Application.MainPage>
+
     <Application.Resources>
         <ResourceDictionary>
             <ResourceDictionary.MergedDictionaries>
