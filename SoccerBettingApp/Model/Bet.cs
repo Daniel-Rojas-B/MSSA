@@ -16,6 +16,7 @@ namespace SoccerBettingApp.Model
         public decimal OddsValue { get; set; }
         public DateTime PlacedAt { get; set; }
         public Guid UserId { get; set; }
+        // not currently used the IsCorrect field.
         public bool? IsCorrect { get; set; }
         public decimal PotentialReturn => Amount * OddsValue;
     }
