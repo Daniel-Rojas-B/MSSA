@@ -1,0 +1,15 @@
+C:\Users\danie\Documents\MSSA\Interview\bin\Debug\net8.0\Interview.exe
+C:\Users\danie\Documents\MSSA\Interview\bin\Debug\net8.0\Interview.deps.json
+C:\Users\danie\Documents\MSSA\Interview\bin\Debug\net8.0\Interview.runtimeconfig.json
+C:\Users\danie\Documents\MSSA\Interview\bin\Debug\net8.0\Interview.dll
+C:\Users\danie\Documents\MSSA\Interview\bin\Debug\net8.0\Interview.pdb
+C:\Users\danie\Documents\MSSA\Interview\obj\Debug\net8.0\Interview.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\danie\Documents\MSSA\Interview\obj\Debug\net8.0\Interview.AssemblyInfoInputs.cache
+C:\Users\danie\Documents\MSSA\Interview\obj\Debug\net8.0\Interview.AssemblyInfo.cs
+C:\Users\danie\Documents\MSSA\Interview\obj\Debug\net8.0\Interview.csproj.CoreCompileInputs.cache
+C:\Users\danie\Documents\MSSA\Interview\obj\Debug\net8.0\Interview.sourcelink.json
+C:\Users\danie\Documents\MSSA\Interview\obj\Debug\net8.0\Interview.dll
+C:\Users\danie\Documents\MSSA\Interview\obj\Debug\net8.0\refint\Interview.dll
+C:\Users\danie\Documents\MSSA\Interview\obj\Debug\net8.0\Interview.pdb
+C:\Users\danie\Documents\MSSA\Interview\obj\Debug\net8.0\Interview.genruntimeconfig.cache
+C:\Users\danie\Documents\MSSA\Interview\obj\Debug\net8.0\ref\Interview.dll
