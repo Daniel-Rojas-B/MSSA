@@ -26,7 +26,7 @@ namespace SoccerBettingApp
                     fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
                 });
 
-            // 👇 Register services
+            // Register services
             builder.Services.AddSingleton<AzureSqlService>();
             builder.Services.AddSingleton<UserService>();
             //builder.Services.AddSingleton<MatchService>();
@@ -35,17 +35,17 @@ namespace SoccerBettingApp
             builder.Services.AddSingleton<HttpClient>();
             builder.Services.AddSingleton<SoccerApiService>();
 
-            // 👇 Register view models
+            // Register view models
             builder.Services.AddTransient<BetViewModel>();
-            builder.Services.AddTransient<HistoryViewModel>();
+            
             builder.Services.AddTransient<LoginViewModel>();
             builder.Services.AddTransient<MatchListViewModel>();
 
-            // 👇 Register pages (views)
+            // Register pages (views)
             builder.Services.AddTransient<BetPage>();
-            builder.Services.AddTransient<HistoryPage>();
+            
             builder.Services.AddTransient<LoginPage>();
-            //builder.Services.AddTransient<MainPage>();
+            
             builder.Services.AddTransient<MatchListPage>();
 
 #if DEBUG

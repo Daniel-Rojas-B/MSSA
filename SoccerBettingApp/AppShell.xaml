@@ -8,10 +8,7 @@
     Shell.FlyoutBehavior="Flyout"
     Title="SoccerBettingApp">
 
-    <ShellContent
-        Title="Home"
-        ContentTemplate="{DataTemplate local:MainPage}"
-        Route="MainPage" />
+    
     <ShellContent Title="My Bets"
                 Route="BetPage"
                 ContentTemplate="{DataTemplate view:BetPage}" />
