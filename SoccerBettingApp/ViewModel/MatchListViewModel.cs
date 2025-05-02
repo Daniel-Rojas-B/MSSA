@@ -37,7 +37,7 @@ namespace SoccerBettingApp.ViewModel
             _user = userService;
             _ = LoadMatchesAsync();
 
-            // 🚨 TEMPORARY FOR TESTING ONLY
+            //  TEMPORARY FOR TESTING ONLY
             _user.CurrentUser = new User
             {
                 Id = Guid.NewGuid(),  // or some static Guid

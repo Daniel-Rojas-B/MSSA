@@ -1,3 +1,7 @@
+C:\Users\danie\Documents\MSSA\SoccerBettingApp\bin\Debug\net9.0-maccatalyst\maccatalyst-x64\System.Data.SqlClient.dll
+C:\Users\danie\Documents\MSSA\SoccerBettingApp\bin\Debug\net9.0-maccatalyst\maccatalyst-x64\System.Threading.Thread.dll
+C:\Users\danie\Documents\MSSA\SoccerBettingApp\bin\Debug\net9.0-maccatalyst\maccatalyst-x64\libSystem.IO.Compression.Native.a
+C:\Users\danie\Documents\MSSA\SoccerBettingApp\bin\Debug\net9.0-maccatalyst\maccatalyst-x64\libmonosgen-2.0.a
 C:\Users\danie\Documents\MSSA\SoccerBettingApp\bin\Debug\net9.0-maccatalyst\maccatalyst-x64\appsettings.json
 C:\Users\danie\Documents\MSSA\SoccerBettingApp\bin\Debug\net9.0-maccatalyst\maccatalyst-x64\SoccerBettingApp.runtimeconfig.json
 C:\Users\danie\Documents\MSSA\SoccerBettingApp\bin\Debug\net9.0-maccatalyst\maccatalyst-x64\SoccerBettingApp.dll
@@ -62,7 +66,6 @@ C:\Users\danie\Documents\MSSA\SoccerBettingApp\bin\Debug\net9.0-maccatalyst\macc
 C:\Users\danie\Documents\MSSA\SoccerBettingApp\bin\Debug\net9.0-maccatalyst\maccatalyst-x64\System.Composition.Runtime.dll
 C:\Users\danie\Documents\MSSA\SoccerBettingApp\bin\Debug\net9.0-maccatalyst\maccatalyst-x64\System.Composition.TypedParts.dll
 C:\Users\danie\Documents\MSSA\SoccerBettingApp\bin\Debug\net9.0-maccatalyst\maccatalyst-x64\System.Configuration.ConfigurationManager.dll
-C:\Users\danie\Documents\MSSA\SoccerBettingApp\bin\Debug\net9.0-maccatalyst\maccatalyst-x64\System.Data.SqlClient.dll
 C:\Users\danie\Documents\MSSA\SoccerBettingApp\bin\Debug\net9.0-maccatalyst\maccatalyst-x64\System.Diagnostics.EventLog.dll
 C:\Users\danie\Documents\MSSA\SoccerBettingApp\bin\Debug\net9.0-maccatalyst\maccatalyst-x64\System.Formats.Asn1.dll
 C:\Users\danie\Documents\MSSA\SoccerBettingApp\bin\Debug\net9.0-maccatalyst\maccatalyst-x64\System.IdentityModel.Tokens.Jwt.dll
@@ -325,7 +328,6 @@ C:\Users\danie\Documents\MSSA\SoccerBettingApp\bin\Debug\net9.0-maccatalyst\macc
 C:\Users\danie\Documents\MSSA\SoccerBettingApp\bin\Debug\net9.0-maccatalyst\maccatalyst-x64\System.Threading.Tasks.Extensions.dll
 C:\Users\danie\Documents\MSSA\SoccerBettingApp\bin\Debug\net9.0-maccatalyst\maccatalyst-x64\System.Threading.Tasks.Parallel.dll
 C:\Users\danie\Documents\MSSA\SoccerBettingApp\bin\Debug\net9.0-maccatalyst\maccatalyst-x64\System.Threading.Tasks.dll
-C:\Users\danie\Documents\MSSA\SoccerBettingApp\bin\Debug\net9.0-maccatalyst\maccatalyst-x64\System.Threading.Thread.dll
 C:\Users\danie\Documents\MSSA\SoccerBettingApp\bin\Debug\net9.0-maccatalyst\maccatalyst-x64\System.Threading.ThreadPool.dll
 C:\Users\danie\Documents\MSSA\SoccerBettingApp\bin\Debug\net9.0-maccatalyst\maccatalyst-x64\System.Threading.Timer.dll
 C:\Users\danie\Documents\MSSA\SoccerBettingApp\bin\Debug\net9.0-maccatalyst\maccatalyst-x64\System.Threading.dll
@@ -352,7 +354,6 @@ C:\Users\danie\Documents\MSSA\SoccerBettingApp\bin\Debug\net9.0-maccatalyst\macc
 C:\Users\danie\Documents\MSSA\SoccerBettingApp\bin\Debug\net9.0-maccatalyst\maccatalyst-x64\System.Private.CoreLib.dll
 C:\Users\danie\Documents\MSSA\SoccerBettingApp\bin\Debug\net9.0-maccatalyst\maccatalyst-x64\libSystem.Globalization.Native.a
 C:\Users\danie\Documents\MSSA\SoccerBettingApp\bin\Debug\net9.0-maccatalyst\maccatalyst-x64\libSystem.Globalization.Native.dylib
-C:\Users\danie\Documents\MSSA\SoccerBettingApp\bin\Debug\net9.0-maccatalyst\maccatalyst-x64\libSystem.IO.Compression.Native.a
 C:\Users\danie\Documents\MSSA\SoccerBettingApp\bin\Debug\net9.0-maccatalyst\maccatalyst-x64\libSystem.IO.Compression.Native.dylib
 C:\Users\danie\Documents\MSSA\SoccerBettingApp\bin\Debug\net9.0-maccatalyst\maccatalyst-x64\libSystem.Native.a
 C:\Users\danie\Documents\MSSA\SoccerBettingApp\bin\Debug\net9.0-maccatalyst\maccatalyst-x64\libSystem.Native.dylib
@@ -368,7 +369,6 @@ C:\Users\danie\Documents\MSSA\SoccerBettingApp\bin\Debug\net9.0-maccatalyst\macc
 C:\Users\danie\Documents\MSSA\SoccerBettingApp\bin\Debug\net9.0-maccatalyst\maccatalyst-x64\libmono-component-hot_reload-stub-static.a
 C:\Users\danie\Documents\MSSA\SoccerBettingApp\bin\Debug\net9.0-maccatalyst\maccatalyst-x64\libmono-component-marshal-ilgen-static.a
 C:\Users\danie\Documents\MSSA\SoccerBettingApp\bin\Debug\net9.0-maccatalyst\maccatalyst-x64\libmono-component-marshal-ilgen-stub-static.a
-C:\Users\danie\Documents\MSSA\SoccerBettingApp\bin\Debug\net9.0-maccatalyst\maccatalyst-x64\libmonosgen-2.0.a
 C:\Users\danie\Documents\MSSA\SoccerBettingApp\bin\Debug\net9.0-maccatalyst\maccatalyst-x64\libmonosgen-2.0.dylib
 C:\Users\danie\Documents\MSSA\SoccerBettingApp\bin\Debug\net9.0-maccatalyst\maccatalyst-x64\Microsoft.MacCatalyst.registrar.a
 C:\Users\danie\Documents\MSSA\SoccerBettingApp\bin\Debug\net9.0-maccatalyst\maccatalyst-x64\libxamarin-dotnet-debug.a
@@ -381,11 +381,6 @@ C:\Users\danie\Documents\MSSA\SoccerBettingApp\obj\Debug\net9.0-maccatalyst\macc
 C:\Users\danie\Documents\MSSA\SoccerBettingApp\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\mauifont.inputs
 C:\Users\danie\Documents\MSSA\SoccerBettingApp\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\mauisplash.inputs
 C:\Users\danie\Documents\MSSA\SoccerBettingApp\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\mauisplash.stamp
-C:\Users\danie\Documents\MSSA\SoccerBettingApp\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\background.jpg
-C:\Users\danie\Documents\MSSA\SoccerBettingApp\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\backgroundmatches.png
-C:\Users\danie\Documents\MSSA\SoccerBettingApp\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\background2.jpg
-C:\Users\danie\Documents\MSSA\SoccerBettingApp\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\background3.jpg
-C:\Users\danie\Documents\MSSA\SoccerBettingApp\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\background4.png
 C:\Users\danie\Documents\MSSA\SoccerBettingApp\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appiconItunesArtwork.png
 C:\Users\danie\Documents\MSSA\SoccerBettingApp\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon83.5x83.5@2x.png
 C:\Users\danie\Documents\MSSA\SoccerBettingApp\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon76x76@2x.png
@@ -398,6 +393,11 @@ C:\Users\danie\Documents\MSSA\SoccerBettingApp\obj\Debug\net9.0-maccatalyst\macc
 C:\Users\danie\Documents\MSSA\SoccerBettingApp\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon20x20@3x.png
 C:\Users\danie\Documents\MSSA\SoccerBettingApp\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon20x20@2x.png
 C:\Users\danie\Documents\MSSA\SoccerBettingApp\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\Contents.json
+C:\Users\danie\Documents\MSSA\SoccerBettingApp\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\backgroundmatches.png
+C:\Users\danie\Documents\MSSA\SoccerBettingApp\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\background3.jpg
+C:\Users\danie\Documents\MSSA\SoccerBettingApp\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\background2.jpg
+C:\Users\danie\Documents\MSSA\SoccerBettingApp\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\background.jpg
+C:\Users\danie\Documents\MSSA\SoccerBettingApp\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\background4.png
 C:\Users\danie\Documents\MSSA\SoccerBettingApp\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\resizetizer\r\dotnet_bot@3x.png
 C:\Users\danie\Documents\MSSA\SoccerBettingApp\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\resizetizer\r\dotnet_bot@2x.png
 C:\Users\danie\Documents\MSSA\SoccerBettingApp\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\resizetizer\r\dotnet_bot.png

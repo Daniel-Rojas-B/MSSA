@@ -12,7 +12,7 @@ namespace SoccerBettingApp.Services
         private readonly HttpClient _httpClient;
         private const string BaseUrl = "https://api.sportmonks.com/v3/football/fixtures/between/2025-04-24/2025-05-01";
 
-        private readonly string ApiToken = "DBsyG5AnMjQ31nhvc4yLGQZXhPnVtPxEZzw2htf96A4wCxnEpRd0mYkPULrJ"; // Ideally this should come from configuration
+        private readonly string ApiToken = "DBsyG5AnMjQ31nhvc4yLGQZXhPnVtPxEZzw2htf96A4wCxnEpRd0mYkPULrJ"; // testing purpose it should come from configuration
 
         public SoccerApiService(HttpClient httpClient)
         {
