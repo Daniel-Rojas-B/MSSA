@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace SoccerBettingApp.Model
 {
+    // Testing changes github
     public class User
     {
         public Guid Id { get; set; } = Guid.NewGuid();
